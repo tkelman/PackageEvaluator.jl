@@ -1,0 +1,42 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7 CPU         960  @ 3.20GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Nehalem)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing LLLplus
+tests with small matrices...
+...done
+
+In all the following tests, the first time includes the JIT compilation; 
+for the second execution the compilation is already done and the time
+should be faster.
+
+Testing LLL on 1000x1000 real matrix...
+  1.279433 seconds (3.30 M allocations: 1.216 GB, 7.62% gc time)
+  0.993360 seconds (3.09 M allocations: 1.206 GB, 8.64% gc time)
+
+Testing LLL on 10x10 complex matrix...
+  1.477729 seconds (1.64 M allocations: 74.366 MB, 0.79% gc time)
+  0.000426 seconds (2.41 k allocations: 194.859 KB)
+Testing VBLAST on same 10x10 complex matrix...
+  0.727246 seconds (930.38 k allocations: 42.177 MB, 1.42% gc time)
+  0.000263 seconds (499 allocations: 146.078 KB)
+
+Testing sphere decoder on 100000 samples of 2x2 BPSK system...
+  0.918938 seconds (4.26 M allocations: 221.822 MB, 2.53% gc time)
+  0.345208 seconds (3.70 M allocations: 196.817 MB, 4.90% gc time)
+Error Rate is 0.0. It should be zero or very small.
+
+Testing now with 200x200 matrix from latticechallenge.org.
+All the column norms should be 30.
+max col-norm of input is 233.24879420910196
+  0.066624 seconds (193.26 k allocations: 89.289 MB, 22.11% gc time)
+max col-norm of lll-reduced basis is 30.0
+  7.496027 seconds (28.18 M allocations: 4.016 GB, 3.64% gc time)
+max column norm of seysen-reduced basis is 30.0
+INFO: LLLplus tests passed

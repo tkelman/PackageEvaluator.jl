@@ -1,0 +1,95 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7 CPU         960  @ 3.20GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Nehalem)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Computing test dependencies for MDPs...
+INFO: Installing FactCheck v0.4.0
+INFO: Testing MDPs
+WARNING: module MDPs should explicitly import getindex from Base
+WARNING: module MDPs should explicitly import == from Base
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: The `=>` syntax is deprecated, use `-->` instead
+VectorQFunction with in-place bellman!
+2 facts verified.
+VectorQFunction with bellman
+4 facts verified.
+ArrayQFunction with bellman!
+2 facts verified.
+SparseArrayTransitionProbability with bellman!
+2 facts verified.
+FunctionTransitionProbability with bellman!
+2 facts verified.
+ArrayReward with bellman!
+2 facts verified.
+bellman can be called with arrays
+4 facts verified.
+bellman can be called with vectors
+6 facts verified.
+bellman! can be called with arrays
+3 facts verified.
+bellman! can be called with vectors
+4 facts verified.
+discounted dense value iteration
+2 facts verified.
+undiscounted dense value iteration
+2 facts verified.
+discounted sparse value iteration
+3 facts verified.
+ArrayQFunction construction
+5 facts verified.
+ArrayQFunction methods
+8 facts verified.
+ArrayQFunction setvalue!
+2 facts verified.
+VectorQFunction construction
+4 facts verified.
+VectorQFunction methods
+9 facts verified.
+VectorQFunction setvalue! assigned
+2 facts verified.
+VectorQFunction setvalue! not assigned
+2 facts verified.
+helper constructor
+2 facts verified.
+copy value! to vector
+6 facts verified.
+copy policy! to vector
+6 facts verified.
+ERROR: LoadError: LoadError: invalid doc expression let  # /home/vagrant/.julia/v0.4/MDPs/test/random.jl, line 4:
+    mask = transpose([false false false;true false true;false true false]) # /home/vagrant/.julia/v0.4/MDPs/test/random.jl, line 5:
+    Base.Test.do_test_throws((()->begin  # test.jl, line 106:
+                MDPs.Examples.random(size(mask,1),2,mask)
+            end),$(Expr(:copyast, :($(QuoteNode(:(MDPs.Examples.random(size(mask,1),2,mask))))))),Base.Test.backtrace(),ErrorException)
+end
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/MDPs/test/random.jl, in expression starting on line 7
+while loading /home/vagrant/.julia/v0.4/MDPs/test/runtests.jl, in expression starting on line 14
+================================[ ERROR: MDPs ]=================================
+
+failed process: Process(`/home/vagrant/julia/bin/julia --check-bounds=yes --code-coverage=none --color=no /home/vagrant/.julia/v0.4/MDPs/test/runtests.jl`, ProcessExited(1)) [1]
+
+================================================================================
+INFO: Removing FactCheck v0.4.0
+ERROR: MDPs had test errors
+ in error at ./error.jl:21
+ in test at pkg/entry.jl:753
+ in anonymous at pkg/dir.jl:31
+ in cd at file.jl:22
+ in cd at pkg/dir.jl:31
+ in test at pkg.jl:71
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411

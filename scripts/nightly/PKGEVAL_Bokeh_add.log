@@ -1,0 +1,9 @@
+INFO: Installing Bokeh v0.1.0
+INFO: Installing Dates v0.4.4
+INFO: Installing MacroTools v0.2.0
+INFO: Installing Mustache v0.0.12
+INFO: Installing Requires v0.2.0
+INFO: Building Bokeh
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of Bokeh
+INFO: Use `Pkg.update()` to get the latest versions of your packages

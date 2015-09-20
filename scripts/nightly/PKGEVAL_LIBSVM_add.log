@@ -1,0 +1,11 @@
+INFO: Installing LIBSVM v0.0.1
+INFO: Building LIBSVM
+if [ "Linux" = "Darwin" ]; then \
+		SHARED_LIB_FLAG="-dynamiclib -Wl,-install_name,libsvm.so.2"; \
+	else \
+		SHARED_LIB_FLAG="-shared -Wl,-soname,libsvm.so.2"; \
+	fi; \
+	g++ ${SHARED_LIB_FLAG} svm.o -o libsvm.so.2
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of LIBSVM
+INFO: Use `Pkg.update()` to get the latest versions of your packages

@@ -1,0 +1,28 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7 CPU         960  @ 3.20GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Nehalem)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing InterestRates
+zero_rate for linear interpolation
+  0.000053 seconds (163 allocations: 10.448 KB)
+ERF for FlatForward interpolation
+  0.000018 seconds (27 allocations: 592 bytes)
+zero_rate for FlatForward interpolation
+  0.000568 seconds (23 allocations: 528 bytes)
+discountfactor for Linear interpolation on vector with simple compounding
+  0.000012 seconds (58 allocations: 1.438 KB)
+discountfactor on NS curve
+  0.000010 seconds (18 allocations: 512 bytes)
+discountfactor on Svensson curve
+  0.000008 seconds (18 allocations: 512 bytes)
+splinefit
+  0.000048 seconds (16 allocations: 5.172 KB)
+splineint
+  0.002113 seconds (577 allocations: 32.110 KB)
+INFO: InterestRates tests passed

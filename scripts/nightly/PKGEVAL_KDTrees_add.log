@@ -1,0 +1,5 @@
+INFO: Installing Devectorize v0.4.1
+INFO: Installing KDTrees v0.5.11
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of KDTrees
+INFO: Use `Pkg.update()` to get the latest versions of your packages

@@ -1,0 +1,517 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7 CPU         960  @ 3.20GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Nehalem)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing Devectorize
+Testing Devectorize.jl
+---------------------------
+* running texpr.jl ...
+INFO: Recompiling stale cache file /home/vagrant/.julia/lib/v0.4/Devectorize.ji for module Devectorize.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Devectorize/src/texpr.jl, in expression starting on line 85
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Devectorize/src/texpr.jl, in expression starting on line 89
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Devectorize/src/texpr.jl, in expression starting on line 89
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Devectorize/src/texpr.jl, in expression starting on line 165
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Devectorize/src/texpr.jl, in expression starting on line 165
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Devectorize/src/texpr.jl, in expression starting on line 178
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Devectorize/src/texpr.jl, in expression starting on line 178
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Devectorize/src/texpr.jl, in expression starting on line 185
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Devectorize/src/texpr.jl, in expression starting on line 185
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Devectorize/src/texpr.jl, in expression starting on line 191
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Devectorize/src/texpr.jl, in expression starting on line 191
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Devectorize/src/texpr.jl, in expression starting on line 197
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Devectorize/src/texpr.jl, in expression starting on line 216
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Devectorize/src/texpr.jl, in expression starting on line 217
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Devectorize/src/scalar_backend.jl, in expression starting on line 317
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Devectorize/src/scalar_backend.jl, in expression starting on line 558
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+* running tmode.jl ...
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+* running scalar_ref.jl ...
+* running scalar_ewise.jl ...
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+* running scalar_special.jl ...
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+* running scalar_reduc.jl ...
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+* running scalar_hybrid.jl ...
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+* running extensions.jl ...
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+INFO: Devectorize tests passed

@@ -1,0 +1,1415 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7 CPU         960  @ 3.20GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Nehalem)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Computing test dependencies for JuMPChance...
+INFO: Installing Distributions v0.8.6
+INFO: Installing FactCheck v0.4.0
+INFO: Installing GLPK v0.2.16
+INFO: Installing GLPKMathProgInterface v0.1.14
+INFO: Installing PDMats v0.3.5
+INFO: Installing StatsBase v0.7.2
+INFO: Installing StatsFuns v0.1.3
+INFO: Building GLPK
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at null:-1
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at null:-1
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at null:-1
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at null:-1
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in evalfile at loading.jl:320 (repeats 2 times)
+ in anonymous at pkg/entry.jl:659
+ in cd at ./file.jl:22
+ in build! at pkg/entry.jl:658
+ in build at pkg/entry.jl:670
+ in resolve at ./pkg/entry.jl:479
+ in test! at pkg/entry.jl:719
+ in test at pkg/entry.jl:747
+ in anonymous at pkg/dir.jl:31
+ in cd at file.jl:22
+ in cd at pkg/dir.jl:31
+ in test at pkg.jl:71
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/BinDeps/src/dependencies.jl, in expression starting on line 266
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in evalfile at loading.jl:320 (repeats 2 times)
+ in anonymous at pkg/entry.jl:659
+ in cd at ./file.jl:22
+ in build! at pkg/entry.jl:658
+ in build at pkg/entry.jl:670
+ in resolve at ./pkg/entry.jl:479
+ in test! at pkg/entry.jl:719
+ in test at pkg/entry.jl:747
+ in anonymous at pkg/dir.jl:31
+ in cd at file.jl:22
+ in cd at pkg/dir.jl:31
+ in test at pkg.jl:71
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/BinDeps/src/dependencies.jl, in expression starting on line 266
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in evalfile at loading.jl:320 (repeats 2 times)
+ in anonymous at pkg/entry.jl:659
+ in cd at ./file.jl:22
+ in build! at pkg/entry.jl:658
+ in build at pkg/entry.jl:670
+ in resolve at ./pkg/entry.jl:479
+ in test! at pkg/entry.jl:719
+ in test at pkg/entry.jl:747
+ in anonymous at pkg/dir.jl:31
+ in cd at file.jl:22
+ in cd at pkg/dir.jl:31
+ in test at pkg.jl:71
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/BinDeps/src/dependencies.jl, in expression starting on line 266
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in ___find_library#21__ at /home/vagrant/.julia/v0.4/BinDeps/src/dependencies.jl:443
+WARNING: Base.String is deprecated, use AbstractString instead.
+in ___find_library#21__ at /home/vagrant/.julia/v0.4/BinDeps/src/dependencies.jl:443
+WARNING: Base.String is deprecated, use AbstractString instead.
+in ___find_library#21__ at /home/vagrant/.julia/v0.4/BinDeps/src/dependencies.jl:443
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+INFO: Testing JuMPChance
+INFO: Recompiling stale cache file /home/vagrant/.julia/lib/v0.4/JuMPChance.ji for module JuMPChance.
+INFO: Recompiling stale cache file /home/vagrant/.julia/lib/v0.4/ECOS.ji for module ECOS.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ECOS/src/ECOS.jl, in expression starting on line 87
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ECOS/src/ECOS.jl, in expression starting on line 87
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ECOS/src/ECOS.jl, in expression starting on line 87
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ECOS/src/ECOS.jl, in expression starting on line 87
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ECOS/src/ECOS.jl, in expression starting on line 87
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ECOS/src/ECOS.jl, in expression starting on line 87
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ECOS/src/ECOS.jl, in expression starting on line 87
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ECOS/src/ECOS.jl, in expression starting on line 87
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ECOS/src/ECOS.jl, in expression starting on line 87
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ECOS/src/ECOS.jl, in expression starting on line 87
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ECOS/src/ECOS.jl, in expression starting on line 87
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ECOS/src/ECOS.jl, in expression starting on line 87
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ECOS/src/ECOS.jl, in expression starting on line 87
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ECOS/src/ECOS.jl, in expression starting on line 87
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ECOS/src/ECOS.jl, in expression starting on line 87
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ [inlined code] from /home/vagrant/.julia/v0.4/JuMPChance/src/operators.jl:23
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/src/operators.jl, in expression starting on line 12
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ [inlined code] from /home/vagrant/.julia/v0.4/JuMPChance/src/operators.jl:21
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/src/operators.jl, in expression starting on line 12
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ [inlined code] from /home/vagrant/.julia/v0.4/JuMPChance/src/operators.jl:23
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/src/operators.jl, in expression starting on line 12
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPK/src/GLPK.jl, in expression starting on line 280
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPK/src/GLPK.jl, in expression starting on line 665
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPK/src/GLPK.jl, in expression starting on line 672
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPK/src/GLPK.jl, in expression starting on line 679
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPK/src/GLPK.jl, in expression starting on line 687
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPK/src/GLPK.jl, in expression starting on line 970
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPK/src/GLPK.jl, in expression starting on line 970
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPK/src/GLPK.jl, in expression starting on line 1010
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPK/src/GLPK.jl, in expression starting on line 1010
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPK/src/GLPK.jl, in expression starting on line 1446
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPK/src/GLPK.jl, in expression starting on line 2048
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPK/src/GLPK.jl, in expression starting on line 2081
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPK/src/GLPK.jl, in expression starting on line 2087
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPKMathProgInterface/src/GLPKInterfaceLP.jl, in expression starting on line 40
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPKMathProgInterface/src/GLPKInterfaceLP.jl, in expression starting on line 40
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPKMathProgInterface/src/GLPKInterfaceMIP.jl, in expression starting on line 54
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPKMathProgInterface/src/GLPKInterfaceMIP.jl, in expression starting on line 54
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPKMathProgInterface/src/GLPKInterfaceMIP.jl, in expression starting on line 54
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPKMathProgInterface/src/GLPKInterfaceMIP.jl, in expression starting on line 54
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPKMathProgInterface/src/GLPKInterfaceMIP.jl, in expression starting on line 206
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPKMathProgInterface/src/GLPKInterfaceMIP.jl, in expression starting on line 207
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPKMathProgInterface/src/GLPKInterfaceMIP.jl, in expression starting on line 208
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GLPKMathProgInterface/src/GLPKInterfaceMIP.jl, in expression starting on line 209
+WARNING: Base.String is deprecated, use AbstractString instead.
+Operator overloads and printing
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in __ChanceModel#0__ at /home/vagrant/.julia/v0.4/JuMPChance/src/JuMPChance.jl:33
+WARNING: Base.String is deprecated, use AbstractString instead.
+in __ChanceModel#0__ at /home/vagrant/.julia/v0.4/JuMPChance/src/JuMPChance.jl:33
+WARNING: Base.String is deprecated, use AbstractString instead.
+in __ChanceModel#0__ at /home/vagrant/.julia/v0.4/JuMPChance/src/JuMPChance.jl:33
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in addToExpression_reorder at /home/vagrant/.julia/v0.4/JuMP/src/v0.4/parseExpr_staged.jl:316
+ [inlined code] from /home/vagrant/.julia/v0.4/JuMP/src/macros.jl:292
+ in anonymous at /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl:8
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl, in expression starting on line 7
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in addToExpression_reorder at /home/vagrant/.julia/v0.4/JuMP/src/v0.4/parseExpr_staged.jl:316
+ [inlined code] from /home/vagrant/.julia/v0.4/JuMP/src/macros.jl:292
+ in anonymous at /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl:8
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl, in expression starting on line 7
+WARNING: The meaning of with_probability has flipped! Constraints should be satisfied with given probability or greater. For backwards compatibility, this constraint will be interpreted in the old sense.
+WARNING: beginswith is deprecated, use startswith instead.
+ in depwarn at deprecated.jl:73
+ in beginswith at deprecated.jl:30
+ in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+ in do_fact at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:333
+ [inlined code] from /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+ in anonymous at /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl:8
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl, in expression starting on line 7
+87 facts verified.
+Printing two-sided constraints
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in addToExpression_reorder at /home/vagrant/.julia/v0.4/JuMP/src/v0.4/parseExpr_staged.jl:316
+ in func_for_method at ./inference.jl:621
+ in abstract_call_gf at ./inference.jl:694
+ in abstract_call at ./inference.jl:877
+ in abstract_eval_call at ./inference.jl:932
+ in abstract_eval at ./inference.jl:959
+ in abstract_interpret at ./inference.jl:1108
+ in typeinf_uncached at ./inference.jl:1547
+ in typeinf at ./inference.jl:1337
+ in typeinf_ext at ./inference.jl:1281
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl, in expression starting on line 177
+3 facts verified.
+Basic chance constraint model
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in addToExpression_reorder at /home/vagrant/.julia/v0.4/JuMP/src/v0.4/parseExpr_staged.jl:316
+ in func_for_method at ./inference.jl:621
+ in abstract_call_gf at ./inference.jl:694
+ in abstract_call at ./inference.jl:877
+ in abstract_eval_call at ./inference.jl:932
+ in abstract_eval at ./inference.jl:959
+ in abstract_interpret at ./inference.jl:1108
+ in typeinf_uncached at ./inference.jl:1547
+ in typeinf at ./inference.jl:1337
+ in typeinf at ./inference.jl:1287
+ in abstract_call_gf at ./inference.jl:737
+ in abstract_call at ./inference.jl:877
+ in abstract_eval_call at ./inference.jl:932
+ in abstract_eval at ./inference.jl:959
+ in typeinf_uncached at ./inference.jl:1620
+ in typeinf at ./inference.jl:1337
+ in typeinf_ext at ./inference.jl:1281
+ in solve at /home/vagrant/.julia/v0.4/JuMP/src/solvers.jl:62
+ in anonymous at /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl:203
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl, in expression starting on line 194
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in addToExpression_reorder at /home/vagrant/.julia/v0.4/JuMP/src/v0.4/parseExpr_staged.jl:316
+ in func_for_method at ./inference.jl:621
+ in abstract_call_gf at ./inference.jl:694
+ in abstract_call at ./inference.jl:877
+ in abstract_eval_call at ./inference.jl:932
+ in abstract_eval at ./inference.jl:959
+ in abstract_interpret at ./inference.jl:1108
+ in typeinf_uncached at ./inference.jl:1547
+ in typeinf at ./inference.jl:1337
+ in typeinf at ./inference.jl:1287
+ in abstract_call_gf at ./inference.jl:737
+ in abstract_call at ./inference.jl:877
+ in abstract_eval_call at ./inference.jl:932
+ in abstract_eval at ./inference.jl:959
+ in typeinf_uncached at ./inference.jl:1620
+ in typeinf at ./inference.jl:1337
+ in typeinf_ext at ./inference.jl:1281
+ in solve at /home/vagrant/.julia/v0.4/JuMP/src/solvers.jl:62
+ in anonymous at /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl:203
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl, in expression starting on line 194
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in addToExpression_reorder at /home/vagrant/.julia/v0.4/JuMP/src/v0.4/parseExpr_staged.jl:316
+ in func_for_method at ./inference.jl:621
+ in abstract_call_gf at ./inference.jl:694
+ in abstract_call at ./inference.jl:877
+ in abstract_eval_call at ./inference.jl:932
+ in abstract_eval at ./inference.jl:959
+ in abstract_interpret at ./inference.jl:1108
+ in typeinf_uncached at ./inference.jl:1547
+ in typeinf at ./inference.jl:1337
+ in typeinf at ./inference.jl:1287
+ in abstract_call_gf at ./inference.jl:737
+ in abstract_call at ./inference.jl:877
+ in abstract_eval_call at ./inference.jl:932
+ in abstract_eval at ./inference.jl:959
+ in typeinf_uncached at ./inference.jl:1620
+ in typeinf at ./inference.jl:1337
+ in typeinf at ./inference.jl:1287
+ in abstract_call_gf at ./inference.jl:737
+ in abstract_call at ./inference.jl:877
+ in abstract_eval_call at ./inference.jl:932
+ in abstract_eval at ./inference.jl:959
+ in typeinf_uncached at ./inference.jl:1620
+ in typeinf at ./inference.jl:1337
+ in typeinf_ext at ./inference.jl:1281
+ in solve at /home/vagrant/.julia/v0.4/JuMP/src/solvers.jl:62
+ in anonymous at /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl:203
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl, in expression starting on line 194
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in addToExpression_reorder at /home/vagrant/.julia/v0.4/JuMP/src/v0.4/parseExpr_staged.jl:316
+ in func_for_method at ./inference.jl:621
+ in abstract_call_gf at ./inference.jl:694
+ in abstract_call at ./inference.jl:877
+ in abstract_eval_call at ./inference.jl:932
+ in abstract_eval at ./inference.jl:959
+ in abstract_interpret at ./inference.jl:1108
+ in typeinf_uncached at ./inference.jl:1547
+ in typeinf at ./inference.jl:1337
+ in typeinf at ./inference.jl:1287
+ in abstract_call_gf at ./inference.jl:737
+ in abstract_call at ./inference.jl:877
+ in abstract_eval_call at ./inference.jl:932
+ in abstract_eval at ./inference.jl:959
+ in typeinf_uncached at ./inference.jl:1620
+ in typeinf at ./inference.jl:1337
+ in typeinf at ./inference.jl:1287
+ in abstract_call_gf at ./inference.jl:737
+ in abstract_call at ./inference.jl:877
+ in abstract_eval_call at ./inference.jl:932
+ in abstract_eval at ./inference.jl:959
+ in typeinf_uncached at ./inference.jl:1620
+ in typeinf at ./inference.jl:1337
+ in typeinf_ext at ./inference.jl:1281
+ in solve at /home/vagrant/.julia/v0.4/JuMP/src/solvers.jl:62
+ in anonymous at /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl:203
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl, in expression starting on line 194
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in addToExpression_reorder at /home/vagrant/.julia/v0.4/JuMP/src/v0.4/parseExpr_staged.jl:316
+ in func_for_method at ./inference.jl:621
+ in abstract_call_gf at ./inference.jl:694
+ in abstract_call at ./inference.jl:877
+ in abstract_eval_call at ./inference.jl:932
+ in abstract_eval at ./inference.jl:959
+ in abstract_interpret at ./inference.jl:1108
+ in typeinf_uncached at ./inference.jl:1547
+ in typeinf at ./inference.jl:1337
+ in typeinf at ./inference.jl:1287
+ in abstract_call_gf at ./inference.jl:737
+ in abstract_call at ./inference.jl:877
+ in abstract_eval_call at ./inference.jl:932
+ in abstract_eval at ./inference.jl:959
+ in typeinf_uncached at ./inference.jl:1620
+ in typeinf at ./inference.jl:1337
+ in typeinf at ./inference.jl:1287
+ in abstract_call_gf at ./inference.jl:737
+ in abstract_call at ./inference.jl:877
+ in abstract_eval_call at ./inference.jl:932
+ in abstract_eval at ./inference.jl:959
+ in typeinf_uncached at ./inference.jl:1620
+ in typeinf at ./inference.jl:1337
+ in typeinf_ext at ./inference.jl:1281
+ in solve at /home/vagrant/.julia/v0.4/JuMP/src/solvers.jl:62
+ in anonymous at /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl:203
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl, in expression starting on line 194
+6 facts verified.
+Deprecated comparison operator overloads
+WARNING: The comparison operator >= has been deprecated for constructing chance constraints. Use the form @addConstraint instead.
+4 facts verified.
+Flipped constraint sense
+6 facts verified.
+Invariance to transformations
+8 facts verified.
+Duplicate terms
+4 facts verified.
+Robust but no uncertainty budget
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in addToExpression_reorder at /home/vagrant/.julia/v0.4/JuMP/src/v0.4/parseExpr_staged.jl:316
+ [inlined code] from /home/vagrant/.julia/v0.4/JuMP/src/macros.jl:292
+ in anonymous at /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl:305
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl, in expression starting on line 304
+WARNING: Solver does not appear to support adding constraints to an existing model. Hot-start is disabled.
+6 facts verified.
+Quadratic objective
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in addToExpression_reorder at /home/vagrant/.julia/v0.4/JuMP/src/v0.4/parseExpr_staged.jl:316
+ in func_for_method at ./inference.jl:621
+ in abstract_call_gf at ./inference.jl:694
+ in abstract_call at ./inference.jl:877
+ in abstract_eval_call at ./inference.jl:932
+ in abstract_eval at ./inference.jl:959
+ in abstract_interpret at ./inference.jl:1108
+ in typeinf_uncached at ./inference.jl:1547
+ in typeinf at ./inference.jl:1337
+ in typeinf_ext at ./inference.jl:1281
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl, in expression starting on line 346
+10 facts verified.
+Uncertainty budget for mean
+3 facts verified.
+Uncertain variance, but no budget
+2 facts verified.
+Uncertain variance, with budget
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in addToExpression_reorder at /home/vagrant/.julia/v0.4/JuMP/src/v0.4/parseExpr_staged.jl:316
+ [inlined code] from /home/vagrant/.julia/v0.4/JuMP/src/macros.jl:292
+ in anonymous at /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl:402
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl, in expression starting on line 401
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in addToExpression_reorder at /home/vagrant/.julia/v0.4/JuMP/src/v0.4/parseExpr_staged.jl:316
+ [inlined code] from /home/vagrant/.julia/v0.4/JuMP/src/macros.jl:292
+ in anonymous at /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl:402
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl, in expression starting on line 401
+8 facts verified.
+Integer variables
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in __ChanceModel#0__ at /home/vagrant/.julia/v0.4/JuMPChance/src/JuMPChance.jl:33
+WARNING: Base.String is deprecated, use AbstractString instead.
+in __ChanceModel#0__ at /home/vagrant/.julia/v0.4/JuMPChance/src/JuMPChance.jl:33
+WARNING: Base.String is deprecated, use AbstractString instead.
+in __ChanceModel#0__ at /home/vagrant/.julia/v0.4/JuMPChance/src/JuMPChance.jl:33
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Solver does not appear to support providing initial feasible solutions.
+2 facts verified.
+Variance == 0 corner case
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in addToExpression_reorder at /home/vagrant/.julia/v0.4/JuMP/src/v0.4/parseExpr_staged.jl:316
+ in func_for_method at ./inference.jl:621
+ in abstract_call_gf at ./inference.jl:694
+ in abstract_call at ./inference.jl:877
+ in abstract_eval_call at ./inference.jl:932
+ in abstract_eval at ./inference.jl:959
+ in abstract_interpret at ./inference.jl:1108
+ in typeinf_uncached at ./inference.jl:1547
+ in typeinf at ./inference.jl:1337
+ in typeinf_ext at ./inference.jl:1281
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl, in expression starting on line 469
+12 facts verified.
+Special cases where chance constraint becomes linear
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in addToExpression_reorder at /home/vagrant/.julia/v0.4/JuMP/src/v0.4/parseExpr_staged.jl:316
+ [inlined code] from /home/vagrant/.julia/v0.4/JuMP/src/v0.4/parseExpr_staged.jl:372
+ in anonymous at /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl:526
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl, in expression starting on line 525
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in addToExpression_reorder at /home/vagrant/.julia/v0.4/JuMP/src/v0.4/parseExpr_staged.jl:316
+ [inlined code] from /home/vagrant/.julia/v0.4/JuMP/src/v0.4/parseExpr_staged.jl:372
+ in anonymous at /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl:526
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl, in expression starting on line 525
+8 facts verified.
+Compare with manual reformulation
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in addToExpression_reorder at /home/vagrant/.julia/v0.4/JuMP/src/v0.4/parseExpr_staged.jl:316
+ [inlined code] from /home/vagrant/.julia/v0.4/JuMP/src/macros.jl:292
+ in anonymous at /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl:558
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl, in expression starting on line 557
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in addToExpression_reorder at /home/vagrant/.julia/v0.4/JuMP/src/v0.4/parseExpr_staged.jl:316
+ [inlined code] from /home/vagrant/.julia/v0.4/JuMP/src/macros.jl:292
+ in anonymous at /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl:558
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl, in expression starting on line 557
+48 facts verified.
+Two-sided constraints vs. two one-sided constraints
+10 facts verified.
+Basic two-sided constraints
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in addToExpression_reorder at /home/vagrant/.julia/v0.4/JuMP/src/v0.4/parseExpr_staged.jl:316
+ in func_for_method at ./inference.jl:621
+ in abstract_call_gf at ./inference.jl:694
+ in abstract_call at ./inference.jl:877
+ in abstract_eval_call at ./inference.jl:932
+ in abstract_eval at ./inference.jl:959
+ in abstract_interpret at ./inference.jl:1108
+ in typeinf_uncached at ./inference.jl:1547
+ in typeinf at ./inference.jl:1337
+ in typeinf_ext at ./inference.jl:1281
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/JuMPChance/test/runtests.jl, in expression starting on line 751
+158 facts verified.
+INFO: JuMPChance tests passed
+INFO: Removing Distributions v0.8.6
+INFO: Removing FactCheck v0.4.0
+INFO: Removing GLPK v0.2.16
+INFO: Removing GLPKMathProgInterface v0.1.14
+INFO: Removing PDMats v0.3.5
+INFO: Removing StatsBase v0.7.2
+INFO: Removing StatsFuns v0.1.3

@@ -1,0 +1,11 @@
+INFO: Installing DataStructures v0.3.12
+INFO: Installing Docile v0.5.18
+INFO: Installing ImmutableArrays v0.0.10
+INFO: Installing LightXML v0.2.0
+INFO: Installing Meshes v0.1.4
+INFO: Installing ZipFile v0.2.4
+INFO: Installing Zlib v0.1.9
+INFO: Building LightXML
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of Meshes
+INFO: Use `Pkg.update()` to get the latest versions of your packages

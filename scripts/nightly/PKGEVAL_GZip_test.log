@@ -1,0 +1,290 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7 CPU         960  @ 3.20GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Nehalem)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing GZip
+WARNING: pipe is deprecated, use pipeline instead.
+ in depwarn at deprecated.jl:73
+ in pipe at deprecated.jl:30
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GZip/test/runtests.jl, in expression starting on line 22
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in close at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:306
+WARNING: Base.String is deprecated, use AbstractString instead.
+in close at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:306
+WARNING: Base.String is deprecated, use AbstractString instead.
+in close at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:306
+WARNING: Base.String is deprecated, use AbstractString instead.
+in close at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:306
+WARNING: Base.String is deprecated, use AbstractString instead.
+in close at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:306
+WARNING: Base.String is deprecated, use AbstractString instead.
+in close at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:306
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzread at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:199
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzread at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:199
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzread at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:199
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzungetc at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:173
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzungetc at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:173
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzungetc at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:173
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in anonymous at test.jl:92
+ in do_test at test.jl:50
+ [inlined code] from /home/vagrant/.julia/v0.4/GZip/test/runtests.jl:75
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/GZip/test/runtests.jl, in expression starting on line 71
+WARNING: Base.String is deprecated, use AbstractString instead.
+in flush at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:321
+WARNING: Base.String is deprecated, use AbstractString instead.
+in flush at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:321
+WARNING: Base.String is deprecated, use AbstractString instead.
+in flush at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:321
+WARNING: Base.String is deprecated, use AbstractString instead.
+in flush at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:321
+WARNING: Base.String is deprecated, use AbstractString instead.
+in flush at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:321
+WARNING: Base.String is deprecated, use AbstractString instead.
+in flush at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:321
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzgets at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:176
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzgets at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:176
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzgets at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:176
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzgets at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:182
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzgets at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:182
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzgets at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:182
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzgetc at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:168
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzgetc at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:168
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzgetc at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:168
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:385
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:385
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:385
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in anonymous at null:-1
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in anonymous at null:-1
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in anonymous at null:-1
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzwrite at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:194
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:366
+INFO: GZip tests passed
