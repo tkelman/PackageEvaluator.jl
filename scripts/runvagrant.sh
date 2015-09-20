@@ -25,25 +25,22 @@ parallel_provision() {
 
 if [ "$1" == "two" ]
 then
-    vagrant up --no-provision release
+#    vagrant up --no-provision release
     vagrant up --no-provision nightly
 
     # Provision in parallel
     cat <<EOF | parallel_provision
-release
 nightly
 EOF
 
 else
-    vagrant up --no-provision releaseAL
-    vagrant up --no-provision releaseMZ
+#    vagrant up --no-provision releaseAL
+#    vagrant up --no-provision releaseMZ
     vagrant up --no-provision nightlyAL
     vagrant up --no-provision nightlyMZ
 
     # Provision in parallel
     cat <<EOF | parallel_provision
-releaseAL
-releaseMZ
 nightlyAL
 nightlyMZ
 EOF
