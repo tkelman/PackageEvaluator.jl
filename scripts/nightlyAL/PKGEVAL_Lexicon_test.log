@@ -1,0 +1,69 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Computing test dependencies for Lexicon...
+INFO: Installing FactCheck v0.4.0
+INFO: Testing Lexicon
+Query parsing.
+  > Functions.
+Docile: updating package list...
+  > Methods.
+  > Macros.
+  > Types.
+  > Globals.
+60 facts verified.
+Query results.
+  > Functions.
+Docile: caching 75 modules from 'Base'.
+Docile: caching 4 modules from 'LexiconTests'.
+Docile: caching 9 modules from 'Docile'.
+Docile: caching 2 modules from 'Compat'.
+Docile: caching 1 module from 'Lexicon'.
+Docile: caching 1 module from 'FactCheck'.
+  > Methods.
+  > Macros.
+  > Types.
+  > Globals.
+  > Partial signature matching.
+  > Full text search.
+  > REPL Help.
+270 facts verified.
+Rendering.
+  > Query output.
+  > Doctests output.
+running doctest on Docile...
+running doctest on Docile.Interface...
+running doctest on Lexicon...
+running doctest on Docile...
+running doctest on Docile.Interface...
+running doctest on Lexicon...
+  > Saving static content.
+INFO: writing documentation to /tmp/mpBYIFJJ/Lexicon.md
+INFO: writing API-Index to /tmp/mpBYIFJJ/index_Lexicon.md
+INFO: writing documentation to /tmp/0FKGiq9U/Lexicon.html
+INFO: copying custom.css to /tmp/0FKGiq9U/static
+INFO: copying custom.js to /tmp/0FKGiq9U/static
+INFO: writing documentation to /tmp/8VZihxzu/Docile.md
+INFO: writing API-Index to /tmp/8VZihxzu/index_Docile.md
+INFO: writing documentation to /tmp/AmxeuuBC/Docile.html
+INFO: copying custom.css to /tmp/AmxeuuBC/static
+INFO: copying custom.js to /tmp/AmxeuuBC/static
+INFO: writing documentation to /tmp/WyHTFtA7/Docile.Interface.md
+INFO: writing API-Index to /tmp/WyHTFtA7/index_Docile.Interface.md
+INFO: writing documentation to /tmp/qUTd8c7D/Docile.Interface.html
+INFO: copying custom.css to /tmp/qUTd8c7D/static
+INFO: copying custom.js to /tmp/qUTd8c7D/static
+0 facts verified.
+Filtering.
+  > Filter.
+  > EachEntry.
+3 facts verified.
+INFO: Lexicon tests passed
+INFO: Removing FactCheck v0.4.0

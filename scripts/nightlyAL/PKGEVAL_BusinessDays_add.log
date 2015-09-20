@@ -1,0 +1,5 @@
+INFO: Cloning cache of BusinessDays from git://github.com/felipenoris/BusinessDays.jl.git
+INFO: Installing BusinessDays v0.0.5
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of BusinessDays
+INFO: Use `Pkg.update()` to get the latest versions of your packages

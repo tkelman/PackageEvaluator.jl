@@ -1,0 +1,10 @@
+INFO: Cloning cache of GR from git://github.com/jheinen/GR.jl.git
+INFO: Installing GR v0.9.12
+INFO: Building GR
+INFO: Downloading pre-compiled GR 0.14.1 binary
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  1 33.4M    1  397k    0     0   296k      0  0:01:55  0:00:01  0:01:54  296k 16 33.4M   16 5598k    0     0  2381k      0  0:00:14  0:00:02  0:00:12 2381k 34 33.4M   34 11.5M    0     0  3570k      0  0:00:09  0:00:03  0:00:06 3569k 53 33.4M   53 17.9M    0     0  4249k      0  0:00:08  0:00:04  0:00:04 4248k 74 33.4M   74 25.0M    0     0  4800k      0  0:00:07  0:00:05  0:00:02 5146k 95 33.4M   95 32.0M    0     0  5188k      0  0:00:06  0:00:06 --:--:-- 6508k100 33.4M  100 33.4M    0     0  5255k      0  0:00:06  0:00:06 --:--:-- 6874k
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of GR
+INFO: Use `Pkg.update()` to get the latest versions of your packages

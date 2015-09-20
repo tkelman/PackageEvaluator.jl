@@ -1,0 +1,468 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing Blocks
+WARNING: Base.Nothing is deprecated, use Void instead.
+in anonymous at null:-1
+WARNING: Base.Nothing is deprecated, use Void instead.
+in anonymous at null:-1
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in anonymous at no file
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl, in expression starting on line 3
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl, in expression starting on line 40
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl, in expression starting on line 1
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+loading packages...
+running tests...
+	pmap array->array...
+		result: 1001000
+		result: 1001000
+		time: 4.77789e-5
+	map array->array...
+		result: 1001000
+		result: 1001000
+		time: 2.69289e-5
+	pmap array->array...
+WARNING: cartesianmap(f,dims) is deprecated, use for idx = CartesianRange(dims)
+    f(idx.I...)
+end instead.
+ in depwarn at deprecated.jl:73
+ in cartesianmap at deprecated.jl:50
+ in call at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:181
+ in a_a2_pmap at /home/vagrant/.julia/v0.4/Blocks/test/test.jl:21
+ in testfn at /home/vagrant/.julia/v0.4/Blocks/test/test.jl:8
+ in do_all_tests at /home/vagrant/.julia/v0.4/Blocks/test/test.jl:49
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Blocks/test/test.jl, in expression starting on line 59
+		result: 1001000
+		result: 1001000
+		time: 0.00019998820000000002
+	map array->array...
+		result: 1001000
+		result: 1001000
+		time: 0.0001116104
+	pmap file->iostream...
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:202
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:202
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:202
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in as_io at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:22
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in as_io at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:22
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in as_io at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:22
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_start_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:16
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_start_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:16
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_start_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:16
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_start_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:16
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_end_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:9
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_end_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:9
+		result: 100
+		result: 100
+		time: 0.0034723135
+	map file->iostream...
+		result: 100
+		result: 100
+		time: 0.0034011148999999997
+	pmap stream->lines...
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in as_recordio at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:53
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in as_recordio at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:53
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in as_recordio at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:53
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in as_io at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:22
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in as_io at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:22
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in as_io at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:22
+		result: 100
+		result: 100
+		time: 0.0035534019999999998
+	map stream->lines...
+		result: 100
+		result: 100
+		time: 0.0034472339
+	pmap processor affinity...
+		result: 100
+		result: 100
+		time: 0.0031974009
+adding 3 more processors...
+	nprocs: 4
+loading packages...
+WARNING: Base.Nothing is deprecatedWARNING: Base.Nothing is deprecated, use Void instead.
+in anonymous at null:-1
+WARNING: Base.Nothing is deprecated, use Void instead.
+in anonymous at null:-1
+WARNING: Base.Nothing is deprecated, use Void instead.
+in anonymous at null:-1
+WARNING: Base.Nothing is deprecated, use Void instead.
+in anonymous at null:-1
+, use Void instead.
+in anonymous at null:-1
+WARNING: Base.Nothing is deprecated, use Void instead.
+in anonymous at null:-1
+WARNING: Union(args...) is deprecated, use Union{args...} instead.WARNING: Union(args...) is deprecated, use Union{args...} instead.WARNING: Union(args...) is deprecated, use Union{args...} instead.
+
+ in depwarn at deprecated.jl:73
+ in depwarn
+ in call at deprecated.jl:50
+ in anonymous at no file
+ in include_string at loading.jl:266
+ in include_from_node1 at ./loading.jl:307
+ at  in include_stringdeprecated.jl at loading.jl::73266 in 
+ in include_from_node1 at ./loading.jl:307
+ in require at ./loading.jl:243
+ in eval at ./sysimg.jl:14
+ in anonymous at multi.jl:1350
+ in anonymous at multi.jl:892
+ in run_work_thunk at multi.jl:645
+ [inlined code] from multi.jl:892
+ in anonymous at task.jl:63
+while loading /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl, in expression starting on line 3
+depwarn at 
+deprecated.jl:73 in call at deprecated.jl:50
+ in anonymous at no file
+ in include_string at loading.jl:266
+ in include_from_node1 at ./loading.jl:307
+ in include_string at loading.jl:266
+ in include_from_node1 at ./loading.jl:307
+ in require at ./loading.jl:243
+ in eval at ./sysimg.jl:14
+ in anonymous at multi.jl:1350
+ in anonymous at multi.jl:892
+ in run_work_thunk at multi.jl:645
+ [inlined code] from multi.jl:892
+ in anonymous at task.jl:63
+while loading /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl, in expression starting on line 3
+
+ in call at deprecated.jl:50
+ in anonymous at no file
+ in include_string at loading.jl:266
+ in include_from_node1 at ./loading.jl:307
+ in include_string at loading.jl:266
+ in include_from_node1 at ./loading.jl:307
+ in require at ./loading.jl:243
+ in eval at ./sysimg.jl:14
+ in anonymous at multi.jl:1350
+ in anonymous at multi.jl:892
+ in run_work_thunk at multi.jl:645
+ [inlined code] from multi.jl:892
+ in anonymous at task.jl:63
+while loading /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl, in expression starting on line 3
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include_string at loading.jl:266
+ in include_from_node1 at ./loading.jl:307
+ in include_string at loading.jl:266
+ in include_from_node1 at ./loading.jl:307
+ in require at ./loading.jl:243
+ in eval at ./sysimg.jl:14
+ in anonymous at multi.jl:1350
+WARNING: Base.Nothing is deprecated in anonymous at multi.jl:892
+ in run_work_thunk at multi.jl:645
+ [inlined code] from multi.jl:892
+ in anonymous at task.jl:63
+while loading /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl, in expression starting on line 40
+, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.WARNING: Base.Nothing is deprecated
+, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead. in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include_string at loading.jl:266
+ in include_from_node1 at ./loading.jl:
+307
+ in include_string at loading.jl in depwarn at deprecated.jl:73:266
+ in include_from_node1 at ./loading.jl:307
+ in require at ./loading.jl:243
+ in eval at ./sysimg.jl:14
+ in anonymous at multi.jl:1350
+ in anonymous at multi.jl:892
+ in run_work_thunk at multi.jl:645
+ [inlined code] from multi.jl:892
+ in anonymous at task.jl:63
+while loading /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl, in expression starting on line 40
+
+ in call at deprecated.jl:50
+ in include_string at loading.jl:266
+ in include_from_node1 at ./loading.jl:307
+ in include_string at loading.jl:266
+ in include_from_node1 at ./loading.jl:307
+ in require at ./loading.jl:243
+ in eval at ./sysimg.jl:14
+ in anonymous at multi.jl:1350
+ in anonymous at multi.jl:892
+ in run_work_thunk at multi.jl:645
+ [inlined code] from multi.jl:892
+ in anonymous at task.jl:63
+while loading /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl, in expression starting on line 40
+WARNING: Base.Uint8 is deprecatedWARNING: Base.Uint8 is deprecatedWARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+, use UInt8 instead.
+, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include_string at loading.jl:266
+ in include_from_node1 at ./loading.jl:307
+ in include_string at loading.jl:266
+ in include_from_node1 at ./loading.jl:307
+ in require at ./loading.jl:243
+ in eval at ./sysimg.jl:14
+ in anonymous at multi.jl:1350
+ in anonymous at multi.jl:892
+ in run_work_thunk at multi.jl:645
+ [inlined code] from multi.jl:892
+ in anonymous at task.jl:63
+while loading /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl, in expression starting on line 1
+WARNING: Union(args...) is deprecated, use Union{args...} instead.WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+
+ in include_string at loading.jl:266
+ in depwarn at deprecated.jl:73
+ in include_from_node1 at ./loading.jl:307
+ in call at  in deprecated.jlinclude_string: at 50loading.jl
+:266
+ in include_string at loading.jl:266 in 
+include_from_node1 at ./loading.jl:307
+ in include_from_node1 at ./loading.jl: in 307require
+ at ./loading.jl:243
+ in include_string at  in loading.jl:eval266
+ in include_from_node1 at ./loading.jl:307
+ in require at ./loading.jl:243
+ in eval at ./sysimg.jl:14
+ in anonymous at multi.jl:1350
+ in anonymous at multi.jl:892
+ in run_work_thunk at multi.jl:645
+ [inlined code] from multi.jl:892
+ in anonymous at task.jl:63
+while loading /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl, in expression starting on line 1
+ at ./sysimg.jl:14
+ in anonymous at multi.jl:1350
+ in anonymous at multi.jl:892
+ in run_work_thunk at multi.jl:645
+ [inlined code] from multi.jl:892
+ in anonymous at task.jl:63
+while loading /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl, in expression starting on line 1
+WARNING: Base.String is deprecatedWARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+, use AbstractString instead.
+running tests...
+	pmap array->array...
+		result: 1001000
+		result: 1001000
+		time: 0.0013594469
+	map array->array...
+		result: 1001000
+		result: 1001000
+		time: 3.42259e-5
+	pmap array->array...
+		result: 1001000
+		result: 1001000
+		time: 0.0036647776
+	map array->array...
+		result: 1001000
+		result: 1001000
+		time: 0.0001038099
+	pmap file->iostream...
+WARNING: Base.Uint8 is deprecatedWARNING: Base.Uint8 is deprecated, use UInt8 instead.
+, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecatedWARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecatedWARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in as_io at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:22
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in as_io at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:22
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in as_io at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:22
+, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in as_io at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:22
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in as_io at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:22
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in as_io at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:22
+, use UInt8 instead.
+in as_io at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:22
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in as_io at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:22
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in as_io at /home/vagrant/.julia/v0.4/Blocks/src/block_framework.jl:22
+WARNING: Base.Uint8 is deprecatedWARNING: Base.Uint8 is deprecatedWARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_start_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:16
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_start_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:16
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_start_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:16
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_start_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:16
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_start_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:16
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_start_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:16
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_start_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:16
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_start_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:16
+, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_start_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:16
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_start_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:16
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_start_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:16
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_start_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:16
+, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_end_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:9
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_end_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:9
+WARNING: Base.Uint8 is deprecatedWARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_end_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:9
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_end_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:9
+, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_end_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:9
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in find_end_pos at /home/vagrant/.julia/v0.4/Blocks/src/block_io.jl:9
+		result: 100
+		result: 100
+		time: 0.0062822671999999994
+	map file->iostream...
+		result: 100
+		result: 100
+		time: 0.0036582983
+	pmap stream->lines...
+		result: 100
+		result: 100
+		time: 0.0100735718
+	map stream->lines...
+		result: 100
+		result: 100
+		time: 0.0036876809000000003
+	pmap processor affinity...
+		result: 100
+		result: 100
+		time: 0.0056404732
+INFO: Blocks tests passed

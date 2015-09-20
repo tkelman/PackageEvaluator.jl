@@ -1,0 +1,465 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing StochasticSearch
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+[NumberParameter]
+  > constructor
+  > neighbor!
+  > constructor
+  > perturb!
+  > constructor
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+  > perturb!
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+86 facts verified.
+[EnumParameter]
+
+    [EnumParameter]: StochasticSearch.EnumParameter{StochasticSearch.Parameter,Array{StochasticSearch.Parameter,1}}
+    (name: test, current:
+
+    [EnumParameter]: StochasticSearch.EnumParameter{StochasticSearch.Parameter,Array{StochasticSearch.StringParameter,1}}
+    (name: test, current:
+
+    [StringParameter] (name: test, value: c)
+    )
+          [Values]
+           ======
+    [StringParameter] (name: test, value: c)
+           ======
+    )
+    )
+          [Values]
+           ======
+    [EnumParameter]: StochasticSearch.EnumParameter{StochasticSearch.Parameter,Array{StochasticSearch.StringParameter,1}}
+    (name: test, current:
+
+    [StringParameter] (name: test, value: a)
+    )
+          [Values]
+           ======
+    [StringParameter] (name: test, value: a)
+           ======
+    )
+
+    [StringParameter] (name: test, value: b)
+
+    [EnumParameter]: StochasticSearch.EnumParameter{StochasticSearch.Parameter,Array{StochasticSearch.StringParameter,1}}
+    (name: test, current:
+
+    [StringParameter] (name: test, value: c)
+    )
+          [Values]
+           ======
+    [StringParameter] (name: test, value: c)
+           ======
+    )
+           ======
+    )
+
+  > constructors
+  > perturb! and perturb_elements!
+  > neighbor!
+37 facts verified.
+[StringParameter]
+7 facts verified.
+[BoolParameter]
+  > perturb!
+  > neighbor!
+
+    [BoolParameter] (name: test, value: true)
+6 facts verified.
+[Configuration]
+  > constructors
+  > perturb!
+  > neighbor!
+
+  [Configuration] StochasticSearch.Configuration{StochasticSearch.Parameter}
+  (name: test,
+    [Parameters]
+     ==========
+    Pair{ASCIIString,StochasticSearch.Parameter}("i0",
+    [NumberParameter] StochasticSearch.NumberParameter{Int64}
+    (name: i0, min: 1.000000, max: 38.000000, value: 3.000000)
+)
+    Pair{ASCIIString,StochasticSearch.Parameter}("i3",
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: i3, min: 2.330000, max: 85.330000, value: 22.200000)
+)
+    Pair{ASCIIString,StochasticSearch.Parameter}("i1",
+    [NumberParameter] StochasticSearch.NumberParameter{Int64}
+    (name: i1, min: 4.000000, max: 66.000000, value: 55.000000)
+)
+    Pair{ASCIIString,StochasticSearch.Parameter}("i2",
+    [StringParameter] (name: i2, value: value)
+)
+     =========
+  )
+
+  > update! and convert!
+27 facts verified.
+[Search]
+  > optimize and simulated_annealing
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+in anonymous at /home/vagrant/.julia/v0.4/StochasticSearch/test/simulated_annealing.jl:5
+WARNING: Base.None is deprecated, use Union{} instead.
+in anonymous at /home/vagrant/.julia/v0.4/StochasticSearch/test/simulated_annealing.jl:5
+[Partial Result] [Cost] 0.771969 [Technique] Simulated Annealing [Found in Iteration]     9 [Current Iteration]   333
+[Partial Result] [Cost] 0.524318 [Technique] Simulated Annealing [Found in Iteration]   418 [Current Iteration]   666
+[Partial Result] [Cost] 0.349320 [Technique] Simulated Annealing [Found in Iteration]   835 [Current Iteration]   999
+[Final Result]        :
+[Technique]           : Simulated Annealing
+[Cost]                : 0.349320
+[Found in Iteration]  : 835
+[Function Calls]      : 2508
+[Start Configuration]
+  [Configuration] StochasticSearch.Configuration{StochasticSearch.NumberParameter{Float64}}
+  (name: rosenbrock_config,
+    [Parameters]
+     ==========
+    "i0"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: i0, min: -2.000000, max: 2.000000, value: 0.000000)
+
+    "i1"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: i1, min: -2.000000, max: 2.000000, value: 0.000000)
+
+     =========
+  )
+[Minimum Configuration]
+  [Configuration] StochasticSearch.Configuration{StochasticSearch.NumberParameter{Float64}}
+  (name: rosenbrock_config,
+    [Parameters]
+     ==========
+    "i0"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: i0, min: -2.000000, max: 2.000000, value: 0.409785)
+
+    "i1"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: i1, min: -2.000000, max: 2.000000, value: 0.164815)
+
+     =========
+  )
+0.3493197323758933
+3 facts verified.
+[Search]
+  > iterative_first_improvement
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+in anonymous at /home/vagrant/.julia/v0.4/StochasticSearch/test/iterative_first_improvement.jl:5
+WARNING: Base.None is deprecated, use Union{} instead.
+in anonymous at /home/vagrant/.julia/v0.4/StochasticSearch/test/iterative_first_improvement.jl:5
+[Partial Result] [Cost] 0.010828 [Technique] Iterative First Improvement [Found in Iteration]   174 [Current Iteration]   333
+[Partial Result] [Cost] 0.000011 [Technique] Iterative First Improvement [Found in Iteration]   509 [Current Iteration]   666
+[Partial Result] [Cost] 0.000011 [Technique] Iterative First Improvement [Found in Iteration]   509 [Current Iteration]   999
+[Final Result]        :
+[Technique]           : Iterative First Improvement
+[Cost]                : 0.000011
+[Found in Iteration]  : 509
+[Function Calls]      : 14961
+[Start Configuration]
+  [Configuration] StochasticSearch.Configuration{StochasticSearch.NumberParameter{Float64}}
+  (name: rosenbrock_config,
+    [Parameters]
+     ==========
+    "i0"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: i0, min: -2.000000, max: 2.000000, value: 0.000000)
+
+    "i1"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: i1, min: -2.000000, max: 2.000000, value: 0.000000)
+
+     =========
+  )
+[Minimum Configuration]
+  [Configuration] StochasticSearch.Configuration{StochasticSearch.NumberParameter{Float64}}
+  (name: rosenbrock_config,
+    [Parameters]
+     ==========
+    "i0"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: i0, min: -2.000000, max: 2.000000, value: 1.000968)
+
+    "i1"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: i1, min: -2.000000, max: 2.000000, value: 1.001614)
+
+     =========
+  )
+1.1349934763216939e-5
+3 facts verified.
+[Search]
+  > iterative_probabilistic_improvement
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+in anonymous at /home/vagrant/.julia/v0.4/StochasticSearch/test/iterative_probabilistic_improvement.jl:5
+WARNING: Base.None is deprecated, use Union{} instead.
+in anonymous at /home/vagrant/.julia/v0.4/StochasticSearch/test/iterative_probabilistic_improvement.jl:5
+[Partial Result] [Cost] 0.422131 [Technique] Iterative Probabilistic Improvement [Found in Iteration]   137 [Current Iteration]   333
+[Partial Result] [Cost] 0.234622 [Technique] Iterative Probabilistic Improvement [Found in Iteration]   368 [Current Iteration]   666
+[Partial Result] [Cost] 0.087265 [Technique] Iterative Probabilistic Improvement [Found in Iteration]   848 [Current Iteration]   999
+[Final Result]        :
+[Technique]           : Iterative Probabilistic Improvement
+[Cost]                : 0.087265
+[Found in Iteration]  : 848
+[Function Calls]      : 2547
+[Start Configuration]
+  [Configuration] StochasticSearch.Configuration{StochasticSearch.NumberParameter{Float64}}
+  (name: rosenbrock_config,
+    [Parameters]
+     ==========
+    "i0"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: i0, min: -2.000000, max: 2.000000, value: 0.000000)
+
+    "i1"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: i1, min: -2.000000, max: 2.000000, value: 0.000000)
+
+     =========
+  )
+[Minimum Configuration]
+  [Configuration] StochasticSearch.Configuration{StochasticSearch.NumberParameter{Float64}}
+  (name: rosenbrock_config,
+    [Parameters]
+     ==========
+    "i0"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: i0, min: -2.000000, max: 2.000000, value: 0.709085)
+
+    "i1"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: i1, min: -2.000000, max: 2.000000, value: 0.497670)
+
+     =========
+  )
+0.0872648812378739
+2 facts verified.
+[Search]
+  > randomized_first_improvement
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+in anonymous at /home/vagrant/.julia/v0.4/StochasticSearch/test/randomized_first_improvement.jl:5
+WARNING: Base.None is deprecated, use Union{} instead.
+in anonymous at /home/vagrant/.julia/v0.4/StochasticSearch/test/randomized_first_improvement.jl:5
+[Partial Result] [Cost] 0.040246 [Technique] Randomized First Improvement [Found in Iteration]   106 [Current Iteration]   333
+[Partial Result] [Cost] 0.023311 [Technique] Randomized First Improvement [Found in Iteration]   458 [Current Iteration]   666
+[Partial Result] [Cost] 0.023311 [Technique] Randomized First Improvement [Found in Iteration]   458 [Current Iteration]   999
+[Final Result]        :
+[Technique]           : Randomized First Improvement
+[Cost]                : 0.023311
+[Found in Iteration]  : 458
+[Function Calls]      : 5928
+[Start Configuration]
+  [Configuration] StochasticSearch.Configuration{StochasticSearch.NumberParameter{Float64}}
+  (name: rosenbrock_config,
+    [Parameters]
+     ==========
+    "i0"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: i0, min: -2.000000, max: 2.000000, value: 0.000000)
+
+    "i1"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: i1, min: -2.000000, max: 2.000000, value: 0.000000)
+
+     =========
+  )
+[Minimum Configuration]
+  [Configuration] StochasticSearch.Configuration{StochasticSearch.NumberParameter{Float64}}
+  (name: rosenbrock_config,
+    [Parameters]
+     ==========
+    "i0"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: i0, min: -2.000000, max: 2.000000, value: 0.864072)
+
+    "i1"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: i1, min: -2.000000, max: 2.000000, value: 0.753573)
+
+     =========
+  )
+0.023311442837059833
+3 facts verified.
+[Search]
+  > iterative_greedy_construction
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+in anonymous at /home/vagrant/.julia/v0.4/StochasticSearch/test/iterative_greedy_construction.jl:5
+WARNING: Base.None is deprecated, use Union{} instead.
+in anonymous at /home/vagrant/.julia/v0.4/StochasticSearch/test/iterative_greedy_construction.jl:5
+[Partial Result] [Cost] 0.330268 [Technique] Iterative Greedy Construction [Found in Iteration]    36 [Current Iteration]   333
+[Partial Result] [Cost] 0.204967 [Technique] Iterative Greedy Construction [Found in Iteration]   287 [Current Iteration]   666
+[Partial Result] [Cost] 0.204967 [Technique] Iterative Greedy Construction [Found in Iteration]   287 [Current Iteration]   999
+[Final Result]        :
+[Technique]           : Iterative Greedy Construction
+[Cost]                : 0.204967
+[Found in Iteration]  : 287
+[Function Calls]      : 15162
+[Start Configuration]
+  [Configuration] StochasticSearch.Configuration{StochasticSearch.NumberParameter{Float64}}
+  (name: rosenbrock_config,
+    [Parameters]
+     ==========
+    "i0"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: i0, min: -2.000000, max: 2.000000, value: 0.000000)
+
+    "i1"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: i1, min: -2.000000, max: 2.000000, value: 0.000000)
+
+     =========
+  )
+[Minimum Configuration]
+  [Configuration] StochasticSearch.Configuration{StochasticSearch.NumberParameter{Float64}}
+  (name: rosenbrock_config,
+    [Parameters]
+     ==========
+    "i0"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: i0, min: -2.000000, max: 2.000000, value: 0.576086)
+
+    "i1"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: i1, min: -2.000000, max: 2.000000, value: 0.315980)
+
+     =========
+  )
+0.2049667103144508
+2 facts verified.
+[Interface] with Optim.jl
+  > simulated_anealing and nelder_mead
+[Final Result]        :
+[Technique]           : Simulated Annealing
+[Cost]                : 0.005121
+[Found in Iteration]  : 10000
+[Function Calls]      : 10001
+[Start Configuration]
+  [Configuration] StochasticSearch.Configuration{StochasticSearch.NumberParameter{Float64}}
+  (name: c,
+    [Parameters]
+     ==========
+    "b"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: b, min: -10.000000, max: 10.000000, value: 9.000000)
+
+    "a"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: a, min: -10.000000, max: 10.000000, value: -2.000000)
+
+     =========
+  )
+[Minimum Configuration]
+  [Configuration] StochasticSearch.Configuration{StochasticSearch.NumberParameter{Float64}}
+  (name: c,
+    [Parameters]
+     ==========
+    "b"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: b, min: -10.000000, max: 10.000000, value: 1.032351)
+
+    "a"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: a, min: -10.000000, max: 10.000000, value: 1.059367)
+
+     =========
+  )
+
+[Final Result]        :
+[Technique]           : Nelder Mead
+[Cost]                : 0.000000
+[Found in Iteration]  : 34
+[Function Calls]      : 67
+[Start Configuration]
+  [Configuration] StochasticSearch.Configuration{StochasticSearch.NumberParameter{Float64}}
+  (name: c,
+    [Parameters]
+     ==========
+    "b"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: b, min: -10.000000, max: 10.000000, value: 1.032351)
+
+    "a"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: a, min: -10.000000, max: 10.000000, value: 1.059367)
+
+     =========
+  )
+[Minimum Configuration]
+  [Configuration] StochasticSearch.Configuration{StochasticSearch.NumberParameter{Float64}}
+  (name: c,
+    [Parameters]
+     ==========
+    "b"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: b, min: -10.000000, max: 10.000000, value: 0.999995)
+
+    "a"=>
+    [NumberParameter] StochasticSearch.NumberParameter{Float64}
+    (name: a, min: -10.000000, max: 10.000000, value: 0.999991)
+
+     =========
+  )
+
+5 facts verified.
+[unit_value]
+  > EnumParameter
+  > IntegerParameter
+WARNING: int(x::AbstractFloat) is deprecated, use round(Int,x) instead.
+ in depwarn at deprecated.jl:73
+ in int at deprecated.jl:50
+ in unit_value! at /home/vagrant/.julia/v0.4/StochasticSearch/src/core/unit_value.jl:18
+ in anonymous at /home/vagrant/.julia/v0.4/StochasticSearch/test/unit_value.jl:19
+ in context at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:474
+ in anonymous at /home/vagrant/.julia/v0.4/StochasticSearch/test/unit_value.jl:15
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/StochasticSearch/test/unit_value.jl, in expression starting on line 3
+  > FloatParameter
+6 facts verified.
+INFO: StochasticSearch tests passed

@@ -1,0 +1,53 @@
+INFO: Cloning cache of OCCA from git://github.com/ReidAtcheson/OCCA.jl.git
+INFO: Installing OCCA v0.0.1
+INFO: Building OCCA
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint16 is deprecated, use UInt16 instead.
+WARNING: Base.Uint32 is deprecated, use UInt32 instead.
+WARNING: Base.Uint64 is deprecated, use UInt64 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+Cloning into 'OCCA2'...
+rm -f /home/vagrant/.julia/v0.4/OCCA/deps/OCCA2/obj/*;
+rm -f /home/vagrant/.julia/v0.4/OCCA/deps/OCCA2/bin/*;
+rm -f /home/vagrant/.julia/v0.4/OCCA/deps/OCCA2/scripts/main;
+rm -f /home/vagrant/.julia/v0.4/OCCA/deps/OCCA2/lib/libocca.so;
+rm -f /home/vagrant/.julia/v0.4/OCCA/deps/OCCA2/lib/*.mod;
+g++ -O3 -fPIC -o /home/vagrant/.julia/v0.4/OCCA/deps/OCCA2/obj/occaBase.o  -fopenmp -DOCCA_OPENMP_ENABLED=1  -O3 -D __extern_always_inline=inline -DOCCA_DEBUG_ENABLED=0 -DNDEBUG=1 -DOCCA_SHOW_WARNINGS=0 -DOCCA_CHECK_ENABLED=1 -DOCCA_OPENCL_ENABLED=1 -DOCCA_CUDA_ENABLED=0 -DOCCA_HSA_ENABLED=0 -DOCCA_COI_ENABLED=0  -D LINUX_OS=1 -D OSX_OS=2 -D WINDOWS_OS=4 -D WINUX_OS=5  -D OCCA_OS=LINUX_OS -c -I/home/vagrant/.julia/v0.4/OCCA/deps/OCCA2/lib -I/home/vagrant/.julia/v0.4/OCCA/deps/OCCA2/include -I./include /home/vagrant/.julia/v0.4/OCCA/deps/OCCA2/src/occaBase.cpp
+In file included from /home/vagrant/.julia/v0.4/OCCA/deps/OCCA2/include/occa.hpp:9:0,
+                 from /home/vagrant/.julia/v0.4/OCCA/deps/OCCA2/src/occaBase.cpp:1:
+/home/vagrant/.julia/v0.4/OCCA/deps/OCCA2/include/occaBase.hpp:37:23: fatal error: CL/cl.h: No such file or directory
+ #    include <CL/cl.h>
+                       ^
+compilation terminated.
+make: *** [/home/vagrant/.julia/v0.4/OCCA/deps/OCCA2/obj/occaBase.o] Error 1
+================================[ ERROR: OCCA ]=================================
+
+LoadError: failed process: Process(`make`, ProcessExited(2)) [2]
+while loading /home/vagrant/.julia/v0.4/OCCA/deps/build.jl, in expression starting on line 59
+
+================================================================================
+
+================================[ BUILD ERRORS ]================================
+
+WARNING: OCCA had build errors.
+
+ - packages with build errors remain installed in /home/vagrant/.julia/v0.4
+ - build the package(s) and all dependencies with `Pkg.build("OCCA")`
+ - build a single package by running its `deps/build.jl` script
+
+================================================================================
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of OCCA
+INFO: Use `Pkg.update()` to get the latest versions of your packages

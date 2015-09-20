@@ -1,0 +1,14 @@
+INFO: Cloning cache of FTPClient from git://github.com/invenia/FTPClient.jl.git
+INFO: Installing FTPClient v0.1.1
+INFO: Installing LibCURL v0.1.5
+INFO: Building LibCURL
+INFO: Building FTPClient
+Archive:  MockFtpServer-2.6-bin.zip
+  inflating: ext/MockFtpServer-2.6-javadoc.jar  
+  inflating: ext/MockFtpServer-2.6-sources.jar  
+  inflating: ext/MockFtpServer-2.6.jar  
+Archive:  slf4j-1.7.12.zip
+  inflating: ext/slf4j-api-1.7.12.jar  
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of FTPClient
+INFO: Use `Pkg.update()` to get the latest versions of your packages

@@ -1,0 +1,30 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing CRlibm
+Testing CRlibm.exp
+Testing CRlibm.expm1
+Testing CRlibm.log
+Testing CRlibm.log1p
+Testing CRlibm.log2
+Testing CRlibm.log10
+Testing CRlibm.sin
+Testing CRlibm.cos
+Testing CRlibm.tan
+Testing CRlibm.asin
+Testing CRlibm.acos
+Testing CRlibm.atan
+Testing CRlibm.sinh
+Testing CRlibm.cosh
+Testing CRlibm.sinpi
+Testing CRlibm.cospi
+Testing CRlibm.tanpi
+Testing CRlibm.atanpi
+INFO: CRlibm tests passed

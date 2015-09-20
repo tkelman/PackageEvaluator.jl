@@ -1,0 +1,14 @@
+ERROR: unknown package Processing
+ in error at ./error.jl:21
+ [inlined code] from pkg/entry.jl:49
+ in anonymous at task.jl:447
+ in sync_end at ./task.jl:413
+ [inlined code] from task.jl:422
+ in add at pkg/entry.jl:46
+ in add at pkg/entry.jl:73
+ in anonymous at pkg/dir.jl:31
+ in cd at file.jl:22
+ in cd at pkg/dir.jl:31
+ in add at pkg.jl:23
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411

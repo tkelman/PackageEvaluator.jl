@@ -1,0 +1,366 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing DecisionTree
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl, in expression starting on line 27
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl, in expression starting on line 27
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl, in expression starting on line 27
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl, in expression starting on line 27
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl, in expression starting on line 190
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl, in expression starting on line 190
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl, in expression starting on line 231
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+Running tests...
+Test: classification_rand.jl
+
+##### nfoldCV Classification Tree #####
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in prune_tree at /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl:191
+ in _nfoldCV at /home/vagrant/.julia/v0.4/DecisionTree/src/measures.jl:166
+ in nfoldCV_tree at /home/vagrant/.julia/v0.4/DecisionTree/src/measures.jl:185
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from /home/vagrant/.julia/v0.4/DecisionTree/test/runtests.jl:9
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/DecisionTree/test/classification_rand.jl, in expression starting on line 10
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in apply_tree at /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl:232
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in apply_tree at /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl:232
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in apply_tree at /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl:232
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in apply_tree at /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl:232
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in apply_tree at /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl:232
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in apply_tree at /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl:232
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+
+Fold 1
+Classes:  Any[-1,0,1,2]
+Matrix:   4x4 Array{Int64,2}:
+ 4    2    0  0
+ 1  143   15  0
+ 0   20  133  3
+ 0    0    9  3
+Accuracy: 0.8498498498498499
+Kappa:    0.7227772227772228
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in prune_tree at /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl:191
+ in _nfoldCV at /home/vagrant/.julia/v0.4/DecisionTree/src/measures.jl:166
+ in nfoldCV_tree at /home/vagrant/.julia/v0.4/DecisionTree/src/measures.jl:185
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from /home/vagrant/.julia/v0.4/DecisionTree/test/runtests.jl:9
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/DecisionTree/test/classification_rand.jl, in expression starting on line 10
+
+Fold 2
+Classes:  Any[-1,0,1,2]
+Matrix:   4x4 Array{Int64,2}:
+ 5    1    0  0
+ 6  140    8  0
+ 0   15  146  5
+ 0    0    2  5
+Accuracy: 0.8888888888888888
+Kappa:    0.7974619039008433
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in prune_tree at /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl:191
+ in _nfoldCV at /home/vagrant/.julia/v0.4/DecisionTree/src/measures.jl:166
+ in nfoldCV_tree at /home/vagrant/.julia/v0.4/DecisionTree/src/measures.jl:185
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from /home/vagrant/.julia/v0.4/DecisionTree/test/runtests.jl:9
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/DecisionTree/test/classification_rand.jl, in expression starting on line 10
+
+Fold 3
+Classes:  Any[-1,0,1,2]
+Matrix:   4x4 Array{Int64,2}:
+ 2    5    0  0
+ 0  137    9  0
+ 0   26  140  3
+ 0    0    3  8
+Accuracy: 0.8618618618618619
+Kappa:    0.7469688460140739
+
+Mean Accuracy: 0.8668668668668668
+
+##### nfoldCV Classification Forest #####
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in apply_forest at /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl:256
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in apply_forest at /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl:256
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in apply_forest at /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl:256
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in apply_forest at /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl:269
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in apply_forest at /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl:269
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in apply_forest at /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl:269
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in apply_forest at /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl:269
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in apply_forest at /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl:269
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in apply_forest at /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl:269
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in build_adaboost_stumps at /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl:282
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in build_adaboost_stumps at /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl:282
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in build_adaboost_stumps at /home/vagrant/.julia/v0.4/DecisionTree/src/DecisionTree.jl:282
+
+Fold 1
+Classes:  Any[-1,0,1,2]
+Matrix:   4x4 Array{Int64,2}:
+ 2    4    0  0
+ 0  148    8  0
+ 0   22  138  2
+ 0    0    9  0
+Accuracy: 0.8648648648648649
+Kappa:    0.7443050934220632
+
+Fold 2
+Classes:  Any[-1,0,1,2]
+Matrix:   4x4 Array{Int64,2}:
+ 4    3    0  0
+ 0  151    5  0
+ 0   24  133  1
+ 0    0    6  6
+Accuracy: 0.8828828828828829
+Kappa:    0.7844731732412832
+
+Fold 3
+Classes:  Any[-1,0,1,2]
+Matrix:   4x4 Array{Int64,2}:
+ 1    5    0  0
+ 0  140    8  0
+ 0   14  155  1
+ 0    0    4  5
+Accuracy: 0.9039039039039038
+Kappa:    0.8191046904442596
+
+Mean Accuracy: 0.8838838838838838
+
+##### nfoldCV Adaboosted Stumps #####
+
+Fold 1
+Classes:  Any[-1,0,1,2]
+Matrix:   4x4 Array{Int64,2}:
+ 0    2    0  0
+ 0  126   28  0
+ 0   14  150  0
+ 0    0   13  0
+Accuracy: 0.8288288288288288
+Kappa:    0.6710227568157789
+
+Fold 2
+Classes:  Any[-1,0,1,2]
+Matrix:   4x4 Array{Int64,2}:
+ 0    6    0  0
+ 0  124   33  0
+ 0    6  155  0
+ 0    0    9  0
+Accuracy: 0.8378378378378378
+Kappa:    0.6890003459010722
+
+Fold 3
+Classes:  Any[-1,0,1,2]
+Matrix:   4x4 Array{Int64,2}:
+ 0   11    0  0
+ 0  115   33  0
+ 0    7  159  0
+ 0    0    8  0
+Accuracy: 0.8228228228228228
+Kappa:    0.6612878200155159
+
+Mean Accuracy: 0.8298298298298298
+==================================================
+Test: regression_rand.jl
+
+##### nfoldCV Regression Tree #####
+
+Fold 1
+Mean Squared Error:     3.697877298602018
+Correlation Coeff:      0.8539591370162368
+Coeff of Determination: 0.7284516720218775
+
+Fold 2
+Mean Squared Error:     3.7096262462153518
+Correlation Coeff:      0.8788515846162669
+Coeff of Determination: 0.7644735695257396
+
+Fold 3
+Mean Squared Error:     3.451359365942539
+Correlation Coeff:      0.8752222742392303
+Coeff of Determination: 0.7608118224512599
+
+Mean Coeff of Determination: 0.7512456879996257
+
+##### nfoldCV Regression Forest #####
+
+Fold 1
+Mean Squared Error:     1.9753333202086698
+Correlation Coeff:      0.947295325171104
+Coeff of Determination: 0.8645287499285647
+
+Fold 2
+Mean Squared Error:     2.1243386476880937
+Correlation Coeff:      0.9427345810319809
+Coeff of Determination: 0.8610020670198473
+
+Fold 3
+Mean Squared Error:     1.8472005238111315
+Correlation Coeff:      0.946369942806866
+Coeff of Determination: 0.8677945803980487
+
+Mean Coeff of Determination: 0.8644417991154869
+==================================================
+INFO: DecisionTree tests passed

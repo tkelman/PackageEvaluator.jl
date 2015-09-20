@@ -1,0 +1,22 @@
+INFO: Cloning cache of Atom from git://github.com/JunoLab/Atom.jl.git
+INFO: Cloning cache of CodeTools from git://github.com/JunoLab/CodeTools.jl.git
+INFO: Cloning cache of Hiccup from git://github.com/JunoLab/Hiccup.jl.git
+INFO: Cloning cache of JuliaParser from git://github.com/jakebolewski/JuliaParser.jl.git
+INFO: Cloning cache of LNR from git://github.com/one-more-minute/LNR.jl.git
+INFO: Cloning cache of Lazy from git://github.com/one-more-minute/Lazy.jl.git
+INFO: Cloning cache of MacroTools from git://github.com/one-more-minute/MacroTools.jl.git
+INFO: Cloning cache of Media from git://github.com/JunoLab/Media.jl.git
+INFO: Cloning cache of Requires from git://github.com/one-more-minute/Requires.jl.git
+INFO: Installing Atom v0.1.1
+INFO: Installing CodeTools v0.1.0
+INFO: Installing FactCheck v0.4.0
+INFO: Installing Hiccup v0.0.1
+INFO: Installing JuliaParser v0.6.3
+INFO: Installing LNR v0.0.1
+INFO: Installing Lazy v0.10.0
+INFO: Installing MacroTools v0.2.0
+INFO: Installing Media v0.1.1
+INFO: Installing Requires v0.2.0
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of Atom
+INFO: Use `Pkg.update()` to get the latest versions of your packages

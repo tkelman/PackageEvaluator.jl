@@ -1,0 +1,5 @@
+INFO: Cloning cache of MathProgBase from git://github.com/JuliaOpt/MathProgBase.jl.git
+INFO: Installing MathProgBase v0.3.17
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of MathProgBase
+INFO: Use `Pkg.update()` to get the latest versions of your packages

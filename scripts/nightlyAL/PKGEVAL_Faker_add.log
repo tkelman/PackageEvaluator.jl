@@ -1,0 +1,10 @@
+INFO: Cloning cache of Faker from git://github.com/codeneomatrix/Faker.jl.git
+INFO: Installing Dates v0.4.4
+INFO: Installing Faker v0.0.1
+INFO: Installing Nettle v0.1.10
+INFO: Building Nettle
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of Faker
+INFO: Use `Pkg.update()` to get the latest versions of your packages

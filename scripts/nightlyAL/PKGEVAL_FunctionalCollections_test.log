@@ -1,0 +1,285 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing FunctionalCollections
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/FunctionalCollections/src/PersistentArrayMap.jl, in expression starting on line 58
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/FunctionalCollections/src/PersistentHashMap.jl, in expression starting on line 222
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/FunctionalCollections/src/PersistentSet.jl, in expression starting on line 47
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/FunctionalCollections/src/PersistentSet.jl, in expression starting on line 53
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/FunctionalCollections/src/PersistentList.jl, in expression starting on line 60
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/FunctionalCollections/src/PersistentList.jl, in expression starting on line 61
+WARNING: The `=>` syntax is deprecated, use `-->` instead
+Sparse Bitmapped Vector Tries
+  > bitpos and index
+  > SparseLeaf update
+  > SparseNode update
+  > SparseBitmappedTrie get
+  > SparseBitmappedTrie length
+  > SparseBitmappedTrie items
+32 facts verified.
+Persistent Vectors
+  > range constructor
+  > length
+  > accessing elements
+  > accessing last
+  > associng
+  > appending
+  > structural sharing
+  > equality
+  > iteration
+  > map
+  > filter
+  > hash
+  > isempty
+29 facts verified.
+Persistent Maps
+  > KVPairs
+2 facts verified.
+Persistent Array Maps
+  > construction
+  > accessing
+  > haskey
+  > assoc
+  > dissoc
+  > iterating
+  > isempty
+  > equality
+  > kwargs construction
+  > map
+28 facts verified.
+Persistent Hash Maps
+  > constructor
+  > equality
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:259
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:259
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:259
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:259
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:259
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:259
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:259
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:259
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:259
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:259
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:259
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:259
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:259
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:259
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:259
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:259
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:259
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:259
+  > assoc
+  > covariance
+  > dissoc
+  > get
+  > haskey
+  > map
+  > filter
+  > merge
+27 facts verified.
+Persistent Sets
+  > construction
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+  > isequal
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+  > conj
+  > disj
+  > in
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+  > filter
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+  > setdiff, -
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+  > isempty
+  > union
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+  > isless, <=
+  > iteration
+32 facts verified.
+Persistent Lists
+  > length
+  > equality
+  > head
+  > tail
+  > cons
+  > sharing
+  > iteration
+  > map
+  > reverse
+  > hash
+  > isempty
+21 facts verified.
+Persistent Queues
+  > equality
+  > isempty
+  > peek
+  > pop
+  > enq
+  > iteration
+  > hash
+  > length
+15 facts verified.
+
+WARNING: deprecated syntax "[a=>b, ...]" at /home/vagrant/.julia/v0.4/FunctionalCollections/test/./PersistentMacroTest.jl:12.
+Use "Dict(a=>b, ...)" instead.
+@Persistent constructor macro
+  > Persistent Vectors
+  > Persistent Hash Maps
+  > Persistent Set
+4 facts verified.
+INFO: FunctionalCollections tests passed

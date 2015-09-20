@@ -1,0 +1,9 @@
+INFO: Cloning cache of Lora from git://github.com/JuliaStats/Lora.jl.git
+INFO: Cloning cache of ReverseDiffSource from git://github.com/JuliaDiff/ReverseDiffSource.jl.git
+INFO: Installing Distributions v0.8.6
+INFO: Installing Lora v0.4.4
+INFO: Installing PDMats v0.3.5
+INFO: Installing ReverseDiffSource v0.0.6
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of Lora
+INFO: Use `Pkg.update()` to get the latest versions of your packages

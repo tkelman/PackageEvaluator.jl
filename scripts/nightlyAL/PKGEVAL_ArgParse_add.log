@@ -1,0 +1,9 @@
+INFO: Cloning cache of ArgParse from git://github.com/carlobaldassi/ArgParse.jl.git
+INFO: Cloning cache of Options from git://github.com/JuliaLang/Options.jl.git
+INFO: Cloning cache of TextWrap from git://github.com/carlobaldassi/TextWrap.jl.git
+INFO: Installing ArgParse v0.2.12
+INFO: Installing Options v0.2.5
+INFO: Installing TextWrap v0.1.4
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of ArgParse
+INFO: Use `Pkg.update()` to get the latest versions of your packages

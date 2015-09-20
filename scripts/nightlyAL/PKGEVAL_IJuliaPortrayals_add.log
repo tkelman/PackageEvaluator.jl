@@ -1,0 +1,33 @@
+INFO: Cloning cache of IJuliaPortrayals from git://github.com/jbn/IJuliaPortrayals.jl.git
+INFO: Installing IJulia v1.0.3
+INFO: Installing IJuliaPortrayals v0.0.3
+INFO: Installing Nettle v0.1.10
+INFO: Installing ZMQ v0.2.0
+INFO: Building Nettle
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+INFO: Building ZMQ
+INFO: Building IJulia
+===============================[ ERROR: IJulia ]================================
+
+LoadError: Jupyter or IPython is required for IJulia, got errors
+   could not spawn `jupyter kernelspec --version`: no such file or directory (ENOENT)
+   could not spawn `ipython --version`: no such file or directory (ENOENT)
+   could not spawn `ipython2 --version`: no such file or directory (ENOENT)
+   could not spawn `ipython3 --version`: no such file or directory (ENOENT)
+while loading /home/vagrant/.julia/v0.4/IJulia/deps/build.jl, in expression starting on line 12
+
+================================================================================
+
+================================[ BUILD ERRORS ]================================
+
+WARNING: IJulia had build errors.
+
+ - packages with build errors remain installed in /home/vagrant/.julia/v0.4
+ - build the package(s) and all dependencies with `Pkg.build("IJulia")`
+ - build a single package by running its `deps/build.jl` script
+
+================================================================================
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of IJuliaPortrayals
+INFO: Use `Pkg.update()` to get the latest versions of your packages

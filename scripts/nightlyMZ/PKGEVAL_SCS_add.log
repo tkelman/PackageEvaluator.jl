@@ -1,0 +1,49 @@
+INFO: Cloning cache of SCS from git://github.com/JuliaOpt/SCS.jl.git
+INFO: Installing BinDeps v0.3.17
+INFO: Installing HttpCommon v0.2.3
+INFO: Installing MathProgBase v0.3.17
+INFO: Installing SCS v0.0.8
+INFO: Installing SHA v0.1.2
+INFO: Installing URIParser v0.1.0
+INFO: Building SCS
+INFO: Attempting to Create directory /home/vagrant/.julia/v0.4/SCS/deps/downloads
+INFO: Downloading file https://github.com/cvxgrp/scs/archive/v1.1.5.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   118    0   118    0     0   1709      0 --:--:-- --:--:-- --:--:--  1735
+  0     0    0  243k    0     0   912k      0 --:--:-- --:--:-- --:--:--  912k
+INFO: Done downloading file https://github.com/cvxgrp/scs/archive/v1.1.5.tar.gz
+INFO: Attempting to Create directory /home/vagrant/.julia/v0.4/SCS/deps/src
+INFO: Attempting to Create directory /home/vagrant/.julia/v0.4/SCS/deps
+INFO: Directory /home/vagrant/.julia/v0.4/SCS/deps already created
+INFO: Attempting to Create directory /home/vagrant/.julia/v0.4/SCS/deps/usr/lib
+INFO: Changing Directory to /home/vagrant/.julia/v0.4/SCS/deps/src/scs-1.1.5/
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o src/scs.o src/scs.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o src/util.o src/util.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o src/cones.o src/cones.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o src/cs.o src/cs.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o src/linAlg.o src/linAlg.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o src/ctrlc.o src/ctrlc.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o src/scs_version.o src/scs_version.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o linsys/direct/private.o linsys/direct/private.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o linsys/direct/external/ldl.o linsys/direct/external/ldl.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o linsys/direct/external/amd_1.o linsys/direct/external/amd_1.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o linsys/direct/external/amd_2.o linsys/direct/external/amd_2.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o linsys/direct/external/amd_aat.o linsys/direct/external/amd_aat.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o linsys/direct/external/amd_control.o linsys/direct/external/amd_control.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o linsys/direct/external/amd_defaults.o linsys/direct/external/amd_defaults.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o linsys/direct/external/amd_dump.o linsys/direct/external/amd_dump.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o linsys/direct/external/amd_global.o linsys/direct/external/amd_global.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o linsys/direct/external/amd_info.o linsys/direct/external/amd_info.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o linsys/direct/external/amd_order.o linsys/direct/external/amd_order.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o linsys/direct/external/amd_postorder.o linsys/direct/external/amd_postorder.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o linsys/direct/external/amd_post_tree.o linsys/direct/external/amd_post_tree.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o linsys/direct/external/amd_preprocess.o linsys/direct/external/amd_preprocess.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o linsys/direct/external/amd_valid.o linsys/direct/external/amd_valid.c
+gcc -DCOPYAMATRIX -DDLONG -DLAPACK_LIB_FOUND -DCTRLC=1 -DBLAS64 -DBLASSUFFIX=_64_ -g -Wall -pedantic -O3 -funroll-loops -Wstrict-prototypes -I. -Iinclude -fPIC -DCTRLC=1  -DCOPYAMATRIX=1    -c -o linsys/common.o linsys/common.c
+mkdir -p out
+gcc -shared -o out/libscsdir.so src/scs.o src/util.o src/cones.o src/cs.o src/linAlg.o src/ctrlc.o src/scs_version.o linsys/direct/private.o linsys/direct/external/ldl.o linsys/direct/external/amd_1.o linsys/direct/external/amd_2.o linsys/direct/external/amd_aat.o linsys/direct/external/amd_control.o linsys/direct/external/amd_defaults.o linsys/direct/external/amd_dump.o linsys/direct/external/amd_global.o linsys/direct/external/amd_info.o linsys/direct/external/amd_order.o linsys/direct/external/amd_postorder.o linsys/direct/external/amd_post_tree.o linsys/direct/external/amd_preprocess.o linsys/direct/external/amd_valid.o linsys/common.o  -lm -lrt
+INFO: Changing Directory to /home/vagrant/.julia/v0.4/SCS/deps/src/scs-1.1.5/
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of SCS
+INFO: Use `Pkg.update()` to get the latest versions of your packages

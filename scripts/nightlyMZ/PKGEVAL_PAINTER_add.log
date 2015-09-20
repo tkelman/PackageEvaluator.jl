@@ -1,0 +1,26 @@
+INFO: Cloning cache of PAINTER from git://github.com/andferrari/PAINTER.jl.git
+INFO: Cloning cache of Wavelets from git://github.com/JuliaDSP/Wavelets.jl.git
+INFO: Installing BinDeps v0.3.17
+INFO: Installing Blosc v0.1.4
+INFO: Installing Docile v0.5.19
+INFO: Installing FITSIO v0.8.0
+INFO: Installing HDF5 v0.5.5
+INFO: Installing HttpCommon v0.2.3
+INFO: Installing NFFT v0.0.2
+INFO: Installing OIFITS v0.2.0
+INFO: Installing OptimPack v0.1.2
+INFO: Installing PAINTER v0.1.2
+INFO: Installing Reexport v0.0.3
+INFO: Installing SHA v0.1.2
+INFO: Installing URIParser v0.1.0
+INFO: Installing Wavelets v0.4.1
+INFO: Building Blosc
+INFO: Building FITSIO
+INFO: Building HDF5
+INFO: Building OptimPack
+
+WARNING: deprecated syntax "[a=>b, ...]" at /home/vagrant/.julia/v0.4/OptimPack/deps/build.jl:38.
+Use "Dict(a=>b, ...)" instead.
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of PAINTER
+INFO: Use `Pkg.update()` to get the latest versions of your packages

@@ -1,0 +1,8 @@
+INFO: Cloning cache of WriteVTK from git://github.com/jipolanco/WriteVTK.jl.git
+INFO: Installing LightXML v0.2.0
+INFO: Installing WriteVTK v0.2.2
+INFO: Installing Zlib v0.1.9
+INFO: Building LightXML
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of WriteVTK
+INFO: Use `Pkg.update()` to get the latest versions of your packages

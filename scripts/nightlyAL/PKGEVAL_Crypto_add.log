@@ -1,0 +1,35 @@
+INFO: Cloning cache of Crypto from git://github.com/danielsuo/Crypto.jl.git
+INFO: Installing Codecs v0.1.4
+INFO: Installing Coverage v0.2.2
+INFO: Installing Crypto v0.0.1
+INFO: Installing MbedTLS v0.1.3
+INFO: Installing Requests v0.3.1
+INFO: Installing Zlib v0.1.9
+INFO: Building HttpParser
+INFO: Building MbedTLS
+INFO: Building Crypto
+gcc -Wno-deprecated-declarations -std=c99 -shared -fPIC digest.c ecdsa.c -o libcryptojl.so -lcrypto
+ecdsa.c:4:24: fatal error: openssl/ec.h: No such file or directory
+ #include <openssl/ec.h>
+                        ^
+compilation terminated.
+make: *** [shared] Error 1
+===============================[ ERROR: Crypto ]================================
+
+LoadError: failed process: Process(`make`, ProcessExited(2)) [2]
+while loading /home/vagrant/.julia/v0.4/Crypto/deps/build.jl, in expression starting on line 1
+
+================================================================================
+
+================================[ BUILD ERRORS ]================================
+
+WARNING: Crypto had build errors.
+
+ - packages with build errors remain installed in /home/vagrant/.julia/v0.4
+ - build the package(s) and all dependencies with `Pkg.build("Crypto")`
+ - build a single package by running its `deps/build.jl` script
+
+================================================================================
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of Crypto
+INFO: Use `Pkg.update()` to get the latest versions of your packages

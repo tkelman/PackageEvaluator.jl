@@ -1,0 +1,12 @@
+INFO: Cloning cache of JuMPeR from git://github.com/IainNZ/JuMPeR.jl.git
+INFO: Installing Calculus v0.1.10
+INFO: Installing DataStructures v0.3.13
+INFO: Installing DualNumbers v0.1.3
+INFO: Installing JuMP v0.10.1
+INFO: Installing JuMPeR v0.2.0
+INFO: Installing MathProgBase v0.3.17
+INFO: Installing NaNMath v0.1.0
+INFO: Installing ReverseDiffSparse v0.2.10
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of JuMPeR
+INFO: Use `Pkg.update()` to get the latest versions of your packages

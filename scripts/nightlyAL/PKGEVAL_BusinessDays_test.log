@@ -1,0 +1,49 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing BusinessDays
+easter minimum month is 3 on date 2100-03-28 
+easter maximum month is 4 on date 2099-04-12
+########################
+Using cache: false
+########################
+Timing composite calendar bdays calculation
+  0.000012 seconds (30 allocations: 1.219 KB)
+Timing single bdays calculation
+  0.003190 seconds (31.22 k allocations: 2.382 MB)
+Timing 100 bdays calculations
+  0.303186 seconds (3.12 M allocations: 238.205 MB, 10.92% gc time)
+Timing cache creation
+  0.005262 seconds (55.15 k allocations: 4.470 MB)
+Timing vectorized functions (vector length 7306)
+  2.378162 seconds (26.71 M allocations: 1.990 GB, 3.51% gc time)
+  0.000820 seconds (7.31 k allocations: 578.000 KB)
+########################
+Using cache: true
+########################
+Timing composite calendar bdays calculation
+  0.000006 seconds (7 allocations: 112 bytes)
+Timing single bdays calculation
+  0.000003 seconds (4 allocations: 64 bytes)
+Timing 100 bdays calculations
+  0.000041 seconds (400 allocations: 6.250 KB)
+Timing cache creation
+  0.004155 seconds (5 allocations: 269.422 KB)
+
+ a million... 
+  0.278923 seconds (4.00 M allocations: 61.035 MB, 1.68% gc time)
+Timing vectorized functions (vector length 7306)
+  0.002247 seconds (29.23 k allocations: 513.766 KB)
+  0.000522 seconds (1 allocation: 7.219 KB)
+Perftests
+  0.005475 seconds (1.52 k allocations: 340.125 KB)
+  0.000003 seconds (9 allocations: 240 bytes)
+  0.303067 seconds (5.00 M allocations: 76.294 MB, 1.97% gc time)
+INFO: BusinessDays tests passed

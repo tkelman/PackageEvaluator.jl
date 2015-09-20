@@ -1,0 +1,7 @@
+INFO: Cloning cache of GraphCentrality from git://github.com/JuliaGraphs/GraphCentrality.jl.git
+INFO: Installing DataStructures v0.3.13
+INFO: Installing GraphCentrality v0.1.0
+INFO: Installing Graphs v0.5.6
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of GraphCentrality
+INFO: Use `Pkg.update()` to get the latest versions of your packages

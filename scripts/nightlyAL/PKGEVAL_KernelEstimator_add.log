@@ -1,0 +1,13 @@
+INFO: Cloning cache of KernelEstimator from git://github.com/panlanfeng/KernelEstimator.jl.git
+INFO: Installing Calculus v0.1.10
+INFO: Installing Cubature v1.0.7
+INFO: Installing Distributions v0.8.6
+INFO: Installing DualNumbers v0.1.3
+INFO: Installing KernelEstimator v0.1.5
+INFO: Installing NaNMath v0.1.0
+INFO: Installing Optim v0.4.2
+INFO: Installing PDMats v0.3.5
+INFO: Building Cubature
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of KernelEstimator
+INFO: Use `Pkg.update()` to get the latest versions of your packages

@@ -1,0 +1,12 @@
+INFO: Cloning cache of FixedSizeArrays from git://github.com/SimonDanisch/FixedSizeArrays.jl.git
+INFO: Cloning cache of GeometryTypes from git://github.com/JuliaGeometry/GeometryTypes.jl.git
+INFO: Cloning cache of Meshing from git://github.com/JuliaGeometry/Meshing.jl.git
+INFO: Installing ColorTypes v0.1.4
+INFO: Installing Docile v0.5.19
+INFO: Installing FixedPointNumbers v0.0.10
+INFO: Installing FixedSizeArrays v0.0.5
+INFO: Installing GeometryTypes v0.0.3
+INFO: Installing Meshing v0.0.0
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of Meshing
+INFO: Use `Pkg.update()` to get the latest versions of your packages
