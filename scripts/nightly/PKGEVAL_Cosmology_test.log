@@ -1,0 +1,289 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7 CPU         960  @ 3.20GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Nehalem)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing Cosmology
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl, in expression starting on line 58
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl, in expression starting on line 87
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in call at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:28
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:119
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 26
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in call at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:28
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:119
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 26
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in call at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:28
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:119
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 26
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in call at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:28
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:119
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 26
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in call at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:54
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:119
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 35
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in call at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:54
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:119
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 35
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in call at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:54
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:119
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 35
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in call at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:54
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:119
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 35
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in call at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:54
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:119
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 35
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in call at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:42
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:119
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 44
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in call at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:42
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:119
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 44
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in call at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:42
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:119
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 44
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in call at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:42
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:119
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 44
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in call at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:42
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:119
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 44
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:110
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 53
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:110
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 53
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:110
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 53
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:110
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 53
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:110
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 53
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:110
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 53
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:110
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 53
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:110
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 62
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:110
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 62
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:110
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 62
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:110
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 62
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:110
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 62
+WARNING: float64(x) is deprecated, use Float64(x) instead.
+ in depwarn at deprecated.jl:73
+ in float64 at deprecated.jl:50
+ in cosmology at /home/vagrant/.julia/v0.4/Cosmology/test/../src/Cosmology.jl:110
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cosmology/test/runtests.jl, in expression starting on line 62
+INFO: Cosmology tests passed

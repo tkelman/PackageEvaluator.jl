@@ -1,0 +1,40 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7 CPU         960  @ 3.20GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Nehalem)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing CovarianceMatrices
+INFO: Recompiling stale cache file /home/vagrant/.julia/lib/v0.4/CovarianceMatrices.ji for module CovarianceMatrices.
+  2.219728 seconds (2.03 M allocations: 93.430 MB, 2.44% gc time)
+  0.026087 seconds (22.83 k allocations: 983.702 KB)
+  0.031484 seconds (26.52 k allocations: 1.092 MB)
+  0.031503 seconds (27.88 k allocations: 1.217 MB)
+  0.909289 seconds (852.83 k allocations: 38.053 MB, 1.07% gc time)
+  0.006179 seconds (6.26 k allocations: 350.718 KB)
+  0.006155 seconds (6.29 k allocations: 352.716 KB)
+  0.008573 seconds (7.08 k allocations: 426.539 KB)
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+INFO: CovarianceMatrices tests passed

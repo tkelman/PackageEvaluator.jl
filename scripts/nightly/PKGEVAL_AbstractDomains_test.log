@@ -1,0 +1,99 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7 CPU         960  @ 3.20GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Nehalem)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing AbstractDomains
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: module AbstractDomains should explicitly import ! from Base
+WARNING: module AbstractDomains should explicitly import == from Base
+WARNING: module AbstractDomains should explicitly import == from Base
+WARNING: module AbstractDomains should explicitly import == from Base
+WARNING: module AbstractDomains should explicitly import == from Base
+WARNING: module AbstractDomains should explicitly import | from Base
+WARNING: module AbstractDomains should explicitly import & from Base
+WARNING: module AbstractDomains should explicitly import == from Base
+WARNING: module AbstractDomains should explicitly import != from Base
+WARNING: module AbstractDomains should explicitly import == from Base
+WARNING: module AbstractDomains should explicitly import == from Base
+WARNING: module AbstractDomains should explicitly import > from Base
+WARNING: module AbstractDomains should explicitly import < from Base
+WARNING: module AbstractDomains should explicitly import < from Base
+WARNING: module AbstractDomains should explicitly import < from Base
+WARNING: module AbstractDomains should explicitly import <= from Base
+WARNING: module AbstractDomains should explicitly import >= from Base
+WARNING: module AbstractDomains should explicitly import + from Base
+WARNING: module AbstractDomains should explicitly import - from Base
+WARNING: module AbstractDomains should explicitly import * from Base
+WARNING: module AbstractDomains should explicitly import / from Base
+WARNING: module AbstractDomains should explicitly import // from Base
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from /home/vagrant/.julia/v0.4/AbstractDomains/src/domains.jl:22
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/AbstractDomains/src/domains/interval.jl, in expression starting on line 208
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from /home/vagrant/.julia/v0.4/AbstractDomains/src/domains.jl:22
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/AbstractDomains/src/domains/boxes.jl, in expression starting on line 14
+WARNING: module AbstractDomains should explicitly import getindex from Base
+WARNING: module AbstractDomains should explicitly import setindex! from Base
+Running tests:
+ * bool.jl
+ * interval.jl
+ * hyperbox.jl
+WARNING: 
+    Using non-boolean collections with all(itr) is deprecated, use reduce(&, itr) instead.
+    If you are using all(map(f, itr)) or all([f(x) for x in itr]), use all(f, itr) instead.
+ in depwarn at deprecated.jl:73
+ in nonboolean_all at deprecated.jl:802
+ in all at reduce.jl:355
+ in anonymous at test.jl:92
+ in do_test at test.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from /home/vagrant/.julia/v0.4/AbstractDomains/test/runtests.jl:13
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/AbstractDomains/test/hyperbox.jl, in expression starting on line 44
+ * lazybox.jl
+INFO: AbstractDomains tests passed

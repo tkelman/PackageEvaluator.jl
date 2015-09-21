@@ -1,0 +1,19 @@
+INFO: Installing Chipmunk v0.0.4
+INFO: Installing SFML v0.0.9
+INFO: Building SFML
+Successfully built SFML.jl!
+INFO: Building Chipmunk
+Checking dependencies...
+/usr/bin/cmake
+Good...
+HEAD is now at 079a859... Finish the build scripts.
+Configuring Chipmunk2D version 7.0.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vagrant/.julia/v0.4/Chipmunk/deps/Chipmunk2D
+[ 50%] Built target chipmunk
+[100%] Built target chipmunk_static
+Successfully built Chipmunk.jl!
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of Chipmunk
+INFO: Use `Pkg.update()` to get the latest versions of your packages

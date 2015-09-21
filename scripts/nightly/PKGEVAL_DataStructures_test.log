@@ -1,0 +1,803 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7 CPU         960  @ 3.20GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Nehalem)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing DataStructures
+/home/vagrant/.julia/v0.4/DataStructures/test/test_deque.jl ...
+/home/vagrant/.julia/v0.4/DataStructures/test/test_sortedcontainers.jl ...
+WARNING: stored zeros in IntSet is deprecated
+ in depwarn at deprecated.jl:73
+ in in at intset.jl:173
+ in status at /home/vagrant/.julia/v0.4/DataStructures/src/tokens2.jl:63
+ in anonymous at test.jl:90
+ in do_test at test.jl:50
+ in test2 at /home/vagrant/.julia/v0.4/DataStructures/test/test_sortedcontainers.jl:382
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from /home/vagrant/.julia/v0.4/DataStructures/test/runtests.jl:19
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/DataStructures/test/test_sortedcontainers.jl, in expression starting on line 1530
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+/home/vagrant/.julia/v0.4/DataStructures/test/test_stack_and_queue.jl ...
+/home/vagrant/.julia/v0.4/DataStructures/test/test_accumulator.jl ...
+/home/vagrant/.julia/v0.4/DataStructures/test/test_classifiedcollections.jl ...
+/home/vagrant/.julia/v0.4/DataStructures/test/test_disjoint_set.jl ...
+/home/vagrant/.julia/v0.4/DataStructures/test/test_binheap.jl ...
+/home/vagrant/.julia/v0.4/DataStructures/test/test_mutable_binheap.jl ...
+/home/vagrant/.julia/v0.4/DataStructures/test/test_defaultdict.jl ...
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at test.jl:106
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at test.jl:106
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:119
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:119
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:119
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:119
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:119
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:119
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:119
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:119
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at test.jl:106
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at test.jl:106
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+/home/vagrant/.julia/v0.4/DataStructures/test/test_ordereddict.jl ...
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+/home/vagrant/.julia/v0.4/DataStructures/test/test_orderedset.jl ...
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in call at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:30
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in rehash at /home/vagrant/.julia/v0.4/DataStructures/src/hashdict.jl:171
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+/home/vagrant/.julia/v0.4/DataStructures/test/test_trie.jl ...
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in keys at /home/vagrant/.julia/v0.4/DataStructures/src/trie.jl:82
+WARNING: Base.String is deprecated, use AbstractString instead.
+in keys at /home/vagrant/.julia/v0.4/DataStructures/src/trie.jl:82
+WARNING: Base.String is deprecated, use AbstractString instead.
+in keys at /home/vagrant/.julia/v0.4/DataStructures/src/trie.jl:82
+WARNING: Base.String is deprecated, use AbstractString instead.
+in keys at /home/vagrant/.julia/v0.4/DataStructures/src/trie.jl:82
+WARNING: Base.String is deprecated, use AbstractString instead.
+in keys at /home/vagrant/.julia/v0.4/DataStructures/src/trie.jl:82
+WARNING: Base.String is deprecated, use AbstractString instead.
+in keys at /home/vagrant/.julia/v0.4/DataStructures/src/trie.jl:82
+WARNING: Base.Nothing is deprecated, use Void instead.
+in anonymous at test.jl:90
+WARNING: Base.Nothing is deprecated, use Void instead.
+in anonymous at test.jl:90
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+/home/vagrant/.julia/v0.4/DataStructures/test/test_list.jl ...
+/home/vagrant/.julia/v0.4/DataStructures/test/test_multidict.jl ...
+INFO: DataStructures tests passed

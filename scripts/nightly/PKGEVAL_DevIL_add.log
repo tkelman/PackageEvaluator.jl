@@ -1,0 +1,10 @@
+INFO: Installing DevIL v0.2.2
+INFO: Building DevIL
+Reading package lists...
+Building dependency tree...
+Reading state information...
+libdevil1c2 is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of DevIL
+INFO: Use `Pkg.update()` to get the latest versions of your packages

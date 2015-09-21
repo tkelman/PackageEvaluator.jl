@@ -1,0 +1,5 @@
+INFO: Installing Convex v0.0.6
+INFO: Installing MathProgBase v0.3.17
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of Convex
+INFO: Use `Pkg.update()` to get the latest versions of your packages

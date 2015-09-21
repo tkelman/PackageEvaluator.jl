@@ -1,0 +1,50 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7 CPU         960  @ 3.20GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Nehalem)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing DualNumbers
+WARNING: inf{T <: AbstractFloat}(::Type{T}) is deprecated, use convert(T,Inf) instead.
+ in depwarn at deprecated.jl:73
+ in inf at deprecated.jl:50
+ in inf at /home/vagrant/.julia/v0.4/DualNumbers/src/dual.jl:19
+ in anonymous at test.jl:90
+ in do_test at test.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/DualNumbers/test/automatic_differentiation_test.jl, in expression starting on line 57
+WARNING: inf{T <: AbstractFloat}(::Type{T}) is deprecated, use convert(T,Inf) instead.
+ in depwarn at deprecated.jl:73
+ in inf at deprecated.jl:50
+ in anonymous at test.jl:90
+ in do_test at test.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/DualNumbers/test/automatic_differentiation_test.jl, in expression starting on line 57
+WARNING: nan{T <: AbstractFloat}(::Type{T}) is deprecated, use convert(T,NaN) instead.
+ in depwarn at deprecated.jl:73
+ in nan at deprecated.jl:50
+ in nan at /home/vagrant/.julia/v0.4/DualNumbers/src/dual.jl:20
+ in anonymous at test.jl:92
+ in do_test at test.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/DualNumbers/test/automatic_differentiation_test.jl, in expression starting on line 58
+INFO: DualNumbers tests passed

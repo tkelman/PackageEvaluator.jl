@@ -1,0 +1,81 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7 CPU         960  @ 3.20GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Nehalem)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Computing test dependencies for GLM...
+INFO: Installing DataArrays v0.2.18
+INFO: Installing DataFrames v0.6.9
+INFO: Installing Docile v0.5.18
+INFO: Installing GZip v0.2.17
+INFO: Installing SortingAlgorithms v0.0.5
+INFO: Testing GLM
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in close at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:306
+WARNING: Base.String is deprecated, use AbstractString instead.
+in close at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:306
+WARNING: Base.String is deprecated, use AbstractString instead.
+in close at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:306
+WARNING: Base.String is deprecated, use AbstractString instead.
+in close at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:306
+WARNING: Base.String is deprecated, use AbstractString instead.
+in close at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:306
+WARNING: Base.String is deprecated, use AbstractString instead.
+in close at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:306
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzgetc at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:168
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzgetc at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:168
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzgetc at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:168
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:385
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:385
+WARNING: Base.String is deprecated, use AbstractString instead.
+in read at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:385
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzungetc at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:173
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzungetc at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:173
+WARNING: Base.String is deprecated, use AbstractString instead.
+in gzungetc at /home/vagrant/.julia/v0.4/GZip/src/GZip.jl:173
+INFO: GLM tests passed
+INFO: Removing DataArrays v0.2.18
+INFO: Removing DataFrames v0.6.9
+INFO: Removing Docile v0.5.18
+INFO: Removing GZip v0.2.17
+INFO: Removing SortingAlgorithms v0.0.5

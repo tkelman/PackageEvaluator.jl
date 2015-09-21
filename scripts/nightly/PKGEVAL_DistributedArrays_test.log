@@ -1,0 +1,267 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7 CPU         960  @ 3.20GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Nehalem)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Computing test dependencies for DistributedArrays...
+INFO: Installing FactCheck v0.4.0
+INFO: Testing DistributedArrays
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:237
+ in eval at ./sysimg.jl:14
+ in anonymous at multi.jl:1350
+while loading /home/vagrant/.julia/v0.4/DistributedArrays/src/DistributedArrays.jl, in expression starting on line 55
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:237
+ in eval at ./sysimg.jl:14
+ in anonymous at multi.jl:1350
+while loading /home/vagrant/.julia/v0.4/DistributedArrays/src/DistributedArrays.jl, in expression starting on line 481
+WARNING: Union(args...) is deprecated, use Union{args...} instead.WARNING: Union(args...) is deprecated, use Union{args...} instead.WARNING: Union(args...) is deprecated, use Union{args...} instead.WARNING: replacing module DistributedArrays
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+
+
+
+ in  in depwarndepwarn at  at deprecated.jldeprecated.jl::7373
+
+ in  in callcall at  at deprecated.jldeprecated.jl::5050
+
+ in  in include_stringinclude_string at  at loading.jlloading.jl::266266
+
+ in  in include_from_node1include_from_node1 at  at ./loading.jl./loading.jl::307307
+
+ in  in evalrequire at  at ./sysimg.jl./loading.jl::14243
+
+ in  in anonymouseval at  at multi.jl./sysimg.jl::133014
+
+ in  in anonymousanonymous at  at multi.jlmulti.jl::8891350
+
+ in  in run_work_thunkanonymous at  at multi.jlmulti.jl::645892
+
+ in  in run_work_thunkrun_work_thunk at  at multi.jlmulti.jl::654645
+
+ in  [inlined code] from anonymousmulti.jl at :task.jl892:
+ in 58anonymous
+while loading /home/vagrant/.julia/v0.4/DistributedArrays/src/DistributedArrays.jl, in expression starting on line 55 at 
+task.jlWARNING: replacing module DistributedArrays
+WARNING: replacing module DistributedArrays
+WARNING: Union(args...) is deprecated, use Union{args...} instead. in 
+depwarn in  at depwarndeprecated.jl at :deprecated.jl73:
+73 in 
+call in  at calldeprecated.jl at :deprecated.jl50:
+50 in 
+include_string in  at include_stringloading.jl at :loading.jl266:
+266 in 
+include_from_node1 in  at include_from_node1./loading.jl at :./loading.jl307:
+307 in 
+eval in  at require./sysimg.jl at :./loading.jl14:
+243 in 
+anonymous in  at evalmulti.jl at :./sysimg.jl1330:
+14 in 
+anonymous in  at anonymousmulti.jl at :multi.jl889:
+1350 in 
+run_work_thunk in  at anonymousmulti.jl at :multi.jl645:
+892 in 
+run_work_thunk in  at run_work_thunkmulti.jl at :multi.jl654:
+645 in 
+anonymous [inlined code] from  at multi.jltask.jl::89258
+ in 
+while loading /home/vagrant/.julia/v0.4/DistributedArrays/src/DistributedArrays.jl, in expression starting on line 55anonymous
+ at WARNING: Union(args...) is deprecated, use Union{args...} instead. in 
+depwarn in  at depwarndeprecated.jl at :deprecated.jl73:
+73 in 
+call in  at calldeprecated.jl at :deprecated.jl50:
+50 in 
+include_string in  at include_stringloading.jl at :loading.jl266:
+266 in 
+include_from_node1 in  at include_from_node1./loading.jl at :./loading.jl307:
+307 in 
+require in  at eval./loading.jl at :./sysimg.jl243:
+14 in 
+eval in  at anonymous./sysimg.jl at :multi.jl14:
+1330 in 
+anonymous in  at anonymousmulti.jl at :multi.jl1350:
+889 in 
+anonymous in  at run_work_thunkmulti.jl at :multi.jl892:
+645 in 
+run_work_thunk in  at run_work_thunkmulti.jl at :multi.jl645:
+654 [inlined code] from 
+multi.jl in :anonymous892 at 
+ in task.jlanonymous: at 58task.jl
+while loading /home/vagrant/.julia/v0.4/DistributedArrays/src/DistributedArrays.jl, in expression starting on line 55:
+63WARNING: Union(args...) is deprecated, use Union{args...} instead.:
+63 in 
+while loading /home/vagrant/.julia/v0.4/DistributedArrays/src/DistributedArrays.jl, in expression starting on line 55depwarn
+ at WARNING: Union(args...) is deprecated, use Union{args...} instead.task.jl
+: in 63depwarn
+while loading /home/vagrant/.julia/v0.4/DistributedArrays/src/DistributedArrays.jl, in expression starting on line 55 at 
+deprecated.jlWARNING: Union(args...) is deprecated, use Union{args...} instead.
+while loading /home/vagrant/.julia/v0.4/DistributedArrays/src/DistributedArrays.jl, in expression starting on line 55
+
+ in WARNING: Union(args...) is deprecated, use Union{args...} instead.deprecated.jl
+: in 73depwarn
+ at  in deprecated.jlcall: at 73deprecated.jl
+: in 50call
+ at  in deprecated.jlinclude_string: at 50loading.jl
+: in 266include_string
+ at  in loading.jlinclude_from_node1: at 266./loading.jl
+: in 307include_from_node1
+ at  in ./loading.jleval: at 307./sysimg.jl
+: in 14require
+ at  in ./loading.jlanonymous: at 243multi.jl
+: in 1330eval
+ at  in ./sysimg.jlanonymous: at 14multi.jl
+: in 889anonymous
+ at  in multi.jlrun_work_thunk: at 1350multi.jl
+: in 645anonymous
+ at  in multi.jlrun_work_thunk: at 892multi.jl
+: in 654run_work_thunk
+ at  in multi.jlanonymous: at 645task.jl
+: [inlined code] from 58multi.jl
+while loading /home/vagrant/.julia/v0.4/DistributedArrays/src/DistributedArrays.jl, in expression starting on line 481:
+892WARNING: Union(args...) is deprecated, use Union{args...} instead.:
+73 in 
+depwarn in  at calldeprecated.jl at :deprecated.jl73:
+50 in 
+call in  at include_stringdeprecated.jl at :loading.jl50:
+266 in 
+include_string in  at include_from_node1loading.jl at :./loading.jl266:
+307 in 
+include_from_node1 in  at eval./loading.jl at :./sysimg.jl307:
+14 in 
+require in  at anonymous./loading.jl at :multi.jl243:
+1330 in 
+eval in  at anonymous./sysimg.jl at :multi.jl14:
+889 in 
+anonymous in  at run_work_thunkmulti.jl at :multi.jl1350:
+645 in 
+anonymous in  at run_work_thunkmulti.jl at :multi.jl892:
+654 in 
+run_work_thunk in  at anonymousmulti.jl at :task.jl645:
+58 [inlined code] from 
+while loading /home/vagrant/.julia/v0.4/DistributedArrays/src/DistributedArrays.jl, in expression starting on line 481multi.jl
+:WARNING: Union(args...) is deprecated, use Union{args...} instead.depwarn
+ at  in deprecated.jldepwarn: at 73deprecated.jl
+: in 73call
+ at  in deprecated.jlcall: at 50deprecated.jl
+: in 50include_string
+ at  in loading.jlinclude_string: at 266loading.jl
+: in 266include_from_node1
+ at  in ./loading.jlinclude_from_node1: at 307./loading.jl
+: in 307eval
+ at  in ./sysimg.jlrequire: at 14./loading.jl
+: in 243anonymous
+ at  in multi.jleval: at 1330./sysimg.jl
+: in 14anonymous
+ at  in multi.jlanonymous: at 889multi.jl
+: in 1350run_work_thunk
+ at  in multi.jlanonymous: at 645multi.jl
+: in 892run_work_thunk
+ at  in multi.jlrun_work_thunk: at 654multi.jl
+: in 645anonymous
+ at  [inlined code] from task.jlmulti.jl::58892
+while loading /home/vagrant/.julia/v0.4/DistributedArrays/src/DistributedArrays.jl, in expression starting on line 481
+ in 
+anonymous
+ in 892
+ in anonymous at task.jl:63
+while loading /home/vagrant/.julia/v0.4/DistributedArrays/src/DistributedArrays.jl, in expression starting on line 481
+ at task.jl:63
+while loading /home/vagrant/.julia/v0.4/DistributedArrays/src/DistributedArrays.jl, in expression starting on line 481
+anonymous at task.jl:63
+while loading /home/vagrant/.julia/v0.4/DistributedArrays/src/DistributedArrays.jl, in expression starting on line 481
+test distribute
+  > test default distribute
+  > test distribute with procs arguments
+2 facts verified.
+test DArray equality
+  > test isequal(::Array, ::DArray)
+  > test copy(::DArray) does a copy of each localpart
+2 facts verified.
+test @DArray comprehension constructor
+  > test valid use of @DArray
+  > test invalid use of @DArray
+2 facts verified.
+test DArray / Array conversion
+  > test convert(::Array, ::(Sub)DArray)
+3 facts verified.
+test DArray reduce
+  > test reduce
+  > test map / reduce
+  > test map! / reduce
+3 facts verified.
+test scale
+Worker 2 terminated.  Error
+ :: (line:-1)
+ERROR (unhandled task failure): UndefRefError: access to undefined reference
+    Expression: scale!(DA,2) --> scale!(A,2)
+    ProcessExitedException()
+     in yieldto at ./task.jl:71
+     in wait at ./task.jl:371
+     in wait at ./task.jl:286
+     in wait at ./channels.jl:93
+     in take! at ./channels.jl:82
+     in take! at ./multi.jl:792
+     in remotecall_fetch at multi.jl:729
+     in getindex at multi.jl:1664
+     in getindex_tuple at /home/vagrant/.julia/v0.4/DistributedArrays/src/DistributedArrays.jl:415
+     in getindex at /home/vagrant/.julia/v0.4/DistributedArrays/src/DistributedArrays.jl:418
+     in == at abstractarray.jl:1041
+     in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:266
+     in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+     in do_fact at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:333
+     [inlined code] from /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+     in anonymous at /home/vagrant/.julia/v0.4/DistributedArrays/test/darray.jl:75
+     in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+     in include at ./boot.jl:261
+     in include_from_node1 at ./loading.jl:304
+     in include at ./boot.jl:261
+     in include_from_node1 at ./loading.jl:304
+     in process_options at ./client.jl:308
+     in _start at ./client.jl:411
+Out of 1 total fact:
+  Errored:  1
+test mapreduce on DArrays
+150 facts verified.
+test mapreducedim on DArrays
+ERROR: LoadError: LoadError: ProcessExitedException()
+ in worker_from_id at ./multi.jl:371
+ in call at /home/vagrant/.julia/v0.4/DistributedArrays/src/DistributedArrays.jl:72
+ in call at /home/vagrant/.julia/v0.4/DistributedArrays/src/DistributedArrays.jl:81
+ in anonymous at /home/vagrant/.julia/v0.4/DistributedArrays/test/darray.jl:89
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/DistributedArrays/test/darray.jl, in expression starting on line 88
+while loading /home/vagrant/.julia/v0.4/DistributedArrays/test/runtests.jl, in expression starting on line 15
+==========================[ ERROR: DistributedArrays ]==========================
+
+failed process: Process(`/home/vagrant/julia/bin/julia --check-bounds=yes --code-coverage=none --color=no /home/vagrant/.julia/v0.4/DistributedArrays/test/runtests.jl`, ProcessExited(1)) [1]
+
+================================================================================
+INFO: Removing FactCheck v0.4.0
+ERROR: DistributedArrays had test errors
+ in error at ./error.jl:21
+ in test at pkg/entry.jl:753
+ in anonymous at pkg/dir.jl:31
+ in cd at file.jl:22
+ in cd at pkg/dir.jl:31
+ in test at pkg.jl:71
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411

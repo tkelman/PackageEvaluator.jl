@@ -1,0 +1,110 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7 CPU         960  @ 3.20GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Nehalem)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing Clp
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Cbc/src/CbcCInterface.jl, in expression starting on line 110
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Clp/src/ClpCInterface.jl, in expression starting on line 308
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+Testing linprog with solver Clp.ClpMathProgSolverInterface.ClpSolver
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Element type Int64 does not have an infinite value. Note that this may artifically introduce ranged (two-sided) constraints. To avoid this, consider casting the problem data to Float64.
+Passed
+Problem LIN1
+Problem LIN1A
+Problem LIN2
+Problem LIN2A
+Problem LIN3
+Problem LIN4
+Coin0506I Presolve 0 (-1) rows, 0 (-2) columns and 0 (-2) elements
+Clp3002W Empty problem - 0 rows, 0 columns and 0 elements
+Clp0000I Optimal - objective value -0.75
+Coin0511I After Postsolve, objective -0.75, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective -0.75 - 0 iterations time 0.002, Presolve 0.00
+Coin0506I Presolve 0 (-1) rows, 0 (-2) columns and 0 (-2) elements
+Clp3002W Empty problem - 0 rows, 0 columns and 0 elements
+Clp0000I Optimal - objective value -0.75
+Coin0511I After Postsolve, objective -0.75, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective -0.75 - 0 iterations time 0.002, Presolve 0.00
+Coin0507I Presolve determined that the problem was infeasible with tolerance of 1e-08
+Clp3003W Analysis indicates model infeasible or unbounded
+Clp0006I 0  Obj 0 Primal inf 0.9999999 (1)
+Clp0006I 0  Obj 0 Primal inf 0.9999999 (1)
+Clp0001I Primal infeasible - objective value 0
+Clp0032I PrimalInfeasible objective 0 - 0 iterations time 0.002
+Coin0508I Presolve thinks problem is unbounded
+Clp3003W Analysis indicates model infeasible or unbounded
+Clp0006I 0  Obj 0 Dual inf 1.9999998 (2)
+Clp0006I 1  Obj -1.5e+10
+Clp0002I Dual infeasible - objective value -7.5e+10
+Clp0032I DualInfeasible objective -7.5e+10 - 1 iterations time 0.002
+Coin0508I Presolve thinks problem is unbounded
+Clp3003W Analysis indicates model infeasible or unbounded
+Clp0006I 0  Obj 0 Dual inf 1.9999998 (2)
+Clp0002I Dual infeasible - objective value -6.25e+13
+Clp0032I DualInfeasible objective -6.25e+13 - 0 iterations time 0.002
+INFO: Clp tests passed
