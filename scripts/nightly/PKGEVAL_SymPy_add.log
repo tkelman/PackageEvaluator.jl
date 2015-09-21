@@ -1,0 +1,9 @@
+INFO: Cloning cache of SymPy from git://github.com/jverzani/SymPy.jl.git
+INFO: Installing Dates v0.4.4
+INFO: Installing MacroTools v0.2.0
+INFO: Installing PyCall v1.0.2
+INFO: Installing Requires v0.2.0
+INFO: Installing SymPy v0.2.28
+INFO: Building PyCall
+INFO: PyCall is using python (Python 2.7.6) at /usr/bin/python, libpython = libpython2.7
+INFO: Package database updated

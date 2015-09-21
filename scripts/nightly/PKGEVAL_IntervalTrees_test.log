@@ -1,0 +1,50 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Computing test dependencies for IntervalTrees...
+INFO: Installing FactCheck v0.4.0
+INFO: Testing IntervalTrees
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: The `=>` syntax is deprecated, use `-->` instead
+Getters
+5 facts verified.
+Search
+  > true positives
+  > true negatives
+7 facts verified.
+Iteration
+  > from
+5 facts verified.
+Interval Intersection
+13 facts verified.
+Nonunique
+5 facts verified.
+Tree Intersection
+3 facts verified.
+Insertion
+  > random insertions
+  > ordered insertions
+  > reverse ordered insertions
+  > bulk insertion
+24 facts verified.
+Updates
+4 facts verified.
+Deletion
+35 facts verified.
+Slices
+11 facts verified.
+Low Level
+8 facts verified.
+INFO: IntervalTrees tests passed
+INFO: Removing FactCheck v0.4.0

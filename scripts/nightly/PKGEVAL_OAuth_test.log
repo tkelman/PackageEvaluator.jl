@@ -1,0 +1,1136 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing OAuth
+INFO: Recompiling stale cache file /home/vagrant/.julia/lib/v0.4/MbedTLS.ji for module MbedTLS.
+INFO: Recompiling stale cache file /home/vagrant/.julia/lib/v0.4/Requests.ji for module Requests.
+INFO: Recompiling stale cache file /home/vagrant/.julia/lib/v0.4/HttpParser.ji for module HttpParser.
+WARNING: Base.Uint32 is deprecated, use UInt32 instead.
+WARNING: Base.Uint64 is deprecated, use UInt64 instead.
+WARNING: Base.Uint32 is deprecated, use UInt32 instead.
+WARNING: Base.Uint64 is deprecated, use UInt64 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Requests/src/multipart.jl, in expression starting on line 30
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Requests/src/multipart.jl, in expression starting on line 30
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Requests/src/multipart.jl, in expression starting on line 30
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Requests/src/multipart.jl, in expression starting on line 30
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Requests/src/multipart.jl, in expression starting on line 30
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Requests/src/multipart.jl, in expression starting on line 57
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Requests/src/multipart.jl, in expression starting on line 111
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:75
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:88
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:75
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:88
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:75
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:88
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:75
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:88
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:75
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:88
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:75
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:88
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:75
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:88
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:75
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:88
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:75
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:88
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:75
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:88
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:75
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:88
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:75
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:88
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:75
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:88
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:75
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:88
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:75
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:88
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:75
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:88
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:75
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:88
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:75
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in cipher_init at /home/vagrant/.julia/v0.4/Nettle/src/cipher.jl:88
+ in __init__ at /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl:27
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Nettle/src/Nettle.jl, in expression starting on line 36
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+oauth_timestamp
+  > returns a string
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+  > returns a value representing a time after 2014-01-25 20:25:00
+2 facts verified.
+ouath_nonce
+  > returns a string
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+  > with a length equal to the parameter length
+6 facts verified.
+oauth_sign_hmac_sha1
+  > provides a consistent string
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+1 fact verified.
+oauth_signing_key
+  > returns a concatenation of values, seperated by &
+1 fact verified.
+oauth_signature_base_string
+  > returns a concatinated and percent-encoded string
+1 fact verified.
+oauth_percent_encode_keys!
+  > replaces un-encoded keys with their encoded versions
+1 fact verified.
+oauth_serialize_url_parameters
+  > returns an & concatinated string of key=value
+1 fact verified.
+encodeURI!
+  > escapes all values in the parameters that are strings
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in encodeURI! at /home/vagrant/.julia/v0.4/OAuth/src/OAuth.jl:88
+WARNING: Base.String is deprecated, use AbstractString instead.
+in encodeURI! at /home/vagrant/.julia/v0.4/OAuth/src/OAuth.jl:88
+WARNING: Base.String is deprecated, use AbstractString instead.
+in encodeURI! at /home/vagrant/.julia/v0.4/OAuth/src/OAuth.jl:88
+1 fact verified.
+oauth_body_hash_encode
+  > returns the base64 encoded SHA1 digest of the data
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint32 is deprecated, use UInt32 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint32 is deprecated, use UInt32 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint32 is deprecated, use UInt32 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint32 is deprecated, use UInt32 instead.
+WARNING: Base.Uint32 is deprecated, use UInt32 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint32 is deprecated, use UInt32 instead.
+WARNING: Base.Uint32 is deprecated, use UInt32 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint32 is deprecated, use UInt32 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+1 fact verified.
+oauth_body_hash_data
+  > returns a string of the oauth_body_hash key-value pair 
+1 fact verified.
+oauth_body_hash_file
+  > returns a string of the oauth_body_hash key-value pair 
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+1 fact verified.
+INFO: OAuth tests passed

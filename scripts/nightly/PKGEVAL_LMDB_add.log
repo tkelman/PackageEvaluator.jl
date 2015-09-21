@@ -1,0 +1,20 @@
+INFO: Cloning cache of LMDB from git://github.com/wildart/LMDB.jl.git
+INFO: Installing LMDB v0.0.4
+INFO: Building LMDB
+INFO: Attempting to Create directory /home/vagrant/.julia/v0.4/LMDB/deps/downloads
+INFO: Downloading file https://github.com/LMDB/lmdb/archive/LMDB_0.9.15.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   122    0   122    0     0   1842      0 --:--:-- --:--:-- --:--:--  1848
+  0     0    0  127k    0     0   563k      0 --:--:-- --:--:-- --:--:--  563k
+INFO: Done downloading file https://github.com/LMDB/lmdb/archive/LMDB_0.9.15.tar.gz
+INFO: Attempting to Create directory /home/vagrant/.julia/v0.4/LMDB/deps/src
+INFO: Attempting to Create directory /home/vagrant/.julia/v0.4/LMDB/deps
+INFO: Directory /home/vagrant/.julia/v0.4/LMDB/deps already created
+INFO: Attempting to Create directory /home/vagrant/.julia/v0.4/LMDB/deps/usr/lib
+make: Entering directory `/home/vagrant/.julia/v0.4/LMDB/deps/src/lmdb-LMDB_0.9.15/libraries/liblmdb'
+gcc -pthread -O2 -g -W -Wall -Wno-unused-parameter -Wbad-function-cast -Wuninitialized  -fPIC  -c mdb.c -o mdb.lo
+gcc -pthread -O2 -g -W -Wall -Wno-unused-parameter -Wbad-function-cast -Wuninitialized  -fPIC  -c midl.c -o midl.lo
+gcc  -pthread -shared -o liblmdb.so mdb.lo midl.lo 
+make: Leaving directory `/home/vagrant/.julia/v0.4/LMDB/deps/src/lmdb-LMDB_0.9.15/libraries/liblmdb'
+INFO: Package database updated

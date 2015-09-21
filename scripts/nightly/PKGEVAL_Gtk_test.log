@@ -1,0 +1,553 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing Gtk
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/GLib/GLib.jl, in expression starting on line 61
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/GLib/glist.jl, in expression starting on line 38
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/GLib/gtype.jl, in expression starting on line 381
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/GLib/gvalues.jl, in expression starting on line 9
+INFO: Recompiling stale cache file /home/vagrant/.julia/lib/v0.4/Cairo.ji for module Cairo.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/Gtk.jl, in expression starting on line 31
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/container.jl, in expression starting on line 21
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/layout.jl, in expression starting on line 34
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/layout.jl, in expression starting on line 34
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/layout.jl, in expression starting on line 68
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/layout.jl, in expression starting on line 68
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/layout.jl, in expression starting on line 208
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/layout.jl, in expression starting on line 208
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/layout.jl, in expression starting on line 214
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/layout.jl, in expression starting on line 214
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/layout.jl, in expression starting on line 220
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/layout.jl, in expression starting on line 220
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/lists.jl, in expression starting on line 64
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/lists.jl, in expression starting on line 300
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/lists.jl, in expression starting on line 301
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/lists.jl, in expression starting on line 307
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/lists.jl, in expression starting on line 459
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/lists.jl, in expression starting on line 459
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/buttons.jl, in expression starting on line 96
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/text.jl, in expression starting on line 50
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/selectors.jl, in expression starting on line 42
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/selectors.jl, in expression starting on line 62
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/selectors.jl, in expression starting on line 66
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/selectors.jl, in expression starting on line 72
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/selectors.jl, in expression starting on line 72
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/selectors.jl, in expression starting on line 72
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/selectors.jl, in expression starting on line 103
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/selectors.jl, in expression starting on line 103
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/selectors.jl, in expression starting on line 103
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/cairo.jl, in expression starting on line 2
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/cairo.jl, in expression starting on line 2
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/windows.jl, in expression starting on line 1
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/windows.jl, in expression starting on line 1
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/windows.jl, in expression starting on line 1
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/windows.jl, in expression starting on line 1
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Gtk/src/windows.jl, in expression starting on line 1
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Method definition g_type(Type{##9#T<:Gtk.GtkWidget}) in module Gtk at /home/vagrant/.julia/v0.4/Gtk/src/GLib/gtype.jl:181 overwritten in module Test at /home/vagrant/.julia/v0.4/Gtk/src/GLib/gtype.jl:181.
+The following messages:
+   WARNING: Error in @guarded callback
+are expected and a sign of normal operation.
+WARNING: Error in @guarded callback
+ERROR: UndefVarError: k not defined
+ [inlined code] from /home/vagrant/.julia/v0.4/Gtk/test/misc.jl:8
+ in anonymous at /home/vagrant/.julia/v0.4/Gtk/src/base.jl:86
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+WARNING: Error in @guarded callback
+ERROR: UndefVarError: k not defined
+ [inlined code] from /home/vagrant/.julia/v0.4/Gtk/test/misc.jl:10
+ in bar2 at /home/vagrant/.julia/v0.4/Gtk/src/base.jl:86
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+WARNING: Error in @guarded callback
+ERROR: UndefVarError: k not defined
+ [inlined code] from /home/vagrant/.julia/v0.4/Gtk/test/misc.jl:15
+ in bar3 at /home/vagrant/.julia/v0.4/Gtk/src/base.jl:86
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+WARNING: Error in @guarded callback
+ERROR: UndefVarError: k not defined
+ [inlined code] from /home/vagrant/.julia/v0.4/Gtk/test/misc.jl:18
+ in bar4 at /home/vagrant/.julia/v0.4/Gtk/src/base.jl:86
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+INFO: Gtk tests passed

@@ -1,0 +1,25 @@
+INFO: Cloning cache of SingularIntegralEquations from git://github.com/ApproxFun/SingularIntegralEquations.jl.git
+INFO: Installing ApproxFun v0.0.8
+INFO: Installing FastGaussQuadrature v0.0.1
+INFO: Installing SingularIntegralEquations v0.0.1
+INFO: Building SingularIntegralEquations
+gcc-4.9 -shared -fPIC -fopenmp -O3 -std=c99 -lm -lgomp fundsol.c -o liblhelmfs.so
+make: gcc-4.9: Command not found
+make: *** [all] Error 127
+======================[ ERROR: SingularIntegralEquations ]======================
+
+LoadError: failed process: Process(`make`, ProcessExited(2)) [2]
+while loading /home/vagrant/.julia/v0.4/SingularIntegralEquations/deps/build.jl, in expression starting on line 3
+
+================================================================================
+
+================================[ BUILD ERRORS ]================================
+
+WARNING: SingularIntegralEquations had build errors.
+
+ - packages with build errors remain installed in /home/vagrant/.julia/v0.4
+ - build the package(s) and all dependencies with `Pkg.build("SingularIntegralEquations")`
+ - build a single package by running its `deps/build.jl` script
+
+================================================================================
+INFO: Package database updated

@@ -1,0 +1,10 @@
+INFO: Cloning cache of MixedModels from git://github.com/dmbates/MixedModels.jl.git
+INFO: Installing Distributions v0.8.6
+INFO: Installing Iterators v0.1.9
+INFO: Installing MathProgBase v0.3.17
+INFO: Installing MixedModels v0.4.0
+INFO: Installing NLopt v0.2.2
+INFO: Installing PDMats v0.3.5
+INFO: Installing Showoff v0.0.5
+INFO: Building NLopt
+INFO: Package database updated

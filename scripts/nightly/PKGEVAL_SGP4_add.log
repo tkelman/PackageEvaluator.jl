@@ -1,0 +1,7 @@
+INFO: Cloning cache of SGP4 from git://github.com/crbinz/SGP4.jl.git
+INFO: Installing Dates v0.4.4
+INFO: Installing PyCall v1.0.2
+INFO: Installing SGP4 v0.0.2
+INFO: Building PyCall
+INFO: PyCall is using python (Python 2.7.6) at /usr/bin/python, libpython = libpython2.7
+INFO: Package database updated

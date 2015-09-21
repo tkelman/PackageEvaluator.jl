@@ -1,0 +1,14 @@
+INFO: Cloning cache of AWS from git://github.com/amitmurthy/AWS.jl.git
+INFO: Cloning cache of HTTPClient from git://github.com/JuliaWeb/HTTPClient.jl.git
+INFO: Cloning cache of LibCURL from git://github.com/JuliaWeb/LibCURL.jl.git
+INFO: Cloning cache of LibExpat from git://github.com/amitmurthy/LibExpat.jl.git
+INFO: Installing AWS v0.1.11
+INFO: Installing BinDeps v0.3.17
+INFO: Installing HTTPClient v0.1.5
+INFO: Installing HttpCommon v0.2.3
+INFO: Installing LibCURL v0.1.5
+INFO: Installing LibExpat v0.0.8
+INFO: Installing SHA v0.1.2
+INFO: Installing URIParser v0.1.0
+INFO: Building LibCURL
+INFO: Package database updated

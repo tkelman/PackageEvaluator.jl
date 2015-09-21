@@ -1,0 +1,58 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing LinearResponseVariationalBayes
+WARNING: `require` is deprecated, use `using` or `import` instead
+ in depwarn at deprecated.jl:73
+ [inlined code] from deprecated.jl:693
+ in require at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/LinearResponseVariationalBayes/src/LinearResponseVariationalBayes.jl, in expression starting on line 6
+
+WARNING: deprecated syntax "MatrixTuple (" at /home/vagrant/.julia/v0.4/LinearResponseVariationalBayes/src/ExponentialFamilies.jl:59.
+Use "MatrixTuple(" instead.
+ERROR: LoadError: LoadError: LoadError: TypeError: Array: in parameter, expected Type{T}, got Tuple{DataType,DataType,DataType}
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in reload_path at require.jl:120
+ in _require at require.jl:63
+ in require at require.jl:47
+ [inlined code] from deprecated.jl:696
+ in require at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/LinearResponseVariationalBayes/src/ExponentialFamilies.jl, in expression starting on line 61
+while loading /home/vagrant/.julia/v0.4/LinearResponseVariationalBayes/src/LinearResponseVariationalBayes.jl, in expression starting on line 7
+while loading /home/vagrant/.julia/v0.4/LinearResponseVariationalBayes/test/runtests.jl, in expression starting on line 3
+===================[ ERROR: LinearResponseVariationalBayes ]====================
+
+failed process: Process(`/home/vagrant/julia/bin/julia --check-bounds=yes --code-coverage=none --color=no /home/vagrant/.julia/v0.4/LinearResponseVariationalBayes/test/runtests.jl`, ProcessExited(1)) [1]
+
+================================================================================
+ERROR: LinearResponseVariationalBayes had test errors
+ in error at ./error.jl:21
+ in test at pkg/entry.jl:753
+ in anonymous at pkg/dir.jl:31
+ in cd at file.jl:22
+ in cd at pkg/dir.jl:31
+ in test at pkg.jl:71
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411

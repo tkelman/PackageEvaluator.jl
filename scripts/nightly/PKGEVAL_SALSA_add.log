@@ -1,0 +1,14 @@
+INFO: Cloning cache of SALSA from git://github.com/jumutc/SALSA.jl.git
+INFO: Installing Blosc v0.1.4
+INFO: Installing Clustering v0.4.0
+INFO: Installing Distances v0.2.0
+INFO: Installing Distributions v0.8.6
+INFO: Installing HDF5 v0.5.5
+INFO: Installing Iterators v0.1.9
+INFO: Installing MAT v0.2.12
+INFO: Installing MLBase v0.5.2
+INFO: Installing PDMats v0.3.5
+INFO: Installing SALSA v0.0.4
+INFO: Building Blosc
+INFO: Building HDF5
+INFO: Package database updated

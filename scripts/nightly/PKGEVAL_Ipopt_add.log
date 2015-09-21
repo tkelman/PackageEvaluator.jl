@@ -1,0 +1,7 @@
+INFO: Installing Ipopt v0.1.16
+INFO: Installing MathProgBase v0.3.17
+INFO: Building Ipopt
+
+WARNING: deprecated syntax "[a=>b, ...]" at /home/vagrant/.julia/v0.4/Ipopt/deps/build.jl:72.
+Use "Dict(a=>b, ...)" instead.
+INFO: Package database updated

@@ -1,0 +1,8 @@
+INFO: Cloning cache of WorldBankData from git://github.com/4gh/WorldBankData.jl.git
+INFO: Installing HTTPClient v0.1.5
+INFO: Installing LibCURL v0.1.5
+INFO: Installing WorldBankData v0.0.4
+INFO: Building LibCURL
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of WorldBankData
+INFO: Use `Pkg.update()` to get the latest versions of your packages

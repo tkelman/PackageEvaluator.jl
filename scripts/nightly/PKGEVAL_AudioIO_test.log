@@ -1,0 +1,457 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Computing test dependencies for AudioIO...
+INFO: Installing FactCheck v0.4.0
+INFO: Testing AudioIO
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from /home/vagrant/.julia/v0.4/AudioIO/test/runtests.jl:14
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/AudioIO/src/nodes.jl, in expression starting on line 16
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from /home/vagrant/.julia/v0.4/AudioIO/test/runtests.jl:14
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/AudioIO/src/nodes.jl, in expression starting on line 16
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from /home/vagrant/.julia/v0.4/AudioIO/test/runtests.jl:14
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/AudioIO/src/nodes.jl, in expression starting on line 127
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from /home/vagrant/.julia/v0.4/AudioIO/test/runtests.jl:14
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/AudioIO/src/nodes.jl, in expression starting on line 127
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/AudioIO/src/portaudio.jl:40.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: int32(x) is deprecated, use Int32(x) instead.
+ in depwarn at deprecated.jl:73
+ in int32 at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from /home/vagrant/.julia/v0.4/AudioIO/test/runtests.jl:14
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/AudioIO/src/sndfile.jl, in expression starting on line 3
+
+WARNING: deprecated syntax "[a=>b, ...]" at /home/vagrant/.julia/v0.4/AudioIO/src/sndfile.jl:20.
+Use "Dict(a=>b, ...)" instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: module AudioIO should explicitly import * from Base
+WARNING: module AudioIO should explicitly import + from Base
+WARNING: module AudioIO should explicitly import + from Base
+WARNING: module AudioIO should explicitly import + from Base
+WARNING: module AudioIO should explicitly import + from Base
+WARNING: module AudioIO should explicitly import + from Base
+WARNING: module AudioIO should explicitly import + from Base
+WARNING: The `=>` syntax is deprecated, use `-->` instead
+Array playback
+  > Playing Float32 arrays
+  > Playing Float64 arrays
+  > Playing Int8(Signed) arrays
+WARNING: T[a:b] concatenation is deprecated; use T[a:b;] instead
+ in depwarn at deprecated.jl:73
+ in getindex at deprecated.jl:662
+ in anonymous at /home/vagrant/.julia/v0.4/AudioIO/test/test_AudioIO.jl:57
+ in context at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:474
+ in anonymous at /home/vagrant/.julia/v0.4/AudioIO/test/test_AudioIO.jl:56
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from /home/vagrant/.julia/v0.4/AudioIO/test/runtests.jl:14
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/AudioIO/test/test_AudioIO.jl, in expression starting on line 36
+    Error :: (line:-1) :: Playing Int8(Signed) arrays
+      Expression: (process(test_stream))[1:255] --> mse(convert(AudioBuf,linspace(-1.0,1.0,255)))
+      MethodError: `convert` has no method matching convert(::Type{Array{Float32,N}}, ::LinSpace{Float64})
+      This may have arisen from a call to the constructor Array{Float32,N}(...),
+      since type constructors fall back to convert methods.
+      Closest candidates are:
+        call{T}(::Type{T}, ::Any)
+        convert{T,n}(::Type{Array{T,N}}, !Matched::Array{T,n})
+        convert{T,n,S}(::Type{Array{T,N}}, !Matched::Array{S,n})
+        ...
+       in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:259
+       in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+       in do_fact at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:333
+       [inlined code] from /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+       in anonymous at /home/vagrant/.julia/v0.4/AudioIO/test/test_AudioIO.jl:57
+       in context at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:474
+       in anonymous at /home/vagrant/.julia/v0.4/AudioIO/test/test_AudioIO.jl:56
+       in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+       in include at ./boot.jl:261
+       in include_from_node1 at ./loading.jl:304
+       [inlined code] from /home/vagrant/.julia/v0.4/AudioIO/test/runtests.jl:14
+       in anonymous at no file:0
+       in include at ./boot.jl:261
+       in include_from_node1 at ./loading.jl:304
+       in process_options at ./client.jl:308
+       in _start at ./client.jl:411
+  > Playing Uint8(Unsigned) arrays
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in anonymous at /home/vagrant/.julia/v0.4/AudioIO/test/test_AudioIO.jl:65
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in anonymous at /home/vagrant/.julia/v0.4/AudioIO/test/test_AudioIO.jl:65
+WARNING: T[a:b] concatenation is deprecated; use T[a:b;] instead
+ in depwarn at deprecated.jl:73
+ in getindex at deprecated.jl:662
+ in anonymous at /home/vagrant/.julia/v0.4/AudioIO/test/test_AudioIO.jl:65
+ in context at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:474
+ in anonymous at /home/vagrant/.julia/v0.4/AudioIO/test/test_AudioIO.jl:64
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from /home/vagrant/.julia/v0.4/AudioIO/test/runtests.jl:14
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/AudioIO/test/test_AudioIO.jl, in expression starting on line 36
+    Error :: (line:-1) :: Playing Uint8(Unsigned) arrays
+      Expression: (process(test_stream))[1:255] --> mse(convert(AudioBuf,linspace(-1.0,1.0,255)))
+      MethodError: `convert` has no method matching convert(::Type{Array{Float32,N}}, ::LinSpace{Float64})
+      This may have arisen from a call to the constructor Array{Float32,N}(...),
+      since type constructors fall back to convert methods.
+      Closest candidates are:
+        call{T}(::Type{T}, ::Any)
+        convert{T,n}(::Type{Array{T,N}}, !Matched::Array{T,n})
+        convert{T,n,S}(::Type{Array{T,N}}, !Matched::Array{S,n})
+        ...
+       in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:259
+       in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+       in do_fact at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:333
+       [inlined code] from /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+       in anonymous at /home/vagrant/.julia/v0.4/AudioIO/test/test_AudioIO.jl:65
+       in context at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:474
+       in anonymous at /home/vagrant/.julia/v0.4/AudioIO/test/test_AudioIO.jl:64
+       in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+       in include at ./boot.jl:261
+       in include_from_node1 at ./loading.jl:304
+       [inlined code] from /home/vagrant/.julia/v0.4/AudioIO/test/runtests.jl:14
+       in anonymous at no file:0
+       in include at ./boot.jl:261
+       in include_from_node1 at ./loading.jl:304
+       in process_options at ./client.jl:308
+       in _start at ./client.jl:411
+Out of 4 total facts:
+  Verified: 2
+  Errored:  2
+AudioNode Stopping
+1 fact verified.
+Audio Device Listing
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+INFO: Initializing PortAudio. Expect errors as we scan devices
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4248:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4248:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4248:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM sysdefault
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4248:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4248:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4248:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM sysdefault
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4248:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4248:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4248:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM default
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4248:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4248:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4248:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM default
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4248:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4248:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4248:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM dmix
+1 fact verified.
+WARNING: New definition 
+    call(Type{AudioIO.AudioNode{TestAudioIONodes.TestRenderer}}, Any) at /home/vagrant/.julia/v0.4/AudioIO/test/test_nodes.jl:17
+is ambiguous with: 
+    call(Type{AudioIO.AudioNode{#T<:AudioIO.AudioRenderer}}, AudioIO.AudioRenderer) at /home/vagrant/.julia/v0.4/AudioIO/src/AudioIO.jl:40.
+To fix, define 
+    call(Type{AudioIO.AudioNode{TestAudioIONodes.TestRenderer}}, AudioIO.AudioRenderer)
+before the new definition.
+Validating TestNode allocation
+WARNING: T[a:b] concatenation is deprecated; use T[a:b;] instead
+ in depwarn at deprecated.jl:73
+ in getindex at deprecated.jl:662
+ in call at /home/vagrant/.julia/v0.4/AudioIO/test/test_nodes.jl:17
+ in anonymous at /home/vagrant/.julia/v0.4/AudioIO/test/test_nodes.jl:29
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from /home/vagrant/.julia/v0.4/AudioIO/test/runtests.jl:14
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/AudioIO/test/test_nodes.jl, in expression starting on line 28
+1 fact verified.
+AudioMixer
+  > 0 Input Mixer
+    Failure :: (line:-1) :: 0 Input Mixer :: fact was false
+      Expression: @allocated render(mix,dev_input,test_info) --> 48
+        Expected: 48
+        Occurred: 64
+  > 1 Input Mixer
+WARNING: T[a:b] concatenation is deprecated; use T[a:b;] instead
+ in depwarn at deprecated.jl:73
+ in getindex at deprecated.jl:662
+ in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:259
+ in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+ in do_fact at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:333
+ [inlined code] from /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:271
+ in anonymous at /home/vagrant/.julia/v0.4/AudioIO/test/test_nodes.jl:51
+ in context at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:474
+ in anonymous at /home/vagrant/.julia/v0.4/AudioIO/test/test_nodes.jl:50
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from /home/vagrant/.julia/v0.4/AudioIO/test/runtests.jl:14
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/AudioIO/test/test_nodes.jl, in expression starting on line 42
+  > 2 Input Mixer
+Out of 8 total facts:
+  Verified: 7
+  Failed:   1
+SinOSC
+WARNING: int(x::AbstractFloat) is deprecated, use round(Int,x) instead.
+ in depwarn at deprecated.jl:73
+ in int at deprecated.jl:50
+ in anonymous at /home/vagrant/.julia/v0.4/AudioIO/test/test_nodes.jl:84
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from /home/vagrant/.julia/v0.4/AudioIO/test/runtests.jl:14
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/AudioIO/test/test_nodes.jl, in expression starting on line 80
+  > Fixed Frequency
+  > Testing SinOsc with signal input
+WARNING: int(x::AbstractFloat) is deprecated, use round(Int,x) instead.
+ in depwarn at deprecated.jl:73
+ in int at deprecated.jl:50
+ in render at /home/vagrant/.julia/v0.4/AudioIO/src/nodes.jl:309
+ in render at /home/vagrant/.julia/v0.4/AudioIO/src/AudioIO.jl:48
+ in render at /home/vagrant/.julia/v0.4/AudioIO/src/nodes.jl:56
+ in render at /home/vagrant/.julia/v0.4/AudioIO/src/AudioIO.jl:48
+ in anonymous at /home/vagrant/.julia/v0.4/AudioIO/test/test_nodes.jl:114
+ in context at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:474
+ in anonymous at /home/vagrant/.julia/v0.4/AudioIO/test/test_nodes.jl:101
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from /home/vagrant/.julia/v0.4/AudioIO/test/runtests.jl:14
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/AudioIO/test/test_nodes.jl, in expression starting on line 80
+    Failure :: (line:-1) :: Testing SinOsc with signal input :: fact was false
+      Expression: @allocated render(osc,dev_input,test_info) --> 160
+        Expected: 160
+        Occurred: 643024
+Out of 7 total facts:
+  Verified: 6
+  Failed:   1
+AudioInput
+1 fact verified.
+ArrayPlayer
+  > playing long sample
+  > testing end of vector
+5 facts verified.
+Gain
+  > Constant Gain
+  > Gain by a Signal
+4 facts verified.
+LinRamp
+ERROR: LoadError: LoadError: MethodError: `convert` has no method matching convert(::Type{Array{Float32,N}}, ::LinSpace{Float64})
+This may have arisen from a call to the constructor Array{Float32,N}(...),
+since type constructors fall back to convert methods.
+Closest candidates are:
+  call{T}(::Type{T}, ::Any)
+  convert{T,n}(::Type{Array{T,N}}, !Matched::Array{T,n})
+  convert{T,n,S}(::Type{Array{T,N}}, !Matched::Array{S,n})
+  ...
+ in anonymous at /home/vagrant/.julia/v0.4/AudioIO/test/test_nodes.jl:174
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from /home/vagrant/.julia/v0.4/AudioIO/test/runtests.jl:14
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/AudioIO/test/test_nodes.jl, in expression starting on line 172
+while loading /home/vagrant/.julia/v0.4/AudioIO/test/runtests.jl, in expression starting on line 13
+===============================[ ERROR: AudioIO ]===============================
+
+failed process: Process(`/home/vagrant/julia/bin/julia --check-bounds=yes --code-coverage=none --color=no /home/vagrant/.julia/v0.4/AudioIO/test/runtests.jl`, ProcessExited(1)) [1]
+
+================================================================================
+INFO: Removing FactCheck v0.4.0
+ERROR: AudioIO had test errors
+ in error at ./error.jl:21
+ in test at pkg/entry.jl:753
+ in anonymous at pkg/dir.jl:31
+ in cd at file.jl:22
+ in cd at pkg/dir.jl:31
+ in test at pkg.jl:71
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411

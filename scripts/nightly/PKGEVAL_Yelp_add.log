@@ -1,0 +1,11 @@
+INFO: Cloning cache of Yelp from git://github.com/quinnj/Yelp.jl.git
+INFO: Installing Nettle v0.1.10
+INFO: Installing Yelp v0.3.0
+INFO: Building Nettle
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+INFO: Building HttpParser
+INFO: Building MbedTLS
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of Yelp
+INFO: Use `Pkg.update()` to get the latest versions of your packages

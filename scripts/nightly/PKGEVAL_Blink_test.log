@@ -1,0 +1,27 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing Blink
+WARNING: Base.TcpSocket is deprecated, use Base.TCPSocket instead.
+WARNING: Base.TcpSocket is deprecated, use Base.TCPSocket instead.
+WARNING: New definition 
+    size(Blink.Window, Any, Any) at /home/vagrant/.julia/v0.4/Blink/src/window.jl:68
+is ambiguous with: 
+    size(Any, Integer, Integer, Integer...) at abstractarray.jl:54.
+To fix, define 
+    size(Blink.Window, Integer, Integer)
+before the new definition.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+INFO: Blink tests passed

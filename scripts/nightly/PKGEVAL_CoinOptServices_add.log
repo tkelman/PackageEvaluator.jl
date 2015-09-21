@@ -1,0 +1,64 @@
+INFO: Installing Cbc v0.1.7
+INFO: Installing Clp v0.0.10
+INFO: Installing CoinOptServices v0.0.6
+INFO: Installing Ipopt v0.1.16
+INFO: Installing LightXML v0.2.0
+INFO: Installing MathProgBase v0.3.17
+INFO: Building Cbc
+INFO: Building Ipopt
+
+WARNING: deprecated syntax "[a=>b, ...]" at /home/vagrant/.julia/v0.4/Ipopt/deps/build.jl:72.
+Use "Dict(a=>b, ...)" instead.
+INFO: Building LightXML
+INFO: Building CoinOptServices
+WARNING: src::AbstractCmd |> dest::AbstractCmd is deprecated, use pipeline(src,dest) instead.
+ in depwarn at deprecated.jl:73
+ in |> at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in evalfile at loading.jl:320 (repeats 2 times)
+ in anonymous at pkg/entry.jl:659
+ in cd at ./file.jl:22
+ in build! at pkg/entry.jl:658
+ in build at pkg/entry.jl:670
+ in resolve at ./pkg/entry.jl:479
+ in edit at pkg/entry.jl:26
+ in anonymous at task.jl:447
+while loading /home/vagrant/.julia/v0.4/CoinOptServices/deps/build.jl, in expression starting on line 245
+
+WARNING: deprecated syntax "[a=>b, ...]" at /home/vagrant/.julia/v0.4/CoinOptServices/deps/build.jl:71.
+Use "Dict(a=>b, ...)" instead.
+INFO: Attempting to Create directory /home/vagrant/.julia/v0.4/CoinOptServices/deps/downloads
+INFO: Directory /home/vagrant/.julia/v0.4/CoinOptServices/deps/downloads already created
+INFO: Downloading file http://www.coin-or.org/download/source/OS/OS-2.9.2.tgz
+INFO: Done downloading file http://www.coin-or.org/download/source/OS/OS-2.9.2.tgz
+INFO: Attempting to Create directory /home/vagrant/.julia/v0.4/CoinOptServices/deps/src
+INFO: Directory /home/vagrant/.julia/v0.4/CoinOptServices/deps/src already created
+INFO: Attempting to Create directory /home/vagrant/.julia/v0.4/CoinOptServices/deps
+INFO: Directory /home/vagrant/.julia/v0.4/CoinOptServices/deps already created
+INFO: Path /home/vagrant/.julia/v0.4/CoinOptServices/deps/src/OS-2.9.2 already created
+INFO: Attempting to Create directory /home/vagrant/.julia/v0.4/CoinOptServices/deps/src/OS-2.9.2/build
+INFO: Directory /home/vagrant/.julia/v0.4/CoinOptServices/deps/src/OS-2.9.2/build already created
+INFO: Changing Directory to /home/vagrant/.julia/v0.4/CoinOptServices/deps/src/OS-2.9.2/build
+patching file OS/src/OSUtils/OSParameters.h
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] 
+Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file OS/src/OSUtils/OSParameters.h.rej
+===========================[ ERROR: CoinOptServices ]===========================
+
+LoadError: failed process: Process(`patch -p1 -d ..`, ProcessExited(1)) [1]
+while loading /home/vagrant/.julia/v0.4/CoinOptServices/deps/build.jl, in expression starting on line 71
+
+================================================================================
+
+================================[ BUILD ERRORS ]================================
+
+WARNING: CoinOptServices had build errors.
+
+ - packages with build errors remain installed in /home/vagrant/.julia/v0.4
+ - build the package(s) and all dependencies with `Pkg.build("CoinOptServices")`
+ - build a single package by running its `deps/build.jl` script
+
+================================================================================
+INFO: Package database updated

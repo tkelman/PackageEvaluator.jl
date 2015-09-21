@@ -1,0 +1,664 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing Plotly
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/Plotly.jl:16.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/Plotly.jl:16.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/Plotly.jl:29.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/Plotly.jl:54.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/Plotly.jl:81.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/Plotly.jl:97.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/Plotly.jl:188.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/Plotly.jl:189.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/Plotly.jl:189.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/Plotly.jl:217.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/Plotly.jl:218.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/Plotly.jl:218.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/Plotly.jl:223.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/Plotly.jl:224.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/Plotly.jl:228.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/Plotly.jl:237.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/Plotly.jl:238.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/Plotly.jl:240.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "ce_curl (" at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:208.
+Use "ce_curl(" instead.
+
+WARNING: deprecated syntax "error (" at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:214.
+Use "error(" instead.
+
+WARNING: deprecated syntax "ce_curlm (" at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:219.
+Use "ce_curlm(" instead.
+
+WARNING: deprecated syntax "error (" at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:225.
+Use "error(" instead.
+
+WARNING: deprecated syntax "curl_slist_append (" at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:284.
+Use "curl_slist_append(" instead.
+
+WARNING: deprecated syntax "curl_slist_append (" at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:287.
+Use "curl_slist_append(" instead.
+
+WARNING: deprecated syntax "curl_slist_append (" at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:293.
+Use "curl_slist_append(" instead.
+
+WARNING: deprecated syntax "curl_slist_append (" at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:297.
+Use "curl_slist_append(" instead.
+
+WARNING: deprecated syntax "post (" at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:401.
+Use "post(" instead.
+
+WARNING: deprecated syntax "put (" at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:409.
+Use "put(" instead.
+
+WARNING: deprecated syntax "error (" at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:450.
+Use "error(" instead.
+
+WARNING: deprecated syntax "error (" at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:466.
+Use "error(" instead.
+
+WARNING: deprecated syntax "error (" at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:689.
+Use "error(" instead.
+
+WARNING: deprecated syntax "error (" at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:726.
+Use "error(" instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint32 is deprecated, use UInt32 instead.
+WARNING: Base.Uint32 is deprecated, use UInt32 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint32 is deprecated, use UInt32 instead.
+WARNING: Base.Uint32 is deprecated, use UInt32 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint32 is deprecated, use UInt32 instead.
+WARNING: Base.Uint32 is deprecated, use UInt32 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint32 is deprecated, use UInt32 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint32 is deprecated, use UInt32 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl, in expression starting on line 18
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl, in expression starting on line 18
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in header_cb at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:113
+WARNING: Base.String is deprecated, use AbstractString instead.
+in header_cb at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:113
+WARNING: Base.String is deprecated, use AbstractString instead.
+in header_cb at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:113
+WARNING: Base.String is deprecated, use AbstractString instead.
+in header_cb at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:113
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in curl_read_cb at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:138
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+in curl_read_cb at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:138
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl, in expression starting on line 312
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:2.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:15.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:17.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:19.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:23.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:24.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:25.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:26.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:27.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:29.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:30.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:31.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:32.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:33.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:35.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:36.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:37.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:38.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:39.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:54.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:67.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:71.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:72.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:73.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:74.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:83.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:86.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:87.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:88.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:89.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:92.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:92.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:92.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:100.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:101.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:102.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:103.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:104.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:106.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:117.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:122.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:128.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:133.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:137.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/plot.jl:149.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/Plotly/src/utils.jl:5.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+
+WARNING: deprecated syntax "{}" at /home/vagrant/.julia/v0.4/Plotly/src/utils.jl:151.
+Use "[]" instead.
+
+WARNING: deprecated syntax "{}" at /home/vagrant/.julia/v0.4/Plotly/src/utils.jl:157.
+Use "[]" instead.
+
+WARNING: deprecated syntax "{}" at /home/vagrant/.julia/v0.4/Plotly/src/utils.jl:175.
+Use "[]" instead.
+
+WARNING: deprecated syntax "{}" at /home/vagrant/.julia/v0.4/Plotly/src/utils.jl:181.
+Use "[]" instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+in signin at /home/vagrant/.julia/v0.4/Plotly/src/utils.jl:20
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+in signin at /home/vagrant/.julia/v0.4/Plotly/src/utils.jl:20
+WARNING: Base.None is deprecated, use Union{} instead.
+in signin at /home/vagrant/.julia/v0.4/Plotly/src/utils.jl:20
+WARNING: Base.None is deprecated, use Union{} instead.
+in signin at /home/vagrant/.julia/v0.4/Plotly/src/utils.jl:20
+WARNING: Base.None is deprecated, use Union{} instead.
+in signin at /home/vagrant/.julia/v0.4/Plotly/src/utils.jl:20
+
+WARNING: deprecated syntax "[a=>b, ...]" at /home/vagrant/.julia/v0.4/Plotly/test/tests.jl:12.
+Use "Dict(a=>b, ...)" instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.None is deprecated, use Union{} instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Nothing is deprecated, use Void instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in put_post at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:420
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in setup_easy_handle at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:253
+WARNING: Base.String is deprecated, use AbstractString instead.
+in setup_easy_handle at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:253
+WARNING: Base.String is deprecated, use AbstractString instead.
+in setup_easy_handle at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:253
+ERROR: LoadError: LoadError: MethodError: `urlencode_query_params` has no method matching urlencode_query_params(::Array{Pair{Any,Any},1})
+Closest candidates are:
+  urlencode_query_params{T<:Tuple}(::Any, !Matched::Array{T<:Tuple,1})
+ in put_post at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:430
+ in post at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:403
+ in post at /home/vagrant/.julia/v0.4/HTTPClient/src/HTTPC.jl:402
+ in plot at /home/vagrant/.julia/v0.4/Plotly/src/Plotly.jl:47
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Plotly/test/tests.jl, in expression starting on line 12
+while loading /home/vagrant/.julia/v0.4/Plotly/test/runtests.jl, in expression starting on line 1
+===============================[ ERROR: Plotly ]================================
+
+failed process: Process(`/home/vagrant/julia/bin/julia --check-bounds=yes --code-coverage=none --color=no /home/vagrant/.julia/v0.4/Plotly/test/runtests.jl`, ProcessExited(1)) [1]
+
+================================================================================
+ERROR: Plotly had test errors
+ in error at ./error.jl:21
+ in test at pkg/entry.jl:753
+ in anonymous at pkg/dir.jl:31
+ in cd at file.jl:22
+ in cd at pkg/dir.jl:31
+ in test at pkg.jl:71
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411

@@ -1,0 +1,1888 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing UnicodePlots
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+      ┌────────────────────────────────────────┐ 
+   Hi │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 37 │ 
+   ho │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 23               │ 
+      └────────────────────────────────────────┘ 
+          ┌────────────────────────────────────────┐ 
+   Please │▪▪▪▪▪▪▪▪▪▪▪▪ 10                         │ 
+    don't │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 24        │ 
+    crash │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 30 │ 
+       my │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 13                     │ 
+   friend │▪▪▪▪▪▪▪▪ 7                              │ 
+          └────────────────────────────────────────┘ 
+          ┌────────────────────────────────────────┐ 
+   Please │▪▪▪▪▪▪▪ 10                              │ 
+    don't │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 24                   │ 
+    crash │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 30               │ 
+       my │▪▪▪▪▪▪▪▪▪▪ 13                           │ 
+   friend │▪▪▪▪▪ 7                                 │ 
+     just │▪ 2                                     │ 
+     dont │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 49 │ 
+        ! │▪▪▪▪▪▪▪▪▪▪▪ 15                          │ 
+          └────────────────────────────────────────┘ 
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+     ┌────────────────────────────────────────┐ 
+   5 │▪▪▪▪▪▪▪▪▪▪▪▪ 10                         │ 
+   4 │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 24        │ 
+   3 │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 30 │ 
+   2 │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 13                     │ 
+   1 │▪▪▪▪▪▪▪▪ 7                              │ 
+     └────────────────────────────────────────┘ 
+     ┌────────────────────────────────────────┐ 
+   5 │ 0                                      │ 
+   4 │ 0                                      │ 
+   3 │ 0                                      │ 
+   2 │ 0                                      │ 
+   1 │ 0                                      │ 
+     └────────────────────────────────────────┘ 
+          ┌────────────────────────────────────────┐ 
+   Please │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 10                      │ 
+     dont │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 24 │ 
+    crash │▪▪ 1                                    │ 
+     dude │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 13                 │ 
+          └────────────────────────────────────────┘ 
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in barplot at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in barplot at :0
+ 
+   Please  ▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 10                        
+     dont  ▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 24   
+    crash  ▪▪ 1                                      
+     dude  ▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 13                   
+ 
+          ┌────────────────────────────────────────┐ 
+   Please │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 10                      │ 
+     dont │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 24 │ 
+    crash │▪▪ 1                                    │ 
+     dude │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 13                 │ 
+          └────────────────────────────────────────┘ 
+          ┌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┐ 
+   Please │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 10                      │ 
+     dont │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 24 │ 
+    crash │▪▪ 1                                    │ 
+     dude │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 13                 │ 
+          └╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┘ 
+          ┌────────────────────────────────────────┐ 
+   Please │ 1                                      │ 
+     dont │ 1                                      │ 
+    crash │ 1                                      │ 
+     dude │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 1000000 │ 
+          └────────────────────────────────────────┘ 
+          ┌──────────┐ 
+   Please │▪▪ 10     │ 
+     dont │▪▪▪▪▪▪ 24 │ 
+    crash │ 1        │ 
+     dude │▪▪▪ 13    │ 
+          └──────────┘ 
+       ┌──────────┐ 
+Please │▪▪ 10     │ 
+  dont │▪▪▪▪▪▪ 24 │ 
+ crash │ 1        │ 
+  dude │▪▪▪ 13    │ 
+       └──────────┘ 
+                           ┌──────────┐ 
+                    Please │▪▪ 10     │ 
+                      dont │▪▪▪▪▪▪ 24 │ 
+                     crash │ 1        │ 
+                      dude │▪▪▪ 13    │ 
+                           └──────────┘ 
+          ┌─────┐ 
+   Please │ 10  │ 
+     dont │▪ 24 │ 
+    crash │ 1   │ 
+     dude │▪ 13 │ 
+          └─────┘ 
+          ┌────────────────────────────────────────────────────────────────────────────────────────────────────┐ 
+   Please │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 10                                                         │ 
+     dont │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 24 │ 
+    crash │▪▪▪▪ 1                                                                                              │ 
+     dude │ 0                                                                                                  │ 
+          └────────────────────────────────────────────────────────────────────────────────────────────────────┘ 
+                  C'mon man, keep on going!
+          ┌────────────────────────────────────────┐ 
+   Please │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 10                      │ 
+     dont │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 24 │ 
+    crash │▪▪ 1                                    │ 
+     dude │ 0                                      │ 
+          └────────────────────────────────────────┘ 
+                     No lab
+    ┌────────────────────────────────────────┐ 
+    │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 10                      │
+    │▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪▪ 24 │
+    │▪▪ 1                                    │
+    │ 0                                      │
+    └────────────────────────────────────────┘ 
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in barplot at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in barplot at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+          ┌──────────┐ 
+   Please │▪▪▪▪▪ 1.0 │ 
+     dont │▪▪▪▪ 0.7  │ 
+    crash │ 0.1      │ 
+     dude │▪▪▪ 0.6   │ 
+          └──────────┘ 
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.Uint64 is deprecated, use UInt64 instead.
+WARNING: Base.Uint64 is deprecated, use UInt64 instead.
+WARNING: Base.Uint64 is deprecated, use UInt64 instead.
+WARNING: Base.Uint64 is deprecated, use UInt64 instead.
+WARNING: Base.Uint64 is deprecated, use UInt64 instead.
+WARNING: Base.Uint64 is deprecated, use UInt64 instead.
+WARNING: Base.Uint64 is deprecated, use UInt64 instead.
+WARNING: Base.Uint64 is deprecated, use UInt64 instead.
+WARNING: Base.Uint64 is deprecated, use UInt64 instead.
+WARNING: Base.Uint64 is deprecated, use UInt64 instead.
+WARNING: Base.Uint64 is deprecated, use UInt64 instead.
+WARNING: Base.Uint64 is deprecated, use UInt64 instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in call at :0
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in call at :0
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in call at :0
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in call at :0
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in call at :0
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in call at :0
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in call at :0
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in call at :0
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+     ┌────────────────────────────────────────┐ 
+   9 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠉⠒⢄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠇⠀⠀⠀⠈⠒⠤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡸⠀⠀⠀⠀⠀⠀⠀⠈⠑⠤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⠢⣀⠀⠀⠀⠀⠀⠀⠀│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡜⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠢⢄⠀⠀⠀⠀│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠒⢄⡀│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+   1 │⣀⣀⣀⡠⠤⠤⠔⠒⠒⠊⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+     └────────────────────────────────────────┘ 
+     -1                                       7
+      ┌────────────────────────────────────────┐ 
+    4 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠊│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠊⠁⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠁⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠊⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⢀⡠⠒⠙⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⢀⠤⠊⠁⠀⠀⠀⠈⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠁⠀⠀⠀⠀⠀⠀⠀⠈⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢣⠀⠀⠀⠀⠀⠀⠀⢀⡠⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⢫⠉⠉⠉⠉⡩⠝⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁│ 
+   -1 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⣀⠔⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      └────────────────────────────────────────┘ 
+      1                                        7
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+      ┌────────────────────────────────────────┐ 
+   10 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠤⠒⠉│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠤⠒⠉⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠤⠒⠉⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠤⠒⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠤⠒⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠤⠒⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠤⠒⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⣀⠤⠒⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⣀⠤⠒⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+    1 │⣀⡠⠔⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      └────────────────────────────────────────┘ 
+      1                                       10
+      ┌────────────────────────────────────────┐ 
+    4 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠊│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠊⠁⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠁⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠊⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⢀⡠⠒⠙⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⢀⠤⠊⠁⠀⠀⠀⠈⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠁⠀⠀⠀⠀⠀⠀⠀⠈⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢣⠀⠀⠀⠀⠀⠀⠀⢀⡠⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⢫⠉⠉⠉⠉⡩⠝⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁│ 
+   -1 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⣀⠔⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      └────────────────────────────────────────┘ 
+      1                                        7
+WARNING: Base.String is deprecated, use AbstractString instead.
+in lineplot at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in lineplot at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in createPlotWindow at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in createPlotWindow at :0
+      ┌──────────────────────────────────────────────────┐ 
+    4 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠔⠉│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠔⠊⠁⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⢀⡠⠔⠊⠑⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⢀⡠⠔⠊⠁⠀⠀⠀⠀⠈⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠔⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠣⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⢫⠉⠉⠉⠉⠉⣉⠝⠋⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁│ 
+   -1 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⣀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      └──────────────────────────────────────────────────┘ 
+      1                                                  7
+      ┌────────────────────────────────────────────────────────────────────────────────────────────────────┐ 
+    4 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠤⠔⠒⠊⠉│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡠⠤⠒⠊⠉⠁⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡠⠤⠔⠒⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠤⠔⠒⠊⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡠⠤⠤⠒⠒⠉⠉⠑⠤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡠⠤⠒⠊⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⢀⣀⡠⠤⠔⠒⠊⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠒⢄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡠⠤⠔⠒⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠢⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠤⠔⠒⠊⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠢⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡠⠤⠒⠊⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠙⠫⡉⠉⠉⠉⠉⠉⠉⠉⠉⠉⣉⡩⠭⠝⠛⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁│ 
+   -1 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⢄⣀⣀⠤⠔⠒⠊⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      └────────────────────────────────────────────────────────────────────────────────────────────────────┘ 
+      1                                                                                                    7
+      ┌──────────────────────────────────────────────────────────────────────────────────────────┐ 
+    4 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠜│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠁⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠁⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠁⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠁⠀⠸⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠁⠀⠀⠀⠀⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⢀⠔⠁⠀⠀⠀⠀⠀⠀⠈⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢱⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢱⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⡏⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⢉⠝⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡆⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⢀⠔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢇⠀⠀⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡄⠀⢀⠔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+   -1 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢱⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      └──────────────────────────────────────────────────────────────────────────────────────────┘ 
+      1                                                                                          7
+   ┌──────────────────────────────────────────────────┐ 
+ 4 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠤⠔⠒⠊⠉│ 
+   │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡠⠤⠒⠊⠉⠁⠀⠀⠀⠀⠀⠀│ 
+   │⢀⣀⡠⠤⠔⠒⠊⠉⠉⠢⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡠⠤⠔⠒⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+   │⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⠢⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠤⠔⠒⠊⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+-1 │⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠙⠭⣉⣉⡩⠭⠛⠋⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁│ 
+   └──────────────────────────────────────────────────┘ 
+   1                                                  7
+                       ┌──────────┐ 
+                     4 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│ 
+                       │⠀⠀⠀⠀⠀⠀⠀⠀⠀⡜│ 
+                       │⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇│ 
+                       │⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀│ 
+                       │⠀⠀⠀⠀⠀⠀⠀⠀⡜⠀│ 
+                       │⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀│ 
+                       │⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀│ 
+                       │⠀⠀⠀⠀⠀⠀⠀⡜⠀⠀│ 
+                       │⠀⣼⠀⠀⠀⠀⠀⡇⠀⠀│ 
+                       │⢀⢿⠀⠀⠀⠀⢸⠀⠀⠀│ 
+                       │⢸⠘⡄⠀⠀⠀⡜⠀⠀⠀│ 
+                       │⡇⠀⡇⠀⠀⠀⡇⠀⠀⠀│ 
+                       │⠁⠀⡇⠀⠀⢸⠀⠀⠀⠀│ 
+                       │⠀⠀⡇⠀⠀⡜⠀⠀⠀⠀│ 
+                       │⠀⠀⢸⠀⠀⡇⠀⠀⠀⠀│ 
+                       │⠀⠀⢸⠀⢸⠀⠀⠀⠀⠀│ 
+                       │⠉⠉⢹⠉⡝⠉⠉⠉⠉⠁│ 
+                       │⠀⠀⠸⡀⡇⠀⠀⠀⠀⠀│ 
+                       │⠀⠀⠀⣷⠁⠀⠀⠀⠀⠀│ 
+                    -1 │⠀⠀⠀⡿⠀⠀⠀⠀⠀⠀│ 
+                       └──────────┘ 
+                       1          7
+      ┌─────┐ 
+    4 │⠀⠀⠀⠀⡸│ 
+      │⠀⠀⠀⢠⠃│ 
+      │⡼⡀⠀⡎⠀│ 
+      │⠁⡇⡸⠀⠀│ 
+   -1 │⠉⢫⠏⠉⠁│ 
+      └─────┘ 
+      1     7
+                          Hello world
+ 
+    4  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠔⠉  
+       ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀  
+       ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠔⠊⠁⠀⠀⠀⠀⠀⠀  
+       ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  
+       ⠀⠀⠀⠀⢀⡠⠔⠊⠑⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  
+       ⢀⡠⠔⠊⠁⠀⠀⠀⠀⠈⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠔⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  
+       ⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠣⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  
+       ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  
+       ⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⢫⠉⠉⠉⠉⠉⣉⠝⠋⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁  
+   -1  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⣀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  
+ 
+      1                                                  7
+                          Hello world
+      ┌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┐ 
+    4 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠔⠉│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠔⠊⠁⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⢀⡠⠔⠊⠑⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⢀⡠⠔⠊⠁⠀⠀⠀⠀⠈⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠔⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠣⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⢫⠉⠉⠉⠉⠉⣉⠝⠋⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁│ 
+   -1 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⣀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      └╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┘ 
+      1                                                  7
+                          Hello world
+      ┌──────────────────────────────────────────────────┐ 
+    4 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠔⠉│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠔⠊⠁⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⢀⡠⠔⠊⠑⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⢀⡠⠔⠊⠁⠀⠀⠀⠀⠈⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠔⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠣⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⢫⠉⠉⠉⠉⠉⣉⠝⠋⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁│ 
+   -1 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⣀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      └──────────────────────────────────────────────────┘ 
+      1                                                  7
+                          Hello world
+      ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓ 
+    4 ┃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠔⠉┃ 
+      ┃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀┃ 
+      ┃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠔⠊⠁⠀⠀⠀⠀⠀⠀┃ 
+      ┃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀┃ 
+      ┃⠀⠀⠀⠀⢀⡠⠔⠊⠑⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀┃ 
+      ┃⢀⡠⠔⠊⠁⠀⠀⠀⠀⠈⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠔⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀┃ 
+      ┃⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠣⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀┃ 
+      ┃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀┃ 
+      ┃⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⢫⠉⠉⠉⠉⠉⣉⠝⠋⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁┃ 
+   -1 ┃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⣀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀┃ 
+      ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛ 
+      1                                                  7
+                          Hello world
+      ⡤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⢤ 
+    4 ⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠔⠉⢸ 
+      ⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀⢸ 
+      ⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠔⠊⠁⠀⠀⠀⠀⠀⠀⢸ 
+      ⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸ 
+      ⡇⠀⠀⠀⠀⢀⡠⠔⠊⠑⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸ 
+      ⡇⢀⡠⠔⠊⠁⠀⠀⠀⠀⠈⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠔⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸ 
+      ⡇⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠣⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸ 
+      ⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸ 
+      ⡇⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⢫⠉⠉⠉⠉⠉⣉⠝⠋⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁⢸ 
+   -1 ⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⣀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸ 
+      ⠓⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠚ 
+      1                                                  7
+      ⡤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⢤ 
+    4 ⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠔⠉⢸ 
+      ⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀⢸ 
+      ⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠔⠊⠁⠀⠀⠀⠀⠀⠀⢸ 
+      ⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸ 
+      ⡇⠀⠀⠀⠀⢀⡠⠔⠊⠑⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸ 
+      ⡇⢀⡠⠔⠊⠁⠀⠀⠀⠀⠈⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠔⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸ 
+      ⡇⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠣⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸ 
+      ⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸ 
+      ⡇⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⢫⠉⠉⠉⠉⠉⣉⠝⠋⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁⢸ 
+   -1 ⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⣀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸ 
+      ⠓⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠚ 
+      1                                                  7
+           ┌────────────────────────────────────────┐ 
+   4000000 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠤⠊⠁⠀⠀⠀⠀│ 
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠔⠊⠀⠀⠀⠀⠀⠀⠀⠀│ 
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠔⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠒⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠒⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+           │⠀⠀⠀⠀⠀⠀⠀⢀⠤⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+         0 │⠀⠀⠀⠀⣀⠤⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+           └────────────────────────────────────────┘ 
+           -99999.99999999999       799999.9999999999
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in lineplot at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in lineplot at :0
+           ┌─────┐ 
+   4000000 │⠀⠀⠀⢠⠃│ 
+           │⠀⠀⢀⠇⠀│ 
+           │⠀⠀⡜⠀⠀│ 
+           │⠀⡸⠀⠀⠀│ 
+         0 │⢰⠁⠀⠀⠀│ 
+           └─────┘ 
+           -99999.99999999999799999.9999999999
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in scatterplot at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in scatterplot at :0
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+      ┌────────────────────────────────────────┐ 
+    4 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁│ 
+   -1 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      └────────────────────────────────────────┘ 
+      1                                        7
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+      ┌────────────────────────────────────────┐ 
+    4 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁│ 
+   -1 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      └────────────────────────────────────────┘ 
+      1                                        7
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+      ┌────────────────────────────────────────┐ 
+    4 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁│ 
+   -1 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      └────────────────────────────────────────┘ 
+      1                                        7
+      ┌────────────────────────────────────────┐ 
+    4 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁│ 
+   -1 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      └────────────────────────────────────────┘ 
+      1.101                                1.107
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+        ┌────────────────────────────────────────┐ 
+   1100 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+        │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠤⠔⠊⠉│ 
+        │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠤⠒⠊⠁⠀⠀⠀⠀⠀│ 
+        │⢀⣀⠤⠔⠒⠉⠉⠑⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡠⠔⠒⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+        │⠁⠀⠀⠀⠀⠀⠀⠀⠀⠑⢄⠀⠀⠀⠀⠀⠀⠀⢀⣀⠤⠔⠊⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+        │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠢⣀⡠⠤⠒⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+        │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+        │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+        │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+    900 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+        └────────────────────────────────────────┘ 
+        1                                        7
+      ┌────────────────────────────────────────┐ 
+    1 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠋⠢⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡰⠁⠀⠀⠀⠑⠤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⡹⠉⠉⠉⠉⠉⠉⠉⠉⠛⢍⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⡔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠢⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠉⠒⢄⡀⠀⠀⠀⠀⡜⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⠤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠈⠑⠤⣀⠎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠒⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠢⣀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⠤⡀⠀⠀⠀⠀⠀│ 
+      │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠒⢄⠀⠀⠀│ 
+   -4 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠢⣀│ 
+      └────────────────────────────────────────┘ 
+      1001                                  1007
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+           ┌────────────────────────────────────────┐       
+         1 │⡠⠒⠉⠑⠢⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠊⠉⠑⠢⡀⠀⠀⠀⠀⠀⠀│ sin(x)
+           │⠀⠀⠀⠀⠀⠘⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠀⠱⡀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠘⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡰⠁⠀⠀⠀⠀⠀⠀⠀⠑⣄⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠀⠘⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡰⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡆⠀⠀⠀│       
+   f(x)    │⠀⠀⠀⠀⠀⠀⠀⠀⠘⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡄⠀⠀│       
+           │⠉⠉⠉⠉⠉⠉⠉⠉⠉⠙⡍⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⢩⠋⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠙⡍⠁│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⡀│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⡀⠀⠀⠀⠀⠀⠀⠀⢀⠎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⡄⠀⠀⠀⠀⠀⢠⠎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+        -1 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠢⣀⣀⣀⠔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           └────────────────────────────────────────┘       
+           1                                       10
+                               x
+WARNING: Base.String is deprecated, use AbstractString instead.
+in lineplot at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in lineplot at :0
+    ┌────────────────────────────────────────┐ 
+    │⡠⠒⠉⠑⠢⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠊⠉⠑⠢⡀⠀⠀⠀⠀⠀⠀│
+    │⠀⠀⠀⠀⠀⠘⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠀⠱⡀⠀⠀⠀⠀⠀│
+    │⠀⠀⠀⠀⠀⠀⠘⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡰⠁⠀⠀⠀⠀⠀⠀⠀⠑⣄⠀⠀⠀⠀│
+    │⠀⠀⠀⠀⠀⠀⠀⠘⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡰⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡆⠀⠀⠀│
+    │⠀⠀⠀⠀⠀⠀⠀⠀⠘⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡄⠀⠀│
+    │⠉⠉⠉⠉⠉⠉⠉⠉⠉⠙⡍⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⢩⠋⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠙⡍⠁│
+    │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⡀│
+    │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⡀⠀⠀⠀⠀⠀⠀⠀⢀⠎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱│
+    │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⡄⠀⠀⠀⠀⠀⢠⠎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+    │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠢⣀⣀⣀⠔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+    └────────────────────────────────────────┘ 
+           ┌────────────────────────────────────────┐       
+         1 │⡠⠤⠤⠒⠒⠉⠉⠉⠉⠉⠑⠒⠒⠢⢄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ sin(x)
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⠢⠤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠢⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠢⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+   f(x)    │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠢⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠙⢍⡉⠉⠉⠉⠉⠉⠉⠉⠁│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠢⣄⠀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠢⢄⡀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠒⠤│       
+        -1 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           └────────────────────────────────────────┘       
+           1                                        4
+                               x
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in lineplot at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in lineplot at :0
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+           ┌────────────────────────────────────────┐       
+         1 │⣀⣀⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠒⠢⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ sin(x)
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠒⠤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⠢⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠒⢄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+   f(x)    │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⠢⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠙⠫⣉⠉⠉⠉⠉⠉⠉⠉⠁│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⠢⣀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⠢⣀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⠤│       
+        -1 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           └────────────────────────────────────────┘       
+           1                                        4
+                               x
+           ┌────────────────────────────────────────┐       
+         1 │⡤⠔⠒⠊⠉⠉⠉⠉⠉⠉⠉⠉⠒⠢⠤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ sin(x)
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠓⠦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠢⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠢⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+   f(x)    │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⠤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠛⢍⡉⠉⠉⠉⠉⠉⠉⠉⠁│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠢⣄⡀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠢⣄⡀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠒⠤│       
+        -1 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           └────────────────────────────────────────┘       
+           1                                        4
+                               x
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in lineplot! at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in lineplot! at :0
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+           ┌────────────────────────────────────────┐       
+         1 │⡤⠔⠒⠊⠉⠉⠉⠉⠉⠉⠉⠉⠒⠢⠤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ sin(x)
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠓⠦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ cos(x)
+           │⠢⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠢⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠉⠢⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠢⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+   f(x)    │⠀⠀⠀⠀⠀⠑⢦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⠤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠉⠉⠉⠉⠉⠉⠉⠉⠛⢍⡉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠛⢍⡉⠉⠉⠉⠉⠉⠉⠉⠁│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠒⢄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠢⣄⡀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠢⢄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠢⣄⡀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠓⢤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣉⡶⠶│       
+        -1 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠓⠢⠤⣄⣀⣀⣀⣀⣀⣀⣀⣀⠤⠔⠒⠉⠁⠀⠀│       
+           └────────────────────────────────────────┘       
+           1                                        4
+                               x
+     ┌────────────────────────────────────────┐ 
+   7 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡏⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⡇⠀⠀⠀⠀⢸│ 
+     │⠀⠀⠀⠀⠀⢠⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⢸│ 
+     │⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⢸│ 
+     │⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠓⠒⠒⠒⠒⠚│ 
+   1 │⣀⣀⣀⣀⣀⣸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+     └────────────────────────────────────────┘ 
+     1                                        8
+        ┌────────────────────────────────────────┐ 
+   7000 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│ 
+        │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│ 
+        │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│ 
+        │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│ 
+        │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│ 
+        │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│ 
+        │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│ 
+        │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│ 
+        │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│ 
+      0 │⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣸│ 
+        └────────────────────────────────────────┘ 
+        1                                        8
+┌────────────────────────────────────────┐
+│⡗⢄⠀⡀⢀⠀⠀⠈⠀⠀⢣⠀⠁⢀⠀⠀⠠⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠂⠀⠂⠀⠀⠀⠠⠀⠀⢂⡠⠖⠊│
+│⣇⠀⠑⢄⠀⠀⠀⠄⠀⠀⠐⢣⠠⠀⠀⠀⠐⠀⠀⠀⠁⠀⠀⠠⠀⠀⠀⠀⠨⠀⠀⠀⢀⡠⠔⠎⠑⠀⡀⠀│
+│⡇⠀⠁⠂⠑⢄⠀⠀⠀⠀⠀⠀⢧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⢀⡠⠔⠊⠁⠀⠀⠀⠀⠀⠄⠀│
+│⡇⠀⠐⠀⠀⠀⠑⢌⠂⠀⠀⠀⠉⢳⢤⣀⠀⠀⠠⠂⠀⠈⠀⠁⢄⡠⠔⠊⠁⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀│
+│⡇⠀⠀⠀⠀⠀⠀⠀⡑⢄⠀⠁⠀⠐⢣⠀⠉⢒⠥⣄⢀⡠⠔⠊⠁⠀⠈⠀⠂⠐⠀⠐⠀⠀⠠⠀⠀⡀⠀⠀│
+│⡇⠀⠀⠀⠀⠀⠄⠀⠀⠀⠑⢄⠀⠀⠀⢣⢀⡠⠔⠊⠉⠒⠥⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀│
+│⡇⠀⠢⠀⠀⠠⠀⠀⠀⠀⠀⠈⢑⣦⠔⠊⢣⠀⠀⠀⠀⢀⠀⠀⠉⠚⠤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀│
+│⡇⠀⠀⠀⡁⠀⠀⠀⢀⡠⠔⠊⢁⠀⠑⣌⠠⢣⠀⠈⠀⠀⠘⠀⠀⠀⠀⠀⠉⠒⠤⣀⠀⠀⠀⠀⠀⠀⠈⠀│
+│⡇⠐⠀⠀⢀⡠⠔⠊⠁⠀⠀⠀⠀⠀⠀⠀⠑⢌⢣⠀⠄⠀⠀⠂⠄⠀⠀⠀⠀⠀⠀⠠⠉⠚⠬⣀⠂⠀⠀⠀│
+│⣇⡰⠔⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⢧⡄⠀⠀⠀⠀⠀⠀⠀⢀⠠⠀⠀⠁⠀⠀⠀⠉⠒⠤⣀│
+└────────────────────────────────────────┘
+     ┌────────────────────────────────────────┐ 
+   2 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+   0 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+     └────────────────────────────────────────┘ 
+     0                                        2
+                                        title!(plot, text)
+                             :tl                :t                  :tr
+                             ┌────────────────────────────────────────┐      
+                           1 │⡟⢖⠤⣀⢀⠀⠀⠈⠀⠀⢣⠀⠁⢀⠀⠀⠰⠀⠀⠀⠐⢀⠀⠀⠀⠀⠀⠂⠀⠂⠀⠀⠀⠠⠀⠀⢂⡠⠖⠊│ 1    
+                           2 │⣇⠀⠑⢄⠉⠒⠤⣄⠀⠀⠐⢣⠠⠀⠀⠀⠐⠀⠀⠀⠁⠀⠀⠠⠀⠀⠀⠀⠨⠀⠀⠀⢀⡠⠔⠎⠑⠀⡀⠀│ 2    
+                           3 │⡇⠀⠁⠂⠑⢄⠀⠀⠉⠒⠤⣀⢧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⢀⡠⠔⠊⠁⠀⠀⠀⠀⠀⠄⠀│ 3    
+                           4 │⡇⠀⠐⠀⠀⠀⠑⢌⠂⠀⠀⠀⠉⢳⢤⣀⠀⠀⠠⠂⠀⠈⠀⠁⢄⡠⠔⠊⠁⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀│ 4    
+   ylabel!(plot, text) :l  5 │⡇⠀⠀⠀⠀⠀⠀⠀⡑⢄⠀⠅⠀⠐⢣⠀⠉⢒⠥⣄⢀⡠⠔⠊⠁⠀⠈⠀⠂⠐⠀⠐⠀⠀⠠⠀⠀⡀⠀⠀│ 5  :r
+                           6 │⡇⠀⠀⠀⠀⠀⠄⠀⠀⠀⠑⢄⠀⠀⠀⢣⢀⡠⠔⠊⠉⠒⠥⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀│ 6    
+                           7 │⡇⠀⠢⠀⠀⠠⠀⠀⠐⠠⠀⠈⢑⣦⠔⠊⢣⠀⠀⠀⠈⢀⠀⠀⠉⠚⠤⣂⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀│ 7    
+                           8 │⡇⠀⠀⠀⡁⠀⠀⠀⢀⡠⠔⠊⢁⠀⠑⣌⠠⢣⠀⠈⠀⠀⠘⠀⠀⠀⠀⠀⠉⠒⠴⣀⠀⠀⠀⠀⠀⠀⠈⠀│ 8    
+                           9 │⡇⠐⠀⠀⢀⡠⠔⠊⠁⠀⠀⠀⠀⠀⠀⠁⠑⢌⢣⠀⠄⠀⠀⠂⠄⠀⠀⠀⠀⠀⠀⠠⠉⠚⠬⣀⠂⠀⠀⠀│ 9    
+                          10 │⣇⡰⠕⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⢧⡄⠀⠀⠀⠀⠀⠀⠀⢀⠠⠀⠀⠁⠀⠀⠀⠉⠒⠤⣀│ 10   
+                             └────────────────────────────────────────┘      
+                             :bl                :b                  :br
+                                       xlabel!(plot, text)
+     ┌────────────────────────────────────────┐ 
+   7 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡏⠉⠉⠉⠉⠉│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀│ 
+     │⠀⠀⠀⠀⠀⢸⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀│ 
+     │⡤⠤⠤⠤⠤⠼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀│ 
+     │⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀│ 
+     │⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠓⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠃⠀⠀⠀⠀⠀│ 
+   1 │⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+     └────────────────────────────────────────┘ 
+     1                                        8
+     ┌────────────────────────────────────────┐ 
+   7 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡏⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⡇⠀⠀⠀⠀⢸│ 
+     │⠀⠀⠀⠀⠀⢠⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⢸│ 
+     │⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⢸│ 
+     │⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠓⠒⠒⠒⠒⠚│ 
+   1 │⣀⣀⣀⣀⣀⣸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+     └────────────────────────────────────────┘ 
+     1                                        8
+     ┌────────────────────────────────────────┐ 
+   7 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⢸│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⢸│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠠⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⡄⠀⠀⠀⠀⢸⢸│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⢸⢸│ 
+     │⠀⠀⠀⠀⢸⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⢸⢸│ 
+     │⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡏⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⣏⣇⣀⣀⣀⣸⢸│ 
+     │⠀⠀⠀⠀⢸⢠⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⢸│ 
+     │⠤⠤⠤⠤⠼⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⢸│ 
+     │⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠓⠒⠒⠒⠒⠚│ 
+   1 │⣀⣀⣀⣀⣀⣸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+     └────────────────────────────────────────┘ 
+     1                                        8
+           ┌────────────────────────────────────────┐       
+         1 │⠀⠀⡜⠉⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⠊⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ sin(x)
+           │⠀⠀⠀⠀⢱⠀⠀⠀⠀⠀⠀⠀⠀⢀⠇⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⡸⠀⠀⠀⢸⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⠀⢱⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+   f(x)    │⠀⠀⠀⠀⠀⠘⡆⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠉⠉⠉⠉⠉⠉⢫⠉⠉⠉⠉⠉⡏⠉⠉⠉⠉⠉⠉⡏⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁│       
+           │⠀⠀⠀⠀⠀⠀⠸⡀⠀⠀⠀⢠⠃⠀⠀⠀⠀⠀⠀⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⡜⠀⠀⠀⠀⠀⠀⠀⠸⡄⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠀⢸⡀⠀⢠⠇⠀⠀⠀⠀⠀⠀⠀⠀⢣⠀⠀⡜⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+        -1 │⠀⠀⠀⠀⠀⠀⠀⠀⢣⣀⡎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢆⡔⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           └────────────────────────────────────────┘       
+           0                                       20
+                               x
+WARNING: Base.String is deprecated, use AbstractString instead.
+in lineplot! at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in lineplot! at :0
+           ┌────────────────────────────────────────┐       
+         1 │⠀⠀⡜⠉⡆⠀⠀⠀⠀⠀⠀⡸⠉⢇⢰⠊⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ sin(x)
+           │⠀⠀⠀⠀⢱⠀⠀⠀⠀⠀⢠⠃⠀⢈⡇⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ cos(x)
+           │⠀⠀⡆⠀⠀⡇⠀⠀⠀⠀⡜⠀⠀⡸⢱⠀⠀⢸⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠀⠀⢣⠀⠀⢱⠀⠀⠀⢀⠇⠀⠀⡇⠈⡆⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+   f(x)    │⠀⠀⠸⡄⠀⠘⡆⠀⠀⢸⠀⠀⢸⠀⠀⢣⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠉⠉⠉⢏⠉⠉⢫⠉⠉⡏⠉⠉⡏⠉⠉⠹⡍⠉⠉⡏⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁│       
+           │⠀⠀⠀⢸⠀⠀⠸⡀⢰⠁⠀⢠⠃⠀⠀⠀⢇⠀⠀⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⡇⠀⠀⡇⡎⠀⠀⡜⠀⠀⠀⠀⢸⠀⠀⠸⡄⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⢸⠀⠀⢸⡃⠀⢠⠇⠀⠀⠀⠀⠀⡇⠀⠀⢣⠀⠀⡜⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+        -1 │⠀⠀⠀⠀⠀⢣⣀⠇⢣⣀⡎⠀⠀⠀⠀⠀⠀⠸⢄⡜⠈⢆⡔⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           └────────────────────────────────────────┘       
+           0                                       20
+                               x
+           ┌────────────────────────────────────────┐       
+         1 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠊⠉⠉⠑⠒⠢⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ sin(x)
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠢⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢢⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+   f(x)    │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⢏⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠣⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⢄⠀⠀⠀⠀⠀⠀⠀⠀│       
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠣⣀⠀⠀⠀⠀⠀⠀│       
+        -1 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⠢⣀⣀⣀⣀│       
+           └────────────────────────────────────────┘       
+           -1                                       5
+                               x
+       Hellohow areyou?
+       ┌──────────┐   
+   7   │⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│   
+       │⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│   
+       │⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│   
+       │⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│   
+       │⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸│   
+       │⠀⠀⠀⠀⡏⠉⠉⠉⢹⢸│   
+       │⠀⡤⠤⠤⠇⠀⠀⠀⢸⢸│   
+       │⠀⡇⠀⠀⠀⠀⠀⠀⢸⢸│   
+       │⠀⡇⠀⠀⠀⠀⠀⠀⠘⠚│   
+   1   │⣀⡇⠀⠀⠀⠀⠀⠀⠀⠀│   
+       └──────────┘   
+       Hellohow areyou?
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in __histogram#21__ at /home/vagrant/.julia/v0.4/UnicodePlots/src/histogram.jl:4
+WARNING: Base.String is deprecated, use AbstractString instead.
+in __histogram#21__ at /home/vagrant/.julia/v0.4/UnicodePlots/src/histogram.jl:4
+WARNING: Base.String is deprecated, use AbstractString instead.
+in __histogram#21__ at /home/vagrant/.julia/v0.4/UnicodePlots/src/histogram.jl:4
+WARNING: Base.String is deprecated, use AbstractString instead.
+in barplot at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in barplot at :0
+                             Histogram
+             ┌────────────────────────────────────────┐ 
+   (0.0,0.1] │▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 77              │ 
+   (0.1,0.2] │▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 104     │ 
+   (0.2,0.3] │▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 103      │ 
+   (0.3,0.4] │▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 119 │ 
+   (0.4,0.5] │▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 89           │ 
+   (0.5,0.6] │▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 107     │ 
+   (0.6,0.7] │▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93          │ 
+   (0.7,0.8] │▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 109    │ 
+   (0.8,0.9] │▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 98        │ 
+   (0.9,1.0] │▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 101      │ 
+             └────────────────────────────────────────┘ 
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+                   Sparsity Pattern
+       ┌────────────────────────────────────────┐ 
+     1 │⡀⠘⡂⢄⠈⠰⡀⡄⡀⠰⡠⡶⠘⡁⡀⣋⠐⠆⡐⡍⠑⢸⣘⢂⡡⡁⡀⠀⣘⠀⣀⡀⡠⠊⡄⠈⢁⢀⠐⣀│ 
+       │⢈⢁⠐⢄⠂⠨⢀⠂⡀⡡⠁⠗⡆⠱⠀⠁⠀⣋⠀⡃⠐⠄⢀⡈⠠⡄⠈⢁⠈⣁⠔⢨⠡⠠⢀⠀⡂⡐⢑⡇│ 
+       │⡠⢅⢂⠘⣡⠪⠐⢆⡈⡑⠀⠀⠀⠄⡀⡡⡋⡁⠄⠄⠁⣀⢀⡀⡈⠀⣊⠀⢌⢀⡅⠀⡂⠡⠂⡀⠂⠃⣐⠀│ 
+       │⡈⠀⠂⠀⢁⢑⡡⠐⠢⢀⠐⣐⡑⡤⢂⡠⡀⠤⡂⠀⠈⢀⡡⡈⠐⠐⠠⠐⣠⢢⠅⠃⢁⡀⠠⠀⢂⢀⡀⣔│ 
+       │⠡⠨⠅⠀⡀⠱⠀⢀⢀⠈⠐⡁⡀⠆⢃⠃⠄⡀⢀⡀⢈⢄⡸⢘⢄⠀⠀⠄⢮⠁⠂⠀⠀⡀⠅⢀⡀⠈⠀⢔│ 
+       │⣰⡁⠰⠀⠁⠤⠄⠀⢂⢀⠠⠒⢐⡀⠀⠄⠠⢠⡀⣄⠤⠂⠬⠠⠡⢄⠨⠰⡢⠀⠦⡁⠄⠄⠀⠁⠄⡀⠠⠃│ 
+       │⠨⠩⠡⢨⠠⠔⠄⢰⠐⢨⣨⡘⠠⠧⢄⠂⡥⠅⠐⠥⠰⢠⠠⠄⠠⠀⣊⡁⠠⠀⡇⠀⠀⢩⠖⡲⠀⠀⠇⢃│ 
+       │⠀⠠⢀⠂⠖⢀⠠⠨⠀⠨⠄⠤⠀⣆⠐⠔⠸⡗⠨⠦⠴⢀⢠⢀⠤⠠⢠⠜⢰⠊⢡⡂⠁⠥⠠⠆⠡⠠⡂⠐│ 
+       │⠁⡀⠠⠘⠀⠂⡠⠱⢐⠈⠒⠅⠀⠆⠄⠀⠀⠰⠤⠠⢤⠄⡐⠔⡢⠂⢨⠀⠓⠄⠢⠀⠔⠀⠂⠆⠅⠀⠕⡠│ 
+       │⠈⢀⠉⠀⣨⠠⠀⠀⢐⠠⠀⢐⠀⠃⠂⡄⠀⠀⠦⢇⠀⠤⣩⡒⢈⡀⠄⢄⠈⠤⣆⠀⠀⠐⠥⠠⠕⠺⠊⠀│ 
+       │⠘⠉⠀⡀⡀⡀⡌⠠⠁⠐⡐⠀⠂⣊⠀⠁⠀⡒⠨⠅⠒⢘⠨⢔⡐⢰⠀⢄⢪⠒⠠⠂⠈⠀⠁⠐⠢⠅⠊⡊│ 
+       │⢀⠒⠠⢲⠀⢒⡐⢚⢊⠀⠃⠄⠀⠒⠂⡶⠂⠂⠈⡠⠆⠄⠀⠊⠐⠄⠈⡀⠀⠂⠐⢀⠂⡒⠂⣀⠈⡆⠇⠢│ 
+       │⠁⠖⠜⣐⢂⢐⠀⠀⠑⢠⠇⠄⠀⠑⠐⠂⡀⠁⠀⢄⢘⠂⢐⠀⠨⡀⢨⢅⠐⠒⠒⣢⡀⡀⠒⠙⣰⠔⡀⡐│ 
+       │⠈⠐⢈⢨⠠⣬⠀⠐⠙⠃⢠⡍⠀⠠⠀⠁⠡⢂⣐⠖⢑⢌⠤⢀⢔⠀⢢⠂⢰⠀⠄⠐⢨⠄⠂⠊⡔⠓⡃⢀│ 
+       │⠈⠀⠀⠈⠂⢒⠈⠠⠛⠜⠉⠂⠁⠲⠐⡂⢠⠀⢆⠒⡐⠒⠺⢈⣐⠠⡈⠀⢊⢀⠔⠣⡦⢈⠂⢘⢄⡠⢃⢠│ 
+       │⠀⠔⠅⠁⢄⡀⠒⠀⡜⠃⢄⡱⠂⠃⢅⡥⡡⠢⠐⢀⠉⠢⢐⠂⢤⡠⠈⠀⡘⡠⠄⠌⠔⠌⠁⠈⡔⠀⡃⣂│ 
+       │⠠⠨⠁⠀⠀⢀⡈⡄⢌⠰⠄⡅⠀⡌⠀⠨⢂⡈⠊⠄⢁⠈⠘⠀⢈⠐⠁⠤⠀⢉⡁⠁⢅⠉⢀⠂⣅⠜⡁⠐│ 
+       │⡢⡐⡀⠐⠠⠁⠀⢠⠐⠀⠀⠥⠉⡑⠠⠀⠌⠋⠠⡄⠱⡁⡈⠈⠫⠀⡨⠅⠁⣅⡂⠂⣬⠀⠀⡁⢰⠀⢄⢁│ 
+       │⠨⠈⢀⢐⢁⡸⠁⠀⡀⡂⠀⡀⡀⠡⠀⠀⠁⣹⠀⠀⢀⠂⣴⡠⠡⠈⠈⠡⠑⠝⠂⣲⠁⠀⠁⢑⡀⢤⠀⠈│ 
+   100 │⢈⠁⢀⠡⠀⠪⢀⢀⠠⠈⠡⠀⠉⠁⠯⡁⠈⡤⠂⡠⠰⠈⠒⠈⠌⠡⢑⠈⡩⠀⣆⣐⢁⡁⠔⡢⡉⡤⡄⠁│ 
+       └────────────────────────────────────────┘ 
+       1              nz = 1494               100
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+                   Sparsity Pattern
+       ┌────────────────────────────────────────┐ 
+     1 │⢉⢊⡀⡨⢀⠈⢠⣸⠁⠀⠀⡀⡠⠄⠄⠀⠄⠆⠀⠍⡩⠀⢀⠈⠠⢃⠘⠄⠼⠀⣀⠂⡩⢐⡓⠀⠑⢄⣈⢡│ 
+       │⠐⠘⠤⡐⠀⡑⠁⠸⠋⠘⠰⠈⠀⡆⣐⠀⠀⠁⢰⣜⠰⡀⢐⠀⡀⢠⠠⠁⢱⠁⡎⠀⢀⠔⠨⡐⠃⡀⠉⢀│ 
+       │⠂⢈⠤⠐⡐⣀⣀⢈⡀⢀⣈⠐⡀⠠⢰⡑⢓⡀⠠⢰⣌⠌⢈⢠⠠⠄⠀⡈⢤⠀⡀⠁⢀⢈⢀⠈⠀⡀⡀⠀│ 
+       │⠉⡄⡰⢠⢂⠂⢈⠈⠔⣘⠀⣉⠱⠡⠀⠀⡀⢀⢐⠁⡘⠀⢀⠄⡪⠀⢡⡐⠐⠀⡈⠂⢄⠒⠃⡀⠋⡂⢄⡀│ 
+       │⠀⢹⡀⣀⠀⢐⠔⠀⠀⠊⣈⡁⡀⣀⠀⡀⠁⠀⢘⡣⢐⠀⢈⡐⢈⠖⢐⠐⢖⠨⡆⢀⣄⢀⢀⠢⢡⠂⣔⡀│ 
+       │⠌⢀⢀⠊⢠⢠⠀⠸⠀⢐⡤⠐⠁⡅⣠⠇⠠⢄⡠⡀⠄⡠⡂⠀⠠⡀⠠⠠⠠⠀⡒⠄⢈⡀⢤⠀⢄⠄⠅⠄│ 
+       │⠰⠰⠤⢀⠄⠆⡁⠖⠕⠵⢀⠃⢀⡄⠠⠁⠮⠄⣀⠠⢽⡂⢢⠁⡁⠄⢤⠄⠠⠁⡁⠂⠢⠠⠎⠠⠡⠐⡐⠄│ 
+       │⠁⠭⡈⠨⡅⠈⠄⡜⠶⠚⠬⠎⠀⡇⠁⠘⢀⡃⠁⠘⡦⠅⠐⡐⠠⡠⠡⠄⠀⠄⠤⠀⡆⠈⠔⠀⠀⠀⠇⠀│ 
+       │⠠⠀⠀⠀⠂⢄⠃⡠⠂⠩⢠⠠⠀⡯⠂⡕⠀⡀⣚⠅⠄⠦⠠⠠⠩⠀⠐⠄⠁⢪⠆⠁⠗⡠⢉⠀⡆⠀⠅⠄│ 
+       │⢄⠠⢄⠨⠀⢂⡑⠠⠜⠄⠄⠢⠄⠤⡰⡱⠀⣀⠀⢃⠔⠀⠀⠄⠠⠨⢁⠘⠨⠔⠅⠀⠂⠠⠌⡄⡀⠔⢤⠬│ 
+       │⠠⢲⠁⠠⠈⠂⠅⡱⠐⠈⠀⡓⠄⡂⠄⠁⠲⡐⠡⠂⣒⡀⠃⠑⠐⠁⠀⡢⠢⠉⡧⠈⠆⠀⠁⠄⣀⠂⢈⠑│ 
+       │⠆⠈⠈⠔⢁⠐⠀⠨⠒⡚⢂⠂⠀⠁⢌⠂⠁⠃⡂⢢⢂⡀⢒⡃⢀⠐⠀⢒⠀⢐⠑⢆⠉⠀⡔⠇⠂⠀⠄⠅│ 
+       │⠀⠂⠄⡘⠂⢐⠁⡨⢂⡲⠔⠋⢐⡖⢐⡓⠁⠀⠀⢀⠙⢄⠠⠓⠔⠂⠁⡤⡳⢐⡆⠀⠆⠆⠤⠀⠠⠂⠐⠒│ 
+       │⠀⠖⠐⢂⢘⢒⠀⡸⠀⠠⡄⠐⠀⡵⠂⠒⠆⠂⡀⡂⠀⢄⠘⣆⡀⠢⢨⠐⠰⠑⡰⠀⠺⠀⠀⠐⢓⠁⠆⡀│ 
+       │⠄⢢⢐⡐⡴⡠⢌⠀⠓⡀⡒⡂⠀⡂⠠⠠⠢⠀⠀⠒⠢⢀⠸⢢⣐⠐⣰⠀⡈⠒⠞⢄⠁⠐⢐⠀⠁⠁⣁⠂│ 
+       │⠇⠢⠄⠤⡁⠀⠀⠀⠢⢂⡁⠐⠀⠣⠀⠉⡈⠁⣁⡁⠪⠈⠠⢀⠀⠄⢁⠈⡈⠈⡀⠐⠆⠡⣠⠨⠄⡮⠅⠀│ 
+       │⠈⡉⠀⠍⡄⠈⢙⡘⠀⡠⢠⠈⠈⠀⢰⠈⠀⠅⠀⠄⢑⠁⠩⠜⢀⠃⣌⢁⠈⡄⠀⠘⢋⠠⡙⠈⠉⡁⠌⡀│ 
+       │⠠⠈⡄⡢⡀⠙⢈⠬⠈⢐⠌⢎⢠⠆⠄⠁⠁⡃⠑⡃⢀⡈⠩⠖⠁⠁⣨⢅⠛⠃⢉⠀⠩⠅⠁⠊⡌⢉⢣⡀│ 
+       │⠀⠈⡅⠘⠃⠥⠈⣄⠈⠙⠈⠒⣀⡌⠂⡀⢂⢀⠀⠍⠓⡈⢁⠨⢠⠈⢍⠈⣔⠀⠂⠄⠁⢁⡊⠁⠂⠌⠑⠐│ 
+   100 │⡡⠌⠱⠔⠰⠨⣀⠪⠈⠘⠀⠃⠮⡄⠘⣀⠁⠢⡝⡍⢈⡀⠨⡠⢀⣨⠁⠸⠈⠈⠄⠃⠅⢑⠃⠈⡁⠤⠁⠢│ 
+       └────────────────────────────────────────┘ 
+       1              nz = 1508               100
+┌────────────────────────────────────────┐
+│⡀⠐⠁⠐⠐⠀⠀⠁⠀⠀⠀⠁⠄⡀⠀⠂⠀⠀⠐⠀⠀⠄⠀⠀⠑⠀⠐⠈⠀⠀⠀⠀⠄⠀⠁⢁⠀⠀⠀⠀│
+│⠀⢀⠀⠄⠀⢀⠀⠀⠠⠀⠉⠀⠄⠀⠀⠀⠄⠁⠈⠐⠀⠀⠈⠀⠀⠀⠐⠀⠀⠀⢀⠀⠀⠁⠌⠀⠀⠠⡀⠄│
+│⠐⠀⠄⡀⠁⠀⢠⠊⠈⠓⢀⠁⠀⢀⠘⠘⠄⠀⠀⠒⠐⠀⠠⠀⢠⠀⠀⠁⠀⠀⠢⡐⠂⠈⡀⠂⡀⠀⠀⠠│
+│⠀⠀⠄⠀⠀⠀⠀⠀⡆⠀⠀⠀⡀⠂⠀⠀⡀⠀⠀⠊⠀⠠⣀⠀⠀⠀⡀⠀⠈⠠⢀⠀⠀⠀⠀⡀⡂⠀⠀⠁│
+│⠀⠀⠀⠒⠥⡠⠂⠀⠢⠀⠀⠁⠀⠁⠀⠈⡀⠀⠠⠁⢁⠀⠀⠀⠈⠀⠀⡀⠀⠀⠐⠀⠀⠊⠅⠄⠀⡀⠀⠀│
+│⠐⠀⠠⠄⠀⡀⠈⢤⢀⠐⠀⢄⠄⠄⠀⠁⣤⠈⠀⢀⠂⠅⠀⠀⡀⢀⠂⠀⠄⠄⡀⠐⠀⠂⠀⡠⠀⠄⠀⠄│
+│⠀⡀⠠⢁⠀⠂⠀⠀⢀⠀⠀⠠⢀⠂⡀⠐⠁⠒⠀⠄⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⢀⡄⠄⠀⠀⠀⠀⠀⠀│
+│⡐⠀⠀⠀⠀⠐⠀⠀⠀⠀⠈⠀⠀⠈⠐⠀⠀⢀⠬⠀⠂⠈⠁⠀⠀⠀⠀⡠⠌⠀⠀⠂⠀⠀⡂⠠⠀⠀⠄⢀│
+│⠄⠠⡀⢀⢼⡍⢽⢍⠄⠩⢱⠰⡸⡓⣭⢟⢅⣑⣹⢟⠝⢻⢕⢙⠄⠀⠀⠈⠐⠀⠀⠂⠀⠀⠀⠁⣀⠀⠀⠀│
+│⢀⠁⠀⠌⣈⣺⡀⡄⢇⣆⣅⠥⣊⡛⡁⣕⠙⣻⢉⣧⣘⠢⣥⠝⠀⠀⠠⠀⠀⠀⠀⠀⠌⠄⠀⠄⠀⠀⠐⠡│
+│⠁⠀⠑⠄⢜⢸⠯⢳⢿⣛⡹⠒⢂⣱⢀⠘⢙⠪⡹⠨⡛⠡⡠⣗⠀⠁⠀⠃⠀⠀⠀⠈⠀⠀⠀⠀⠈⠂⠀⠀│
+│⠀⠀⠀⠀⡬⢍⡳⠽⣆⠡⣺⣯⢮⠥⢗⣸⠱⠒⠳⣱⢒⡸⠱⢬⠘⠀⠐⠐⠀⠀⠀⡁⢂⠐⢁⠀⠀⠁⠀⠀│
+│⠀⠀⠈⠐⣽⡊⠬⢷⢉⣀⡝⢗⡛⢗⡫⣑⡤⠠⣪⢩⠍⡿⡺⡋⠀⠄⠀⠀⠀⢀⠀⠁⡢⠂⠀⢂⠀⠀⠀⠠│
+│⠈⠀⠐⠠⣪⢒⢵⣔⡃⡅⢊⢶⣚⣤⡴⢣⠈⡔⠽⡵⣩⣒⠐⡯⠀⠀⠠⠀⢒⠀⠀⠄⠔⠀⢄⠀⠠⠀⠀⠀│
+│⠐⠈⠀⠀⢧⣷⣺⢺⠸⢈⢉⢒⣖⡠⠴⠁⠙⢎⢜⡍⣺⡿⣴⢆⠀⢀⠀⠂⠀⠀⠀⠀⡀⠀⠀⠠⠂⠀⠀⠀│
+│⠀⠀⠀⠀⢲⢰⢡⣍⢌⠐⡘⢿⢗⢜⠆⡪⠒⠕⡎⠗⢞⢙⡂⡬⠀⠀⠀⠄⠈⠀⠈⠡⠄⠀⡁⠀⢤⠀⠀⠊│
+│⡈⠀⠀⠌⡉⠊⡀⡛⡁⡦⣽⡷⠢⢕⢀⡪⣶⢵⢜⠑⣏⣸⡧⢰⠁⠀⢠⠈⠈⠀⠒⠀⠈⠠⠠⠠⠈⠀⠂⠐│
+│⠈⠀⠀⠠⣐⡆⣖⣫⡀⣲⣱⠉⣜⡣⢇⠷⠐⡜⢀⢆⡓⡥⢡⢝⠁⠂⠁⠀⢈⠀⠀⠀⠀⠌⠀⠠⠀⠀⠁⠠│
+│⠀⠀⢀⠀⠠⢀⡂⠀⠀⠈⠠⠄⠀⠀⠈⠀⠀⡀⠀⠀⠐⣀⠁⠀⠔⠀⠌⠠⠀⠈⠀⠀⠀⠠⠀⠀⠠⢐⠈⠀│
+│⠀⠀⠐⠠⠂⠂⠄⠀⠀⠀⢀⠠⠔⠎⠂⠐⠀⠀⠀⠀⢀⠀⠀⠁⠀⠀⡄⠀⠀⠂⠀⠀⠀⠀⠀⠡⠀⠀⠀⠀│
+└────────────────────────────────────────┘
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in call at :0
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in call at :0
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in call at :0
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in call at :0
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in call at :0
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in call at :0
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in call at :0
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in call at :0
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.Uint8 is deprecated, use UInt8 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+in call at :0
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+      ┌────────────────────────────────────────┐ 
+   10 │  ░          ░          ░          ░    │ 
+      │          ░                       ░     │ 
+      │      ░░░░ ░  ░░   ░    ░     ░░   ░    │ 
+      │        ░          ░  ░             ░   │ 
+      │   ░░░  ░      ░    ░            ░░     │ 
+      │       ░   ░    ▒    ░             ░    │ 
+      │   ░             ░             ░░       │ 
+      │░                 ░        ░░     ░     │ 
+      │    █▒▓░ ░░░░░▓█░░█▒▒▒▒░            ░   │ 
+      │   ░░▓░░▒▒▓░▒▒░▒░▒░▓▒░▒▒        ░      ░│ 
+      │  ░ ▒▒▒▒▓▓█▒░▒░░░▒▒░▒░░█   ░            │ 
+      │    ▒▒▒▒░░▓▓▒▒▒▒░░░▒▒▒░▒░      ░░ ░     │ 
+      │    ▒░░▒░░▒▒▓▒▒▒▒ ▒▒░█▓▒        ░  ░    │ 
+      │    ▒░▒▒░░░▒▒▒▒▒░░▓▒▒▒░▓    ░   ░ ░     │ 
+      │    ▒▓▓▒░░▒▒▒░▒ ▒▒▒▒▒▓▒▒                │ 
+      │    ▒░░▒░░░▓▒░░░░░▒░▓▒░▒       ░  ░ ░  ░│ 
+      │░  ░░░ ▒░▒▒▒░▒ ▓█▒▒░▓▓▓░  ░   ░         │ 
+      │    ▒░▒▓░▒▒░▓▒▒▒░▒ ░▒▒▒▒ ░  ░    ░      │ 
+      │      ░              ░  ░ ░          ░  │ 
+    0 │    ░       ░░            ░        ░    │ 
+      └────────────────────────────────────────┘ 
+      0                                       10
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+      ┌────────────────────────────────────────┐ 
+    4 │                          ░   ░         │ 
+      │                               ░░░   ░░ │ 
+      │                         ░ ░▒░░▒▒▒▒▒░░ ▒│ 
+      │                      ░  ░░░ ▒▓▓▓▒▓▒▒▓░▒│ 
+      │                       ░░░ ░▒▒▓░▒▒▓▓▒░░▒│ 
+      │                    ▒░░░ ▒▒▒▒▒░▒▓▓▒░▒░▒▒│ 
+      │                ░░░▒░░ ▒░▒░▒▒▒░██▓▒▒▓█▒▒│ 
+      │                ░░░▒▒▒▒▒░▒▓▒▒▓▒▒▒▒▓░░▒▒░│ 
+      │               ░▒░░▓▒▒░▒░▓▒▒░▒▒▓▒░░▓░░  │ 
+      │               ░ ▒▒░▒█▒▓▒▒▒▓░▓░░░░░░ ░ ░│ 
+      │              ░░░▒▒░▒▒▒▓▓▓▒░░▒░░░▒░     │ 
+      │              ░▒░▒░░▒▒▓▒▓░▒░░░░  ░   ░  │ 
+      │            ░ ░░░░░░▒▒░▒▒░▒░░           │ 
+      │                ░░ ░░░░░░▒░ ▒  ░        │ 
+      │                         ░ ░            │ 
+      │                                        │ 
+      │                                        │ 
+      │                                        │ 
+      │                                        │ 
+   -4 │                                        │ 
+      └────────────────────────────────────────┘ 
+      -4                                       3
+     ┌────────────────────────────────────────┐ 
+   1 │⠀⠒⠀⠀⠀⢀⡀⠀⠐⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄⠓⠀⠀⢀⢀⠀│ 
+     │⠀⡀⠀⠀⠠⠀⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀│ 
+     │⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠈⠀⠀⠀⠂⠀⠀⠀⠀⠀⠨⠀⠀⠀⠀⠀⠀⠌⠀⠀⠀⠀⠀⠀⠀⠀⠂⠀⠀⠁│ 
+     │⠀⠀⠀⠀⠀⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠂⠀⠀⠀⠈⠀⠀⠈⠀⡀⠄⠀⠀⠀⠀⠀⠂⠀⠀│ 
+     │⠀⠀⠀⠀⠀⠀⠐⠀⠀⠀⠁⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠠⡂⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠂⠀⠀⠀⠀⠀│ 
+     │⠀⠂⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠄⠀⠀⡀⠀⠀⠀⠀⢁⠀⠀⠂⢀⠀⠀⠁⠀⠀⠄⢀⠑⠀⠀⠁⠀⠂⠀│ 
+     │⠀⠀⠀⠀⢀⠀⠂⠀⠀⠀⠀⠀⠀⠈⠀⠀⡀⡀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠠⠀⠀⠀⠄⠀⠀⠂⠀│ 
+     │⠀⠀⠐⠄⠁⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠠⠀⠀⠀⠀⠁⠀⠀⠀│ 
+     │⠐⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠂⠈⠀⠀⠀⠀⠐⢀⠈⢀⢀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠠⠀│ 
+   0 │⠀⠨⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⢂⠄⠀⠐⠈⠀⠀⢀⠀⠀⠀⠀⠐⠀⠀⠀⠈⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀│ 
+     └────────────────────────────────────────┘ 
+     0                                        1
+        ┌────────────────────────────────────────┐ 
+   1000 │⠀⠈⠀⠀⠄⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠂⠈⠀⠀⢄⠈⠀⠔⠀⠀⠂⠀⡀⠀⠀⡀⠀⠀⠀│ 
+        │⠀⠌⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠈⠀⠐⠄⠀⠀⢀⠀⠀⠀⠀⠀⠑⠀⠀⠀⠀⠀⠀⠀⡄⠀│ 
+        │⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠠⠀⠀⠀⠀⠀⠀⠢⠀⠀⠀⠀⠐⠀⠀⠀⠀⠀⠀⠒⠀⠀⠀⠀⠄⠀⠀│ 
+        │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠂⠀⠀⠀⠀⠈⢀⠀⠀⠀⠀⠂⠀⠀⠀⠀⠀⠊⠐⠐⠐⠀⠀⠀⠀⠀⠀⠀│ 
+        │⠠⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠁⠀⠊⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ 
+        │⠀⠐⠂⠀⠁⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⡄⠀⠀⠀⠀⠀⠈⠐⠀⠠⠀⠀⠀⠀⠀⠀│ 
+        │⠀⠀⠀⠀⠐⠀⠀⠀⠈⠀⠀⠀⠃⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠈⠂⠀⠀⠀⠀⠀⠠⠀⠀⡀⠀⠁⠀⠀⠀⠁│ 
+        │⠀⠀⠀⠀⠀⠀⠀⡈⠀⢀⠀⠀⠈⠀⠀⠀⠀⠐⠐⠀⠀⠀⠀⠀⠀⠀⢀⠀⢀⠀⠀⠈⠀⠀⠄⠀⠀⠀⠀⠀│ 
+        │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⢀⠀⠀⠀⠀⠂⠀⠀⠀⠀⠢⠀⠀⠀⠀⠀⠀⠂⠀⠀⠄⠀⠀⠀⠀⠀│ 
+      0 │⠀⢀⠀⠀⠀⠀⠀⠀⠁⠀⠀⠀⢀⠀⠀⠀⠐⠘⠀⠂⠀⠀⠀⠠⠀⠂⠀⠀⠀⠀⠀⠀⠀⠐⠀⠈⠀⠀⠀⠈│ 
+        └────────────────────────────────────────┘ 
+        0                                     1000
+INFO: UnicodePlots tests passed

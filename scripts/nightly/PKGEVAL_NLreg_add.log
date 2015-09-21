@@ -1,0 +1,10 @@
+INFO: Cloning cache of NLreg from git://github.com/dmbates/NLreg.jl.git
+INFO: Installing Distributions v0.8.6
+INFO: Installing MathProgBase v0.3.17
+INFO: Installing NLopt v0.2.2
+INFO: Installing NLreg v0.1.1
+INFO: Installing NumericExtensions v0.6.2
+INFO: Installing NumericFuns v0.2.3
+INFO: Installing PDMats v0.3.5
+INFO: Building NLopt
+INFO: Package database updated

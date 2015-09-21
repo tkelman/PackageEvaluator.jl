@@ -1,0 +1,144 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing Bootstrap
+Running 'Bootstrap' tests:
+ * boot ...
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Bootstrap/src/types.jl, in expression starting on line 460
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Bootstrap/src/types.jl, in expression starting on line 460
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in ci at :0
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in ci at :0
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in ci at :0
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+in ci at :0
+ * distributions-dep ...
+ * sampling ...
+ * stats ...
+ * show ...
+ * doctest ...
+Docile: updating package list...
+Docile: upgrading cache to 0.0.3.
+WARNING: both StatsBase and Base export "histrange"; uses of it in module DataArrays must be qualified
+WARNING: both StatsBase and Base export "midpoints"; uses of it in module DataArrays must be qualified
+WARNING: both DataArrays and StatsBase export "autocor"; uses of it in module DataFrames must be qualified
+WARNING: both DataArrays and StatsBase export "histrange"; uses of it in module DataFrames must be qualified
+WARNING: both DataArrays and StatsBase export "inverse_rle"; uses of it in module DataFrames must be qualified
+WARNING: both DataArrays and StatsBase export "midpoints"; uses of it in module DataFrames must be qualified
+WARNING: both DataArrays and StatsBase export "rle"; uses of it in module DataFrames must be qualified
+
+WARNING: deprecated syntax "(ByteString=>Float64)[]" at /home/vagrant/.julia/v0.4/Bootstrap/test/doctest.jl:31.
+Use "Dict{ByteString,Float64}()" instead.
+
+WARNING: deprecated syntax "(ByteString=>Any)[]" at /home/vagrant/.julia/v0.4/Bootstrap/test/doctest.jl:33.
+Use "Dict{ByteString,Any}()" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/Bootstrap/test/doctest.jl:46.
+Use "Any[a for a in b]" instead.
+Docile: caching 1 module from 'Bootstrap'.
+running doctest on Bootstrap...
+INFO: Bootstrap tests passed

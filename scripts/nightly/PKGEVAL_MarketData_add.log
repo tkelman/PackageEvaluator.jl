@@ -1,0 +1,5 @@
+INFO: Cloning cache of MarketData from git://github.com/JuliaQuant/MarketData.jl.git
+INFO: Installing Dates v0.4.4
+INFO: Installing MarketData v0.2.6
+INFO: Installing TimeSeries v0.6.2
+INFO: Package database updated

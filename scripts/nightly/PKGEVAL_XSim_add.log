@@ -1,0 +1,7 @@
+INFO: Cloning cache of XSim from git://github.com/reworkhow/XSim.jl.git
+INFO: Installing Distributions v0.8.6
+INFO: Installing PDMats v0.3.5
+INFO: Installing XSim v0.0.3
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of XSim
+INFO: Use `Pkg.update()` to get the latest versions of your packages

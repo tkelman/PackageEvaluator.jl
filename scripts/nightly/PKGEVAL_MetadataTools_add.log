@@ -1,0 +1,10 @@
+INFO: Cloning cache of MetadataTools from git://github.com/IainNZ/MetadataTools.jl.git
+INFO: Installing AutoHashEquals v0.0.5
+INFO: Installing LightGraphs v0.3.3
+INFO: Installing LightXML v0.2.0
+INFO: Installing MetadataTools v0.2.2
+INFO: Installing ParserCombinator v1.6.3
+INFO: Building LightXML
+INFO: Building HttpParser
+INFO: Building MbedTLS
+INFO: Package database updated

@@ -1,0 +1,17 @@
+INFO: Cloning cache of Seismic from git://github.com/SeismicJulia/Seismic.jl.git
+INFO: Installing ColorTypes v0.1.5
+INFO: Installing Colors v0.5.4
+INFO: Installing Dates v0.4.4
+INFO: Installing FixedPointNumbers v0.0.11
+INFO: Installing Grid v0.3.11
+INFO: Installing LaTeXStrings v0.1.4
+INFO: Installing Lexicon v0.1.16
+INFO: Installing MacroTools v0.2.0
+INFO: Installing PyCall v1.0.2
+INFO: Installing PyPlot v2.1.0
+INFO: Installing Requires v0.2.0
+INFO: Installing Seismic v0.0.4
+INFO: Installing WoodburyMatrices v0.1.2
+INFO: Building PyCall
+INFO: PyCall is using python (Python 2.7.6) at /usr/bin/python, libpython = libpython2.7
+INFO: Package database updated

@@ -1,0 +1,447 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing Reactive
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl, in expression starting on line 40
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl, in expression starting on line 364
+WARNING: The `=>` syntax is deprecated, use `-->` instead
+Basic checks
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:81
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:81
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:81
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:81
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+  > lift
+InexactError()
+
+ in push! at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:284
+ in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:308
+ in do_fact at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:333
+ [inlined code] from /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:307
+ in anonymous at /home/vagrant/.julia/v0.4/Reactive/test/basics.jl:16
+ in context at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:474
+ in anonymous at /home/vagrant/.julia/v0.4/Reactive/test/basics.jl:15
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+  > merge
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:200
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:200
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:200
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:200
+  > foldl
+  > filter
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:130
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:130
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:130
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:130
+  > sampleon
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:81
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:81
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:81
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:81
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in sampleon at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:439
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in sampleon at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:439
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in sampleon at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:439
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in sampleon at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:439
+  > droprepeats
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in droprepeats at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:458
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in droprepeats at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:458
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in droprepeats at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:458
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in droprepeats at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:458
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+  > dropwhen
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:155
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:155
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:155
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:155
+28 facts verified.
+trylift
+  > trylift
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+    Failure :: (line:-1) :: trylift :: fact was false
+      Expression: value(y) --> BoundsError()
+        Expected: BoundsError(#undef,#undef)
+        Occurred: BoundsError([1.0,2.0,3.1],(4,))
+Out of 5 total facts:
+  Verified: 4
+  Failed:   1
+Call counting
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in anonymous at /home/vagrant/.julia/v0.4/Reactive/test/call_count.jl:8
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in anonymous at /home/vagrant/.julia/v0.4/Reactive/test/call_count.jl:8
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in anonymous at /home/vagrant/.julia/v0.4/Reactive/test/call_count.jl:8
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in anonymous at /home/vagrant/.julia/v0.4/Reactive/test/call_count.jl:8
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in anonymous at /home/vagrant/.julia/v0.4/Reactive/test/call_count.jl:8
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in anonymous at /home/vagrant/.julia/v0.4/Reactive/test/call_count.jl:8
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in anonymous at /home/vagrant/.julia/v0.4/Reactive/test/call_count.jl:8
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in anonymous at /home/vagrant/.julia/v0.4/Reactive/test/call_count.jl:8
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:200
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:200
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:200
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:200
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+600 facts verified.
+push! inside push!
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+push! called when another signal is still updating.
+
+ in push! at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:280
+ in crash at /home/vagrant/.julia/v0.4/Reactive/test/concurrency.jl:7
+ in update at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:118
+ in push! at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:309
+ in anonymous at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:308
+ in do_fact at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:333
+ [inlined code] from /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:307
+ in anonymous at /home/vagrant/.julia/v0.4/Reactive/test/concurrency.jl:11
+ in facts at /home/vagrant/.julia/v0.4/FactCheck/src/FactCheck.jl:448
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+1 fact verified.
+@lift
+  > @lift input expressions
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+  > @lift basics
+  > @lift inside a function
+7 facts verified.
+Flatten
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:81
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:81
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:81
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:81
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:245
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:245
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:245
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:245
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+WARNING: Base.Uint is deprecated, use UInt64 instead.
+in call at /home/vagrant/.julia/v0.4/Reactive/src/Reactive.jl:111
+  > Signal{Signal} -> flat Signal
+  > Initial update count
+  > Current signal updates
+  > Signal swap
+11 facts verified.
+INFO: Reactive tests passed

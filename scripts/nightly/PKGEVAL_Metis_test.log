@@ -1,0 +1,82 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing Metis
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Graphs/src/common.jl, in expression starting on line 32
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/Graphs/src/show.jl, in expression starting on line 11
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+ Runtime parameters:
+   Objective type: METIS_OBJTYPE_NODE
+   Coarsening type: METIS_CTYPE_SHEM
+   Initial partitioning type: METIS_IPTYPE_EDGE
+   Refinement type: METIS_RTYPE_SEP1SIDED
+   Perform a 2-hop matching: No
+   Number of balancing constraints: 1
+   Number of refinement iterations: 10
+   Random number seed: -1
+   Number of separators: 1
+   Compress graph prior to ordering: Yes
+   Detect & order connected components separately: No
+   Prunning factor for high degree vertices: 0.000000
+   Allowed maximum load imbalance: 1.200 
+
+  Compression: reduction in # of vertices: 0.
+
+Timing Information -------------------------------------------------
+ Multilevel: 		   0.006
+     Coarsening: 		   0.000
+            Matching: 			   0.000
+            Contract: 			   0.000
+     Initial Partition: 	   0.000
+     Uncoarsening: 		   0.000
+          Refinement: 			   0.000
+          Projection: 			   0.000
+     Splitting: 		   0.000
+********************************************************************
+
+ gk_mcore statistics
+           coresize:         1776         nmops:         2048  cmop:      0
+        num_callocs:           75   num_hallocs:            0
+       size_callocs:        16528  size_hallocs:            0
+        cur_callocs:            0   cur_hallocs:            0
+        max_callocs:         1608   max_hallocs:            0
+ nbrpool statistics
+        nbrpoolsize:            0   nbrpoolcpos:            0
+    nbrpoolreallocs:            0
+
+INFO: Metis tests passed

@@ -1,0 +1,6 @@
+INFO: Cloning cache of PicoSAT from git://github.com/jakebolewski/PicoSAT.jl.git
+INFO: Installing PicoSAT v0.1.0
+INFO: Building PicoSAT
+cc  -fPIC -c picosat.c
+cc  -shared -o libpicosat.so picosat.o #
+INFO: Package database updated

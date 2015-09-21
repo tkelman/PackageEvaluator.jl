@@ -1,0 +1,231 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing VarianceComponentTest
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:567.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:568.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:568.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:569.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:570.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:570.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:571.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:571.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:572.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:572.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:573.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:573.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:574.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:574.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:575.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:575.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:576.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:577.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:578.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:579.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:579.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:580.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:581.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:581.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:582.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:582.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:583.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:583.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:584.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:585.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:586.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:586.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:587.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:644.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:644.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:645.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:645.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:646.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:646.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:647.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:647.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:648.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:648.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:649.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:649.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:650.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:650.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:651.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:651.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:652.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:653.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:654.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:655.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:655.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:656.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:657.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:657.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:658.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:658.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:659.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:659.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:660.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:661.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:662.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:662.
+Use "Any[a for a in b]" instead.
+
+WARNING: deprecated syntax "{a for a in b}" at /home/vagrant/.julia/v0.4/VarianceComponentTest/src/gwasvctest.jl:664.
+Use "Any[a for a in b]" instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+INFO: VarianceComponentTest tests passed

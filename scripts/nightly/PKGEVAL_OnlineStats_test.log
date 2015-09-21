@@ -1,0 +1,260 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Computing test dependencies for OnlineStats...
+INFO: Installing FactCheck v0.4.0
+INFO: Installing GLM v0.4.7
+INFO: Installing NumericFuns v0.2.3
+INFO: Testing OnlineStats
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/OnlineStats/src/summary/diff.jl, in expression starting on line 13
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+Distributions
+  > Bernoulli
+  > Beta
+  > Binomial
+  > Cauchy
+  > Dirichlet
+  > Exponential
+  > Gamma
+  > LogNormal
+  > Multinomial
+  > MvNormal
+  > Normal
+  > Poisson
+Out of 130 total facts:
+  Verified: 129
+  Pending:  1
+NormalMix
+  > Offline: emstart() and em()
+  > Online: updatebatch!
+  > Online: update!
+  > Online: other
+20 facts verified.
+Linear Model
+  > LinReg
+  > StepwiseReg
+  > SparseReg
+326 facts verified.
+sweep!()
+10 facts verified.
+Quantile Regression
+  > QuantRegMM
+14 facts verified.
+LogReg
+  > LogRegSGD2
+  > LogRegMM
+10 facts verified.
+OnlinePCA
+Out of 1 total fact:
+  Pending:  1
+Test OnlineFLS
+8 facts verified.
+Mean
+  > Mean
+  > Means
+44 facts verified.
+Variance
+  > Variance
+  > Variances
+76 facts verified.
+Summary
+28 facts verified.
+Diff
+22 facts verified.
+Diffs
+24 facts verified.
+Extrema
+24 facts verified.
+Moments
+8 facts verified.
+FiveNumberSummary
+6 facts verified.
+Quantiles
+  > QuantileSGD
+  > QuantileMM
+18 facts verified.
+CovarianceMatrix
+  > update! vs. updatebatch!
+  > PCA
+16 facts verified.
+Bootstrap
+  > BernoulliBootstrap
+  > PoissonBootstrap
+  > FrozenBootstrap
+1 fact verified.
+SGD
+ * L2Regression * 
+  > NoPenalty
+  > L1Penalty
+  > L2Penalty
+  > ElasticNetPenalty
+ * L1Regression * 
+  > NoPenalty
+  > L1Penalty
+  > L2Penalty
+  > ElasticNetPenalty
+ * QuantileRegression * 
+  > NoPenalty
+  > L1Penalty
+  > L2Penalty
+  > ElasticNetPenalty
+ * HuberRegression * 
+  > NoPenalty
+  > L1Penalty
+  > L2Penalty
+  > ElasticNetPenalty
+ * LogisticRegression * 
+  > NoPenalty
+  > L1Penalty
+  > L2Penalty
+  > ElasticNetPenalty
+ * SVMLike * 
+  > NoPenalty
+  > L1Penalty
+  > L2Penalty
+  > ElasticNetPenalty
+2 facts verified.
+Proxgrad
+ * L2Regression * 
+  > NoPenalty
+  > L1Penalty
+  > L2Penalty
+  > ElasticNetPenalty
+ * L1Regression * 
+  > NoPenalty
+  > L1Penalty
+  > L2Penalty
+  > ElasticNetPenalty
+ * QuantileRegression * 
+  > NoPenalty
+  > L1Penalty
+  > L2Penalty
+  > ElasticNetPenalty
+ * HuberRegression * 
+  > NoPenalty
+  > L1Penalty
+  > L2Penalty
+  > ElasticNetPenalty
+ * LogisticRegression * 
+  > NoPenalty
+  > L1Penalty
+  > L2Penalty
+  > ElasticNetPenalty
+ * SVMLike * 
+  > NoPenalty
+  > L1Penalty
+  > L2Penalty
+  > ElasticNetPenalty
+2 facts verified.
+RDA
+ * L2Regression * 
+  > NoPenalty
+  > L1Penalty
+  > L2Penalty
+  > ElasticNetPenalty
+ * L1Regression * 
+  > NoPenalty
+  > L1Penalty
+  > L2Penalty
+  > ElasticNetPenalty
+ * QuantileRegression * 
+  > NoPenalty
+  > L1Penalty
+  > L2Penalty
+  > ElasticNetPenalty
+ * HuberRegression * 
+  > NoPenalty
+  > L1Penalty
+  > L2Penalty
+  > ElasticNetPenalty
+ * LogisticRegression * 
+  > NoPenalty
+  > L1Penalty
+  > L2Penalty
+  > ElasticNetPenalty
+ * SVMLike * 
+  > NoPenalty
+  > L1Penalty
+  > L2Penalty
+  > ElasticNetPenalty
+2 facts verified.
+Common
+  > Helper Functions
+  > Weighting
+  > onlinefit!()
+  > Show and print methods
+Output here is messy for the sake of getting coverage for show and print
+OnlineStat: OnlineStats.Mean{OnlineStats.EqualWeighting}
+ *        μ:  0.572755
+ *     nobs:  100OnlineStats.Mean{OnlineStats.EqualWeighting}{μ=0.5727548826892743 nobs=100}[OnlineStats.Mean{OnlineStats.EqualWeighting}{μ=0.5727548826892743 nobs=100}, OnlineStats.Mean{OnlineStats.EqualWeighting}{μ=0.5727548826892743 nobs=100}]OnlineStats.BernoulliBootstrap{OnlineStats.OnlineStat}
+Online Bootstrap of OnlineStats.Mean{OnlineStats.EqualWeighting} using function: mean()
+*  nreplicates = 1000
+*         nobs = 0
+Online OnlineStats.FitNormal{OnlineStats.EqualWeighting}, nobs:100
+Distributions.Normal(μ=0.16958795673000795, σ=1.1113724892797034)  > Show DistributionStat
+  > Bias
+104 facts verified.
+$(Expr(:escape, quote  # /home/vagrant/.julia/v0.4/OnlineStats/src/react.jl, line 250:
+    function ##streamed#14620(INPUT1) # /home/vagrant/.julia/v0.4/OnlineStats/src/react.jl, line 251:
+        mean(update_get!(mn,abs(diff(update_get!(d,INPUT1)))))
+    end # /home/vagrant/.julia/v0.4/OnlineStats/src/react.jl, line 253:
+    ##streamed#14620
+end))
+$(Expr(:escape, quote  # /home/vagrant/.julia/v0.4/OnlineStats/src/react.jl, line 250:
+    function ##streamed#14649(INPUT1) # /home/vagrant/.julia/v0.4/OnlineStats/src/react.jl, line 251:
+        update_get!(m,diff(update_get!(d,INPUT1)))
+    end # /home/vagrant/.julia/v0.4/OnlineStats/src/react.jl, line 253:
+    ##streamed#14649
+end))
+$(Expr(:escape, quote  # /home/vagrant/.julia/v0.4/OnlineStats/src/react.jl, line 250:
+    function ##streamed#14652(INPUT1) # /home/vagrant/.julia/v0.4/OnlineStats/src/react.jl, line 251:
+        begin 
+            $(Expr(:line, 55, symbol("/home/vagrant/.julia/v0.4/OnlineStats/test/react_test.jl")))
+            df = diff(update_get!(d,INPUT1))
+            $(Expr(:line, 56, symbol("/home/vagrant/.julia/v0.4/OnlineStats/test/react_test.jl")))
+            if nobs(d) > 1
+                mean(update_get!(m,df))
+            else 
+                0.0
+            end
+        end
+    end # /home/vagrant/.julia/v0.4/OnlineStats/src/react.jl, line 253:
+    ##streamed#14652
+end))
+React
+  > DiffMean1
+d: OnlineStats.Diff{Float64}{diff=-5.0 last=3.0 nobs=3}
+m: OnlineStats.Mean{OnlineStats.EqualWeighting}{μ=-0.6666666666666665 nobs=3}
+  > DiffMean2
+d: OnlineStats.Diff{Float64}{diff=-5.0 last=3.0 nobs=3}
+m: OnlineStats.Mean{OnlineStats.EqualWeighting}{μ=-1.0 nobs=2}
+  > 1 Arg Stream
+  > Regression
+  > Mapping pipe and currying
+Out of 7 total facts:
+  Verified: 6
+  Pending:  1
+INFO: OnlineStats tests passed
+INFO: Removing FactCheck v0.4.0
+INFO: Removing GLM v0.4.7
+INFO: Removing NumericFuns v0.2.3

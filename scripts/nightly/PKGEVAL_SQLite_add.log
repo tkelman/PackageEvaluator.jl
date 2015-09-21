@@ -1,0 +1,13 @@
+INFO: Cloning cache of SQLite from git://github.com/quinnj/SQLite.jl.git
+INFO: Installing SQLite v0.2.0
+INFO: Building SQLite
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/SQLite/deps/build.jl:17.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "{a=>b, ...}" at /home/vagrant/.julia/v0.4/SQLite/deps/build.jl:18.
+Use "Dict{Any,Any}(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "[a=>b, ...]" at /home/vagrant/.julia/v0.4/SQLite/deps/build.jl:21.
+Use "Dict(a=>b, ...)" instead.
+INFO: Package database updated

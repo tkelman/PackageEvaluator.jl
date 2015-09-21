@@ -1,0 +1,67 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing NLsolve
+Running tests:
+	[1m[32mPASSED[0m: 2by2.jl
+	[1m[32mPASSED[0m: singular.jl
+	[1m[32mPASSED[0m: finite_difference.jl
+Function                           Dim    NFEV    NJEV   Final inf-norm     total time
+--------------------------------------------------------------------------------------
+Rosenbrock                           2      30      17     0.000000e+00   3.926591e-03
+Rosenbrock-AD                        2      30      17     0.000000e+00   4.384910e-02
+Powell singular                      4      17      17     2.945101e-09   9.317137e-03
+Powell singular-AD                   4      17      17     2.945101e-09   6.073992e-03
+Powell badly scaled                  2      15      14     7.051804e-12   6.588342e-03
+Powell badly scaled-AD               2      15      14     7.051804e-12   6.975591e-03
+Wood                                 4      19      15     1.152565e-10   1.487425e-02
+Wood-AD                              4      19      15     1.152340e-10   1.056364e-02
+Helical Valley                       3      10       9     1.110223e-14   1.076610e-02
+Helical Valley-AD                    3      10       9     1.110223e-14   1.908923e-02
+Watson                               6      20      16     2.895167e-13   2.900634e-02
+Watson-AD                            6      20      16     2.882573e-13   3.388118e-02
+Watson                               9      17      17     1.604449e-12   3.150930e-04
+Watson-AD                            9      17      17     1.640964e-12   6.395762e-03
+Chebyquad                            5       8       5     9.143861e-09   1.239239e-02
+Chebyquad-AD                         5       8       5     9.143861e-09   1.026919e-02
+Chebyquad                            6      13       8     7.320533e-16   4.599400e-05
+Chebyquad-AD                         6      13       8     7.320533e-16   9.948200e-05
+Chebyquad                            7      10       6     6.329061e-10   2.733300e-05
+Chebyquad-AD                         7      10       6     6.329061e-10   9.325200e-05
+Chebyquad                            9      14       8     1.626824e-14   4.370400e-05
+Chebyquad-AD                         9      14       8     1.626824e-14   2.242240e-04
+Brown almost-linear                 10       5       5     3.382331e-09   4.044270e-02
+Brown almost-linear-AD              10       5       5     3.382331e-09   4.315996e-02
+Brown almost-linear                 30       4       4     8.883262e-09   1.080080e-03
+Brown almost-linear-AD              30       4       4     8.883262e-09   1.001650e-04
+Brown almost-linear                 40       4       4     1.570837e-09   7.133800e-05
+Brown almost-linear-AD              40       4       4     1.570837e-09   1.071720e-04
+Discrete boundary value             10       4       4     2.636780e-16   1.321041e-02
+Discrete boundary value-AD          10       4       4     2.636780e-16   9.909193e-03
+Discrete integral equation           1       4       4     8.540391e-14   1.590302e-02
+Discrete integral equation-AD        1       4       4     8.540391e-14   1.371893e-02
+Discrete integral equation          10       4       4     2.720046e-15   7.826900e-05
+Discrete integral equation-AD       10       4       4     2.720046e-15   4.576460e-04
+Trigonometric                       10      14       8     1.204299e-10   1.140463e-02
+Trigonometric-AD                    10      14       8     1.204299e-10   9.235007e-03
+Variably dimensioned                10      15      15     1.323497e-12   1.263985e-02
+Variably dimensioned-AD             10      15      15     1.323497e-12   8.546897e-03
+Broyden tridiagonal                 10       5       5     7.548402e-10   9.457198e-03
+Broyden tridiagonal-AD              10       5       5     7.548402e-10   8.036607e-03
+Broyden banded                      10       6       6     9.359466e-09   1.323106e-02
+Broyden banded-AD                   10       6       6     9.359466e-09   8.487748e-03
+	[1m[32mPASSED[0m: minpack.jl
+	[1m[32mPASSED[0m: iface.jl
+	[1m[32mPASSED[0m: already_converged.jl
+	[1m[32mPASSED[0m: autodiff.jl
+	[1m[32mPASSED[0m: josephy.jl
+	[1m[32mPASSED[0m: difficult_mcp.jl
+	[1m[32mPASSED[0m: sparse.jl
+INFO: NLsolve tests passed

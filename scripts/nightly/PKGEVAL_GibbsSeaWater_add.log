@@ -1,0 +1,7 @@
+INFO: Cloning cache of GibbsSeaWater from git://github.com/njwilson23/GibbsSeaWater.jl.git
+INFO: Installing GibbsSeaWater v0.0.4
+INFO: Building GibbsSeaWater
+rm -f gsw_check_functions libgswteos-10.so gsw_oceanographic_toolbox.o gsw_saar.o
+gcc -fPIC -c -O -I. gsw_oceanographic_toolbox.c gsw_saar.c
+gcc -shared -o libgswteos-10.so gsw_oceanographic_toolbox.o gsw_saar.o -lm
+INFO: Package database updated

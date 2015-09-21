@@ -1,0 +1,131 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing ForwardDiff
+WARNING: Base.Uint64 is deprecated, use UInt64 instead.
+WARNING: Base.Uint64 is deprecated, use UInt64 instead.
+WARNING: Base.MathConst is deprecated, use Base.Irrational instead.
+WARNING: Base.MathConst is deprecated, use Base.Irrational instead.
+WARNING: Base.Uint64 is deprecated, use UInt64 instead.
+WARNING: Base.Uint64 is deprecated, use UInt64 instead.
+Testing GradientNumbers and ForwardDiff.gradient...Done (took 5.054460608 seconds).
+Testing HessianNumbers and ForwardDiff.hessian...Done (took 9.797339721 seconds).
+Testing TensorNumbers and ForwardDiff.tensor...Done (took 4.66326232 seconds).
+Testing ForwardDiff.derivative...Done (took 3.337619493 seconds).
+Testing ForwardDiff.jacobian...Done (took 4.042645023 seconds).
+Testing deprecation wrapper (deprecation warnings are expected)...
+WARNING: forwarddiff_gradient!(f::Function,T::DataType; fadtype::Symbol=:dual,args...) is deprecated, use depr_inplace_fad(ForwardDiff.gradient,f) instead.
+ in depwarn at deprecated.jl:73
+ in forwarddiff_gradient! at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ForwardDiff/test/test_deprecated.jl, in expression starting on line 18
+WARNING: Addendum to the deprecation warning above:
+The depr_inplace_fad function is actually only meant to be used to patch over the old API for mutating functions. Instead of:
+	deprecated_inplace_fad(ForwardDiff.gradient, testf)
+You should use the following:
+	ForwardDiff.gradient(testf, mutates=true)
+Be aware that mutating functions created with the new API take in the output array as the 1st argument rather than the 2nd.
+WARNING: forwarddiff_gradient(f::Function,T::DataType; fadtype::Symbol=:dual,args...) is deprecated, use ForwardDiff.gradient(f,mutates=false) instead.
+ in depwarn at deprecated.jl:73
+ in forwarddiff_gradient at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ForwardDiff/test/test_deprecated.jl, in expression starting on line 22
+WARNING: forwarddiff_jacobian!(f::Function,T::DataType; fadtype::Symbol=:dual,args...) is deprecated, use depr_inplace_fad(ForwardDiff.jacobian,f) instead.
+ in depwarn at deprecated.jl:73
+ in forwarddiff_jacobian! at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ForwardDiff/test/test_deprecated.jl, in expression starting on line 39
+WARNING: both Calculus and ForwardDiff export "jacobian"; uses of it in module Main must be qualified
+WARNING: Addendum to the deprecation warning above:
+The depr_inplace_fad function is actually only meant to be used to patch over the old API for mutating functions. Instead of:
+	deprecated_inplace_fad(ForwardDiff.jacobian, jactestf)
+You should use the following:
+	ForwardDiff.jacobian(jactestf, mutates=true)
+Be aware that mutating functions created with the new API take in the output array as the 1st argument rather than the 2nd.
+WARNING: forwarddiff_jacobian(f::Function,T::DataType; fadtype::Symbol=:dual,args...) is deprecated, use ForwardDiff.jacobian(f,mutates=false) instead.
+ in depwarn at deprecated.jl:73
+ in forwarddiff_jacobian at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ForwardDiff/test/test_deprecated.jl, in expression starting on line 43
+WARNING: forwarddiff_hessian!(f::Function,T::DataType; fadtype::Symbol=:dual,args...) is deprecated, use depr_inplace_fad(ForwardDiff.hessian,f) instead.
+ in depwarn at deprecated.jl:73
+ in forwarddiff_hessian! at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ForwardDiff/test/test_deprecated.jl, in expression starting on line 60
+WARNING: both Calculus and ForwardDiff export "hessian"; uses of it in module Main must be qualified
+WARNING: Addendum to the deprecation warning above:
+The depr_inplace_fad function is actually only meant to be used to patch over the old API for mutating functions. Instead of:
+	deprecated_inplace_fad(ForwardDiff.hessian, hess_testf)
+You should use the following:
+	ForwardDiff.hessian(hess_testf, mutates=true)
+Be aware that mutating functions created with the new API take in the output array as the 1st argument rather than the 2nd.
+WARNING: forwarddiff_hessian(f::Function,T::DataType; fadtype::Symbol=:dual,args...) is deprecated, use ForwardDiff.hessian(f,mutates=false) instead.
+ in depwarn at deprecated.jl:73
+ in forwarddiff_hessian at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ForwardDiff/test/test_deprecated.jl, in expression starting on line 64
+WARNING: forwarddiff_tensor!(f::Function,T::DataType; fadtype::Symbol=:dual,args...) is deprecated, use depr_inplace_fad(ForwardDiff.tensor,f) instead.
+ in depwarn at deprecated.jl:73
+ in forwarddiff_tensor! at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ForwardDiff/test/test_deprecated.jl, in expression starting on line 75
+WARNING: Addendum to the deprecation warning above:
+The depr_inplace_fad function is actually only meant to be used to patch over the old API for mutating functions. Instead of:
+	deprecated_inplace_fad(ForwardDiff.tensor, testf)
+You should use the following:
+	ForwardDiff.tensor(testf, mutates=true)
+Be aware that mutating functions created with the new API take in the output array as the 1st argument rather than the 2nd.
+WARNING: forwarddiff_tensor(f::Function,T::DataType; fadtype::Symbol=:dual,args...) is deprecated, use ForwardDiff.tensor(f,mutates=false) instead.
+ in depwarn at deprecated.jl:73
+ in forwarddiff_tensor at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ForwardDiff/test/test_deprecated.jl, in expression starting on line 79
+Done (took 0.300963001 seconds).
+INFO: ForwardDiff tests passed

@@ -1,0 +1,8 @@
+INFO: Cloning cache of GR from git://github.com/jheinen/GR.jl.git
+INFO: Installing GR v0.9.12
+INFO: Building GR
+INFO: Downloading pre-compiled GR 0.14.1 binary
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 33.4M    0 39401    0     0  72348      0  0:08:05 --:--:--  0:08:05 72295  5 33.4M    5 2034k    0     0  1345k      0  0:00:25  0:00:01  0:00:24 1345k  9 33.4M    9 3263k    0     0  1251k      0  0:00:27  0:00:02  0:00:25 1251k 13 33.4M   13 4538k    0     0  1023k      0  0:00:33  0:00:04  0:00:29 1023k 15 33.4M   15 5304k    0     0  1192k      0  0:00:28  0:00:04  0:00:24 1192k 31 33.4M   31 10.3M    0     0  1652k      0  0:00:20  0:00:06  0:00:14 1798k 32 33.4M   32 10.7M    0     0  1709k      0  0:00:20  0:00:06  0:00:14 1820k 60 33.4M   60 20.3M    0     0  2800k      0  0:00:12  0:00:07  0:00:05 3633k 81 33.4M   81 27.1M    0     0  3290k      0  0:00:10  0:00:08  0:00:02 5792k 99 33.4M   99 33.3M    0     0  3610k      0  0:00:09  0:00:09 --:--:-- 5760k100 33.4M  100 33.4M    0     0  3626k      0  0:00:09  0:00:09 --:--:-- 7837k
+INFO: Package database updated

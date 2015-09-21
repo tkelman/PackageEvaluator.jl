@@ -1,0 +1,30 @@
+INFO: Installing Gumbo v0.1.0
+INFO: Building Gumbo
+
+WARNING: deprecated syntax "[a=>b, ...]" at /home/vagrant/.julia/v0.4/Gumbo/deps/build.jl:19.
+Use "Dict(a=>b, ...)" instead.
+INFO: Attempting to Create directory /home/vagrant/.julia/v0.4/Gumbo/deps/downloads
+INFO: Directory /home/vagrant/.julia/v0.4/Gumbo/deps/downloads already created
+INFO: Downloading file http://jamesporter.me/static/julia/gumbo-1.0.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+================================[ ERROR: Gumbo ]================================
+
+LoadError: failed process: Process(`curl -f -o /home/vagrant/.julia/v0.4/Gumbo/deps/downloads/gumbo-1.0.tar.gz -L http://jamesporter.me/static/julia/gumbo-1.0.tar.gz`, ProcessExited(22)) [22]
+while loading /home/vagrant/.julia/v0.4/Gumbo/deps/build.jl, in expression starting on line 19
+
+================================================================================
+
+================================[ BUILD ERRORS ]================================
+
+WARNING: Gumbo had build errors.
+
+ - packages with build errors remain installed in /home/vagrant/.julia/v0.4
+ - build the package(s) and all dependencies with `Pkg.build("Gumbo")`
+ - build a single package by running its `deps/build.jl` script
+
+================================================================================
+INFO: Package database updated

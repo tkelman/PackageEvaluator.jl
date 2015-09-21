@@ -1,0 +1,105 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing PGFPlots
+
+WARNING: deprecated syntax "{a,b, ...}" at /home/vagrant/.julia/v0.4/PGFPlots/src/PGFPlots.jl:16.
+Use "Any[a,b, ...]" instead.
+
+WARNING: deprecated syntax "{a,b, ...}" at /home/vagrant/.julia/v0.4/PGFPlots/src/PGFPlots.jl:37.
+Use "Any[a,b, ...]" instead.
+
+WARNING: deprecated syntax "[a=>b, ...]" at /home/vagrant/.julia/v0.4/PGFPlots/src/PGFPlots.jl:81.
+Use "Dict(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "[a=>b, ...]" at /home/vagrant/.julia/v0.4/PGFPlots/src/PGFPlots.jl:87.
+Use "Dict(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "[a=>b, ...]" at /home/vagrant/.julia/v0.4/PGFPlots/src/PGFPlots.jl:93.
+Use "Dict(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "[a=>b, ...]" at /home/vagrant/.julia/v0.4/PGFPlots/src/PGFPlots.jl:99.
+Use "Dict(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "[a=>b, ...]" at /home/vagrant/.julia/v0.4/PGFPlots/src/PGFPlots.jl:103.
+Use "Dict(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "[a=>b, ...]" at /home/vagrant/.julia/v0.4/PGFPlots/src/PGFPlots.jl:177.
+Use "Dict(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "[a=>b, ...]" at /home/vagrant/.julia/v0.4/PGFPlots/src/PGFPlots.jl:199.
+Use "Dict(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "[a=>b, ...]" at /home/vagrant/.julia/v0.4/PGFPlots/src/PGFPlots.jl:370.
+Use "Dict(a=>b, ...)" instead.
+INFO: Recompiling stale cache file /home/vagrant/.julia/lib/v0.4/Images.ji for module Images.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at null:-1
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at null:-1
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at null:-1
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at null:-1
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at null:-1
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at null:-1
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at null:-1
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at null:-1
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at null:-1
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at null:-1
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at null:-1
+WARNING: Base.String is deprecated, use AbstractString instead.
+in anonymous at null:-1
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.Uint64 is deprecated, use UInt64 instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.FloatingPoint is deprecated, use AbstractFloat instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/PGFPlots/src/PGFPlots.jl, in expression starting on line 467
+WARNING: Base.String is deprecated, use AbstractString instead.
+INFO: PGFPlots tests passed

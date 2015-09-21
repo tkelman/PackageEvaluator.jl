@@ -1,0 +1,7 @@
+INFO: Cloning cache of Quandl from git://github.com/milktrader/Quandl.jl.git
+INFO: Installing Dates v0.4.4
+INFO: Installing Quandl v0.4.3
+INFO: Installing TimeSeries v0.6.2
+INFO: Building HttpParser
+INFO: Building MbedTLS
+INFO: Package database updated

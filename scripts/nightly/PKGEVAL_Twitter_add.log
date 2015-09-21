@@ -1,0 +1,13 @@
+INFO: Cloning cache of Twitter from git://github.com/randyzwitch/Twitter.jl.git
+INFO: Installing FactCheck v0.4.0
+INFO: Installing Nettle v0.1.10
+INFO: Installing OAuth v0.2.0
+INFO: Installing Twitter v0.2.2
+INFO: Building Nettle
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+INFO: Building HttpParser
+INFO: Building MbedTLS
+INFO: Package database updated
+INFO: METADATA is out-of-date — you may not have the latest version of Twitter
+INFO: Use `Pkg.update()` to get the latest versions of your packages

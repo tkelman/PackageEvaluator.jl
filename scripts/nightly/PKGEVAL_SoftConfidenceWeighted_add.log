@@ -1,0 +1,11 @@
+INFO: Cloning cache of SVMLightLoader from git://github.com/IshitaTakeshi/SVMLightLoader.jl.git
+INFO: Cloning cache of SoftConfidenceWeighted from git://github.com/IshitaTakeshi/SoftConfidenceWeighted.jl.git
+INFO: Installing Devectorize v0.4.1
+INFO: Installing Distributions v0.8.6
+INFO: Installing HTTPClient v0.1.5
+INFO: Installing LibCURL v0.1.5
+INFO: Installing PDMats v0.3.5
+INFO: Installing SVMLightLoader v0.2.1
+INFO: Installing SoftConfidenceWeighted v0.1.2
+INFO: Building LibCURL
+INFO: Package database updated

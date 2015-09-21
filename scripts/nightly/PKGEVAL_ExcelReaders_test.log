@@ -1,0 +1,1091 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing ExcelReaders
+INFO: Recompiling stale cache file /home/vagrant/.julia/lib/v0.4/PyCall.ji for module PyCall.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/PyCall/src/PyCall.jl, in expression starting on line 106
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/PyCall/src/pybuffer.jl, in expression starting on line 106
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/PyCall/src/pybuffer.jl, in expression starting on line 106
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/PyCall/src/numpy.jl, in expression starting on line 165
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/PyCall/src/PyCall.jl, in expression starting on line 377
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/PyCall/src/PyCall.jl, in expression starting on line 379
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/PyCall/src/PyCall.jl, in expression starting on line 379
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ [inlined code] from none:2
+ in anonymous at no file:0
+ in process_options at ./client.jl:284
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/PyCall/src/PyCall.jl, in expression starting on line 379
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl, in expression starting on line 56
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl, in expression starting on line 56
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl, in expression starting on line 56
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in require at ./loading.jl:243
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl, in expression starting on line 56
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+WARNING: Base.String is deprecated, use AbstractString instead.
+in readxl_internal at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:159
+WARNING: Base.String is deprecated, use AbstractString instead.
+in readxl_internal at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:159
+WARNING: Base.String is deprecated, use AbstractString instead.
+in readxl_internal at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:159
+WARNING: Base.String is deprecated, use AbstractString instead.
+in readxl_internal at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:159
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:182
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:183
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:185
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:186
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:188
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:189
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:191
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:192
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Base.String is deprecated, use AbstractString instead.
+in readxl_internal at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:159
+WARNING: Base.String is deprecated, use AbstractString instead.
+in readxl_internal at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:159
+WARNING: Base.String is deprecated, use AbstractString instead.
+in readxl_internal at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:159
+WARNING: Base.String is deprecated, use AbstractString instead.
+in readxl_internal at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:159
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:203
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:203
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:212
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:212
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:221
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:230
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:239
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:239
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:239
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:239
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:182
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:183
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:185
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:186
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:188
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:189
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:191
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:192
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Base.String is deprecated, use AbstractString instead.
+in readxl_internal at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:159
+WARNING: Base.String is deprecated, use AbstractString instead.
+in readxl_internal at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:159
+WARNING: Base.String is deprecated, use AbstractString instead.
+in readxl_internal at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:159
+WARNING: Base.String is deprecated, use AbstractString instead.
+in readxl_internal at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:159
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:203
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:203
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:212
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:212
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:221
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:230
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:239
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:239
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:239
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:239
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:53
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:182
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:53
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:183
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:53
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:185
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:53
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:186
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:53
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:188
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:53
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:189
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:53
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:191
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:53
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:192
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:53
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:203
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:53
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:203
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:53
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:212
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:53
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:212
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:53
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:221
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:53
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:230
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:53
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:239
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:53
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:239
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:53
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:239
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:53
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:239
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:43
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:182
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:43
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:183
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:43
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:185
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:43
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:186
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:43
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:188
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:43
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:189
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:43
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:191
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:43
+ in anonymous at test.jl:106
+ in do_test_throws at test.jl:59
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:192
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:43
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:203
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:43
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:203
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:43
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:212
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:43
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:212
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:43
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:221
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:43
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:230
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:43
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:239
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:43
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:239
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:43
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:239
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+WARNING: Union(args...) is deprecated, use Union{args...} instead.
+ in depwarn at deprecated.jl:73
+ in call at deprecated.jl:50
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:48
+ in readxlsheet at /home/vagrant/.julia/v0.4/ExcelReaders/src/ExcelReaders.jl:43
+ [inlined code] from /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl:239
+ in anonymous at no file:0
+ in include at ./boot.jl:261
+ in include_from_node1 at ./loading.jl:304
+ in process_options at ./client.jl:308
+ in _start at ./client.jl:411
+while loading /home/vagrant/.julia/v0.4/ExcelReaders/test/runtests.jl, in expression starting on line 30
+INFO: ExcelReaders tests passed

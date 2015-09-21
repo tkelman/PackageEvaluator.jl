@@ -1,0 +1,54 @@
+INFO: Cloning cache of Sims from git://github.com/tshort/Sims.jl.git
+INFO: Installing MacroTools v0.2.0
+INFO: Installing Requires v0.2.0
+INFO: Installing Sims v0.1.0
+INFO: Installing Sundials v0.1.3
+INFO: Building Sundials
+
+WARNING: deprecated syntax "[a=>b, ...]" at /home/vagrant/.julia/v0.4/Sundials/deps/build.jl:38.
+Use "Dict(a=>b, ...)" instead.
+
+WARNING: deprecated syntax "[a=>b, ...]" at /home/vagrant/.julia/v0.4/Sundials/deps/build.jl:43.
+Use "Dict(a=>b, ...)" instead.
+INFO: Building Sims
+DASKR/ddaskr.f:1932.20:
+
+     *   RWORK(LRX),JROOT,IRT,RWORK(LROUND),INFO(3),                    
+                    1
+Warning: Rank mismatch in argument 'jroot' at (1) (rank-1 and scalar)
+DASKR/ddaskr.f:1955.20:
+
+     *   RWORK(LRX),JROOT,IRT,RWORK(LROUND),INFO(3),                    
+                    1
+Warning: Rank mismatch in argument 'jroot' at (1) (rank-1 and scalar)
+DASKR/ddaskr.f:2183.20:
+
+     *   RWORK(LRX),JROOT,IRT,RWORK(LROUND),INFO(3),                    
+                    1
+Warning: Rank mismatch in argument 'jroot' at (1) (rank-1 and scalar)
+DASKR/dlinpk.f:763.72:
+
+   10 assign 30 to next                                                 
+                                                                        1
+Warning: Deleted feature: ASSIGN statement at (1)
+DASKR/dlinpk.f:768.19:
+
+   20    go to next,(30, 50, 70, 110)                                   
+                   1
+Warning: Deleted feature: Assigned GOTO statement at (1)
+DASKR/dlinpk.f:770.72:
+
+      assign 50 to next                                                 
+                                                                        1
+Warning: Deleted feature: ASSIGN statement at (1)
+DASKR/dlinpk.f:779.72:
+
+      assign 70 to next                                                 
+                                                                        1
+Warning: Deleted feature: ASSIGN statement at (1)
+DASKR/dlinpk.f:785.72:
+
+      assign 110 to next                                                
+                                                                        1
+Warning: Deleted feature: ASSIGN statement at (1)
+INFO: Package database updated

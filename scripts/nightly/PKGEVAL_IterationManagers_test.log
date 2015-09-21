@@ -1,0 +1,32 @@
+Julia Version 0.4.0-rc2+10
+Commit d8930a0 (2015-09-20 15:38 UTC)
+Platform Info:
+  System: Linux (x86_64-unknown-linux-gnu)
+  CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  WORD_SIZE: 64
+  BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Prescott)
+  LAPACK: libopenblas
+  LIBM: libopenlibm
+  LLVM: libLLVM-3.3
+INFO: Testing IterationManagers
+Iteration    Distance       Elapsed (seconds)
+---------------------------------------------
+5            1.74299e-01    0.18697           
+10           2.29529e-02    0.26737           
+15           3.02261e-03    0.26749           
+20           3.98039e-04    0.26756           
+25           5.24166e-05    0.26764           
+30           6.90260e-06    0.26771           
+35           9.08985e-07    0.26779           
+40           1.19702e-07    0.26786           
+45           1.57632e-08    0.26793           
+50           2.07581e-09    0.26849           
+55           2.73358e-10    0.26868           
+60           3.59979e-11    0.26876           
+65           4.74021e-12    0.26884           
+Iteration    Distance       Elapsed (seconds)
+---------------------------------------------
+2            2.19968e+02    0.82529           
+4            1.09914e-03    0.82625           
+6            0.00000e+00    0.82646           
+INFO: IterationManagers tests passed

@@ -1,0 +1,30 @@
+INFO: Cloning cache of SerialPorts from git://github.com/sjkelly/SerialPorts.jl.git
+INFO: Installing Dates v0.4.4
+INFO: Installing PyCall v1.0.2
+INFO: Installing SerialPorts v0.0.2
+INFO: Building PyCall
+INFO: PyCall is using python (Python 2.7.6) at /usr/bin/python, libpython = libpython2.7
+INFO: Building SerialPorts
+Installing dependency python-serial via `sudo apt-get install python-serial`:
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python-serial is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+=============================[ ERROR: SerialPorts ]=============================
+
+LoadError: Provider BinDeps.PackageManager failed to satisfy dependency python-serial
+while loading /home/vagrant/.julia/v0.4/SerialPorts/deps/build.jl, in expression starting on line 10
+
+================================================================================
+
+================================[ BUILD ERRORS ]================================
+
+WARNING: SerialPorts had build errors.
+
+ - packages with build errors remain installed in /home/vagrant/.julia/v0.4
+ - build the package(s) and all dependencies with `Pkg.build("SerialPorts")`
+ - build a single package by running its `deps/build.jl` script
+
+================================================================================
+INFO: Package database updated
