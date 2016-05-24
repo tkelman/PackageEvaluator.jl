@@ -43,7 +43,7 @@ then
     wget -O julia.tar.gz https://julialang.s3.amazonaws.com/bin/linux/x64/0.4/julia-0.4-latest-linux-x86_64.tar.gz
 elif [ "$2" == "MZ" ]
 then
-    wget -O julia.tar.gz https://julianightlies.s3.amazonaws.com/bin/linux/x64/0.4/julia-0.4.4-1d274002e5-linux64.tar.gz
+    wget -O julia.tar.gz https://julianightlies.s3.amazonaws.com/bin/linux/x64/0.4/julia-0.4.5-a5d90d85d7-linux64.tar.gz
 else
     # Nightly
     wget -O julia.tar.gz https://status.julialang.org/download/linux-x86_64
@@ -113,13 +113,13 @@ julia -e "Pkg.init(); println(Pkg.dir())"
 # Run PackageEvaluator
 if [ "$1" == "0.3" ]
 then
-    LOOPOVER=/home/vagrant/.julia/v0.4/METADATA/[A-F]*
+    LOOPOVER=/home/vagrant/.julia/v0.4/METADATA/[A-G]*
 elif [ "$1" == "0.4" ]
 then
-    LOOPOVER=/home/vagrant/.julia/v0.4/METADATA/[G-N]*;
+    LOOPOVER=/home/vagrant/.julia/v0.4/METADATA/[H-O]*;
 elif [ "$1" == "0.5" ]
 then
-    LOOPOVER=/home/vagrant/.julia/v0.4/METADATA/[O-Z]*;
+    LOOPOVER=/home/vagrant/.julia/v0.4/METADATA/[P-Z]*;
 fi
 # For every package name...
 for f in $LOOPOVER;
